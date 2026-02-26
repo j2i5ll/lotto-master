@@ -14,18 +14,29 @@ interface DrawRecord {
 
 export async function seedDatabase(): Promise<void> {
   const db = await getDatabase();
-  const existing = await db.getFirstAsync<{ count: number }>(
-    'SELECT COUNT(*) as count FROM draws'
+  const result = await db.getFirstAsync<{ maxRound: number | null }>(
+    'SELECT MAX(round) as maxRound FROM draws',
   );
-  if (existing && existing.count > 0) return;
+  const maxRound = result?.maxRound ?? 0;
 
-  const draws = drawsData as DrawRecord[];
+  const draws = (drawsData as DrawRecord[]).filter((d) => d.num > maxRound);
+  if (draws.length === 0) return;
 
   await db.withTransactionAsync(async () => {
     for (const draw of draws) {
       await db.runAsync(
         'INSERT INTO draws (round, date, num1, num2, num3, num4, num5, num6, bonus) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)',
-        [draw.num, draw.date, draw.ball1, draw.ball2, draw.ball3, draw.ball4, draw.ball5, draw.ball6, 0]
+        [
+          draw.num,
+          draw.date,
+          draw.ball1,
+          draw.ball2,
+          draw.ball3,
+          draw.ball4,
+          draw.ball5,
+          draw.ball6,
+          0,
+        ],
       );
     }
   });
