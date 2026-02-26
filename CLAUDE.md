@@ -1,4 +1,4 @@
-# rn-template
+# lotto-master
 
 Expo SDK 54 + TypeScript 기반 React Native 템플릿 프로젝트.
 새 앱을 만들 때 이 프로젝트를 복사하여 스캐폴드로 사용한다.
