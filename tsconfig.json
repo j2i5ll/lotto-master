@@ -4,17 +4,25 @@
     "strict": true,
     "baseUrl": ".",
     "paths": {
-      "@shared/*": ["shared/*"],
-      "@features/*": ["features/*"],
-      "@components/*": ["components/*"],
-      "@hooks/*": ["hooks/*"],
-      "@constants/*": ["constants/*"]
+      "@shared/*": [
+        "shared/*"
+      ],
+      "@features/*": [
+        "features/*"
+      ],
+      "@components/*": [
+        "components/*"
+      ],
+      "@hooks/*": [
+        "hooks/*"
+      ],
+      "@constants/*": [
+        "constants/*"
+      ]
     }
   },
   "include": [
     "**/*.ts",
-    "**/*.tsx",
-    ".expo/types/**/*.ts",
-    "expo-env.d.ts"
+    "**/*.tsx"
   ]
 }

@@ -1,6 +1,16 @@
 const tintColorLight = "#4A90D9";
 const tintColorDark = "#6BB0F5";
 
+export const LottoBallColors = {
+  yellow: { bg: '#FFC107', text: '#1A1A1A' },
+  blue: { bg: '#2196F3', text: '#FFFFFF' },
+  red: { bg: '#F44336', text: '#FFFFFF' },
+  gray: { bg: '#9E9E9E', text: '#FFFFFF' },
+  green: { bg: '#4CAF50', text: '#FFFFFF' },
+} as const;
+
+export type LottoBallColorKey = keyof typeof LottoBallColors;
+
 export const Colors = {
   light: {
     text: "#11181C",
