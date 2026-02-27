@@ -28,14 +28,8 @@ export const NumberListItem = memo(function NumberListItem({
           <Text style={styles.value}>{stat.frequency}회</Text>
         </View>
         <View style={styles.infoRow}>
-          <Text style={styles.label}>미출현</Text>
+          <Text style={styles.label}>마지막 출현 후 미출현</Text>
           <Text style={styles.value}>{stat.currentGap}회</Text>
-        </View>
-        <View style={styles.infoRow}>
-          <Text style={styles.label}>임박</Text>
-          <Text style={[styles.value, stat.imminenceScore >= 1 && styles.imminentValue]}>
-            {stat.imminenceScore.toFixed(1)}
-          </Text>
         </View>
       </View>
       {/* 미니차트 */}
@@ -85,15 +79,12 @@ const styles = StyleSheet.create({
   label: {
     fontSize: 12,
     color: '#687076',
-    width: 36,
+    flexShrink: 0,
   },
   value: {
     fontSize: 12,
     fontWeight: '600',
     color: '#11181C',
-  },
-  imminentValue: {
-    color: '#EF4444',
   },
   miniChart: {
     flexDirection: 'row',

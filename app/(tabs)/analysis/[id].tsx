@@ -6,6 +6,7 @@ import { AppearanceTimeline } from '@features/analysis/ui/AppearanceTimeline';
 import { PositionChart } from '@features/analysis/ui/PositionChart';
 import { CompanionCard } from '@features/analysis/ui/CompanionCard';
 import { FixedExcludedBar } from '@features/analysis/ui/FixedExcludedBar';
+import { ImminenceCard } from '@features/analysis/ui/ImminenceCard';
 
 export default function NumberDetailScreen() {
   const { id } = useLocalSearchParams<{ id: string }>();
@@ -52,6 +53,15 @@ export default function NumberDetailScreen() {
         {/* 출현 타임라인 */}
         <View style={styles.section}>
           <AppearanceTimeline numberId={stat.id} recentHistory={stat.recentHistory} />
+        </View>
+
+        {/* 임박 점수 */}
+        <View style={styles.section}>
+          <ImminenceCard
+            imminenceScore={stat.imminenceScore}
+            currentGap={stat.currentGap}
+            avgGap={stat.avgGap}
+          />
         </View>
 
         {/* 위치 분포 */}
