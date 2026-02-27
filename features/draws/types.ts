@@ -3,6 +3,8 @@ export interface DrawRecord {
   date: string;
   numbers: number[];
   bonus: number;
+  win1Payout: number;
+  win1Count: number;
 }
 
 export interface DrawRow {
@@ -15,6 +17,8 @@ export interface DrawRow {
   num5: number;
   num6: number;
   bonus: number;
+  win1_payout: number;
+  win1_count: number;
 }
 
 export interface DrawSummary {

@@ -8,6 +8,7 @@
     "ball4": 33,
     "ball5": 37,
     "ball6": 40,
+    "ball_bonus": 16,
     "win1_payout": 0,
     "win1_count": 0
   },
@@ -20,6 +21,7 @@
     "ball4": 25,
     "ball5": 32,
     "ball6": 42,
+    "ball_bonus": 2,
     "win1_payout": 2002006800,
     "win1_count": 1
   },
@@ -32,6 +34,7 @@
     "ball4": 21,
     "ball5": 27,
     "ball6": 31,
+    "ball_bonus": 30,
     "win1_payout": 2000000000,
     "win1_count": 1
   },
@@ -44,6 +47,7 @@
     "ball4": 31,
     "ball5": 40,
     "ball6": 42,
+    "ball_bonus": 2,
     "win1_payout": 0,
     "win1_count": 0
   },
@@ -56,6 +60,7 @@
     "ball4": 40,
     "ball5": 41,
     "ball6": 42,
+    "ball_bonus": 3,
     "win1_payout": 0,
     "win1_count": 0
   },
@@ -68,6 +73,7 @@
     "ball4": 27,
     "ball5": 40,
     "ball6": 42,
+    "ball_bonus": 34,
     "win1_payout": 6574451700,
     "win1_count": 1
   },
@@ -80,6 +86,7 @@
     "ball4": 25,
     "ball5": 26,
     "ball6": 40,
+    "ball_bonus": 42,
     "win1_payout": 0,
     "win1_count": 0
   },
@@ -92,6 +99,7 @@
     "ball4": 34,
     "ball5": 37,
     "ball6": 39,
+    "ball_bonus": 9,
     "win1_payout": 0,
     "win1_count": 0
   },
@@ -104,6 +112,7 @@
     "ball4": 17,
     "ball5": 36,
     "ball6": 39,
+    "ball_bonus": 14,
     "win1_payout": 0,
     "win1_count": 0
   },
@@ -116,6 +125,7 @@
     "ball4": 33,
     "ball5": 41,
     "ball6": 44,
+    "ball_bonus": 6,
     "win1_payout": 6430437900,
     "win1_count": 13
   },
@@ -128,6 +138,7 @@
     "ball4": 37,
     "ball5": 41,
     "ball6": 42,
+    "ball_bonus": 14,
     "win1_payout": 4780152300,
     "win1_count": 5
   },
@@ -140,6 +151,7 @@
     "ball4": 25,
     "ball5": 39,
     "ball6": 45,
+    "ball_bonus": 44,
     "win1_payout": 1348845700,
     "win1_count": 12
   },
@@ -152,6 +164,7 @@
     "ball4": 37,
     "ball5": 38,
     "ball6": 42,
+    "ball_bonus": 26,
     "win1_payout": 0,
     "win1_count": 0
   },
@@ -164,6 +177,7 @@
     "ball4": 31,
     "ball5": 33,
     "ball6": 40,
+    "ball_bonus": 15,
     "win1_payout": 9375048300,
     "win1_count": 4
   },
@@ -176,6 +190,7 @@
     "ball4": 30,
     "ball5": 31,
     "ball6": 37,
+    "ball_bonus": 13,
     "win1_payout": 17014245000,
     "win1_count": 1
   },
@@ -188,6 +203,7 @@
     "ball4": 37,
     "ball5": 38,
     "ball6": 40,
+    "ball_bonus": 33,
     "win1_payout": 4377146100,
     "win1_count": 4
   },
@@ -200,6 +216,7 @@
     "ball4": 17,
     "ball5": 32,
     "ball6": 37,
+    "ball_bonus": 1,
     "win1_payout": 5349491200,
     "win1_count": 3
   },
@@ -212,6 +229,7 @@
     "ball4": 19,
     "ball5": 32,
     "ball6": 35,
+    "ball_bonus": 29,
     "win1_payout": 0,
     "win1_count": 0
   },
@@ -224,6 +242,7 @@
     "ball4": 39,
     "ball5": 40,
     "ball6": 43,
+    "ball_bonus": 26,
     "win1_payout": 40722959400,
     "win1_count": 1
   },
@@ -236,6 +255,7 @@
     "ball4": 20,
     "ball5": 23,
     "ball6": 30,
+    "ball_bonus": 41,
     "win1_payout": 19352212800,
     "win1_count": 1
   },
@@ -248,6 +268,7 @@
     "ball4": 18,
     "ball5": 31,
     "ball6": 32,
+    "ball_bonus": 21,
     "win1_payout": 797475400,
     "win1_count": 23
   },
@@ -260,6 +281,7 @@
     "ball4": 8,
     "ball5": 17,
     "ball6": 39,
+    "ball_bonus": 25,
     "win1_payout": 4552194900,
     "win1_count": 4
   },
@@ -272,6 +294,7 @@
     "ball4": 18,
     "ball5": 33,
     "ball6": 42,
+    "ball_bonus": 44,
     "win1_payout": 4317947700,
     "win1_count": 4
   },
@@ -284,6 +307,7 @@
     "ball4": 29,
     "ball5": 36,
     "ball6": 43,
+    "ball_bonus": 6,
     "win1_payout": 0,
     "win1_count": 0
   },
@@ -296,6 +320,7 @@
     "ball4": 26,
     "ball5": 43,
     "ball6": 44,
+    "ball_bonus": 16,
     "win1_payout": 24227745300,
     "win1_count": 2
   },
@@ -308,6 +333,7 @@
     "ball4": 18,
     "ball5": 20,
     "ball6": 25,
+    "ball_bonus": 31,
     "win1_payout": 3495069900,
     "win1_count": 5
   },
@@ -320,6 +346,7 @@
     "ball4": 28,
     "ball5": 37,
     "ball6": 43,
+    "ball_bonus": 27,
     "win1_payout": 9543982500,
     "win1_count": 2
   },
@@ -332,6 +359,7 @@
     "ball4": 25,
     "ball5": 35,
     "ball6": 37,
+    "ball_bonus": 1,
     "win1_payout": 1700361100,
     "win1_count": 10
   },
@@ -344,6 +372,7 @@
     "ball4": 34,
     "ball5": 39,
     "ball6": 40,
+    "ball_bonus": 11,
     "win1_payout": 3552594000,
     "win1_count": 5
   },
@@ -356,6 +385,7 @@
     "ball4": 35,
     "ball5": 36,
     "ball6": 44,
+    "ball_bonus": 4,
     "win1_payout": 8728555500,
     "win1_count": 2
   },
@@ -368,6 +398,7 @@
     "ball4": 23,
     "ball5": 28,
     "ball6": 35,
+    "ball_bonus": 32,
     "win1_payout": 8106672900,
     "win1_count": 2
   },
@@ -380,6 +411,7 @@
     "ball4": 25,
     "ball5": 34,
     "ball6": 44,
+    "ball_bonus": 11,
     "win1_payout": 1634528300,
     "win1_count": 10
   },
@@ -392,6 +424,7 @@
     "ball4": 33,
     "ball5": 40,
     "ball6": 41,
+    "ball_bonus": 9,
     "win1_payout": 14903517600,
     "win1_count": 1
   },
@@ -404,6 +437,7 @@
     "ball4": 37,
     "ball5": 40,
     "ball6": 42,
+    "ball_bonus": 2,
     "win1_payout": 3056918000,
     "win1_count": 5
   },
@@ -416,6 +450,7 @@
     "ball4": 26,
     "ball5": 37,
     "ball6": 43,
+    "ball_bonus": 39,
     "win1_payout": 5054598200,
     "win1_count": 3
   },
@@ -428,6 +463,7 @@
     "ball4": 26,
     "ball5": 28,
     "ball6": 40,
+    "ball_bonus": 31,
     "win1_payout": 16014475800,
     "win1_count": 1
   },
@@ -440,6 +476,7 @@
     "ball4": 33,
     "ball5": 35,
     "ball6": 37,
+    "ball_bonus": 42,
     "win1_payout": 4985999400,
     "win1_count": 3
   },
@@ -452,6 +489,7 @@
     "ball4": 30,
     "ball5": 37,
     "ball6": 43,
+    "ball_bonus": 36,
     "win1_payout": 5374866400,
     "win1_count": 3
   },
@@ -464,6 +502,7 @@
     "ball4": 15,
     "ball5": 21,
     "ball6": 43,
+    "ball_bonus": 8,
     "win1_payout": 2623748800,
     "win1_count": 6
   },
@@ -476,6 +515,7 @@
     "ball4": 19,
     "ball5": 25,
     "ball6": 26,
+    "ball_bonus": 6,
     "win1_payout": 1147652400,
     "win1_count": 13
   },
@@ -488,6 +528,7 @@
     "ball4": 35,
     "ball5": 38,
     "ball6": 43,
+    "ball_bonus": 34,
     "win1_payout": 0,
     "win1_count": 0
   },
@@ -500,6 +541,7 @@
     "ball4": 21,
     "ball5": 23,
     "ball6": 32,
+    "ball_bonus": 1,
     "win1_payout": 6899280100,
     "win1_count": 6
   },
@@ -512,6 +554,7 @@
     "ball4": 38,
     "ball5": 39,
     "ball6": 44,
+    "ball_bonus": 1,
     "win1_payout": 17749630800,
     "win1_count": 1
   },
@@ -524,6 +567,7 @@
     "ball4": 30,
     "ball5": 38,
     "ball6": 45,
+    "ball_bonus": 39,
     "win1_payout": 3362155800,
     "win1_count": 5
   },
@@ -536,6 +580,7 @@
     "ball4": 27,
     "ball5": 33,
     "ball6": 35,
+    "ball_bonus": 17,
     "win1_payout": 8356417800,
     "win1_count": 2
   },
@@ -548,6 +593,7 @@
     "ball4": 23,
     "ball5": 31,
     "ball6": 38,
+    "ball_bonus": 39,
     "win1_payout": 5327758800,
     "win1_count": 3
   },
@@ -560,6 +606,7 @@
     "ball4": 31,
     "ball5": 36,
     "ball6": 45,
+    "ball_bonus": 27,
     "win1_payout": 3250042400,
     "win1_count": 5
   },
@@ -572,6 +619,7 @@
     "ball4": 26,
     "ball5": 37,
     "ball6": 38,
+    "ball_bonus": 3,
     "win1_payout": 2415673600,
     "win1_count": 6
   },
@@ -584,6 +632,7 @@
     "ball4": 19,
     "ball5": 33,
     "ball6": 40,
+    "ball_bonus": 30,
     "win1_payout": 1967504600,
     "win1_count": 7
   },
@@ -596,6 +645,7 @@
     "ball4": 15,
     "ball5": 22,
     "ball6": 44,
+    "ball_bonus": 1,
     "win1_payout": 5227061400,
     "win1_count": 3
   },
@@ -608,6 +658,7 @@
     "ball4": 16,
     "ball5": 26,
     "ball6": 44,
+    "ball_bonus": 35,
     "win1_payout": 2421117000,
     "win1_count": 6
   },
@@ -620,6 +671,7 @@
     "ball4": 16,
     "ball5": 20,
     "ball6": 29,
+    "ball_bonus": 1,
     "win1_payout": 3900844900,
     "win1_count": 4
   },
@@ -632,6 +684,7 @@
     "ball4": 32,
     "ball5": 33,
     "ball6": 39,
+    "ball_bonus": 42,
     "win1_payout": 5014371000,
     "win1_count": 3
   },
@@ -644,6 +697,7 @@
     "ball4": 27,
     "ball5": 36,
     "ball6": 39,
+    "ball_bonus": 37,
     "win1_payout": 5148626600,
     "win1_count": 3
   },
@@ -656,6 +710,7 @@
     "ball4": 37,
     "ball5": 40,
     "ball6": 44,
+    "ball_bonus": 7,
     "win1_payout": 7088799600,
     "win1_count": 2
   },
@@ -668,6 +723,7 @@
     "ball4": 31,
     "ball5": 33,
     "ball6": 37,
+    "ball_bonus": 19,
     "win1_payout": 3777570900,
     "win1_count": 4
   },
@@ -680,6 +736,7 @@
     "ball4": 25,
     "ball5": 29,
     "ball6": 44,
+    "ball_bonus": 6,
     "win1_payout": 4114411900,
     "win1_count": 4
   },
@@ -692,6 +749,7 @@
     "ball4": 33,
     "ball5": 40,
     "ball6": 44,
+    "ball_bonus": 1,
     "win1_payout": 3676429200,
     "win1_count": 4
   },
@@ -704,6 +762,7 @@
     "ball4": 39,
     "ball5": 41,
     "ball6": 45,
+    "ball_bonus": 13,
     "win1_payout": 4127587300,
     "win1_count": 4
   },
@@ -716,6 +775,7 @@
     "ball4": 36,
     "ball5": 39,
     "ball6": 42,
+    "ball_bonus": 11,
     "win1_payout": 2172504600,
     "win1_count": 7
   },
@@ -728,6 +788,7 @@
     "ball4": 30,
     "ball5": 38,
     "ball6": 43,
+    "ball_bonus": 8,
     "win1_payout": 3541038800,
     "win1_count": 5
   },
@@ -740,6 +801,7 @@
     "ball4": 27,
     "ball5": 29,
     "ball6": 35,
+    "ball_bonus": 21,
     "win1_payout": 15817286400,
     "win1_count": 1
   },
@@ -752,6 +814,7 @@
     "ball4": 36,
     "ball5": 38,
     "ball6": 40,
+    "ball_bonus": 5,
     "win1_payout": 7922245500,
     "win1_count": 2
   },
@@ -764,6 +827,7 @@
     "ball4": 21,
     "ball5": 26,
     "ball6": 36,
+    "ball_bonus": 39,
     "win1_payout": 3899818000,
     "win1_count": 4
   },
@@ -776,6 +840,7 @@
     "ball4": 36,
     "ball5": 40,
     "ball6": 43,
+    "ball_bonus": 39,
     "win1_payout": 3727945800,
     "win1_count": 4
   },
@@ -788,6 +853,7 @@
     "ball4": 17,
     "ball5": 22,
     "ball6": 24,
+    "ball_bonus": 45,
     "win1_payout": 3685138200,
     "win1_count": 4
   },
@@ -800,6 +866,7 @@
     "ball4": 15,
     "ball5": 36,
     "ball6": 38,
+    "ball_bonus": 33,
     "win1_payout": 2114436500,
     "win1_count": 7
   },
@@ -812,6 +879,7 @@
     "ball4": 16,
     "ball5": 26,
     "ball6": 39,
+    "ball_bonus": 38,
     "win1_payout": 2945882100,
     "win1_count": 5
   },
@@ -824,6 +892,7 @@
     "ball4": 15,
     "ball5": 19,
     "ball6": 39,
+    "ball_bonus": 35,
     "win1_payout": 4962712200,
     "win1_count": 3
   },
@@ -836,6 +905,7 @@
     "ball4": 25,
     "ball5": 28,
     "ball6": 43,
+    "ball_bonus": 26,
     "win1_payout": 5031277800,
     "win1_count": 3
   },
@@ -848,6 +918,7 @@
     "ball4": 16,
     "ball5": 29,
     "ball6": 41,
+    "ball_bonus": 21,
     "win1_payout": 0,
     "win1_count": 0
   },
@@ -860,6 +931,7 @@
     "ball4": 17,
     "ball5": 26,
     "ball6": 27,
+    "ball_bonus": 1,
     "win1_payout": 3260524600,
     "win1_count": 13
   },
@@ -872,6 +944,7 @@
     "ball4": 32,
     "ball5": 40,
     "ball6": 43,
+    "ball_bonus": 38,
     "win1_payout": 2766662100,
     "win1_count": 6
   },
@@ -884,6 +957,7 @@
     "ball4": 18,
     "ball5": 35,
     "ball6": 40,
+    "ball_bonus": 23,
     "win1_payout": 5284949800,
     "win1_count": 3
   },
@@ -896,6 +970,7 @@
     "ball4": 32,
     "ball5": 34,
     "ball6": 44,
+    "ball_bonus": 28,
     "win1_payout": 3914616900,
     "win1_count": 4
   },
@@ -908,6 +983,7 @@
     "ball4": 22,
     "ball5": 25,
     "ball6": 37,
+    "ball_bonus": 43,
     "win1_payout": 7451022600,
     "win1_count": 2
   },
@@ -920,6 +996,7 @@
     "ball4": 32,
     "ball5": 43,
     "ball6": 44,
+    "ball_bonus": 37,
     "win1_payout": 5155758600,
     "win1_count": 3
   },
@@ -932,6 +1009,7 @@
     "ball4": 29,
     "ball5": 33,
     "ball6": 35,
+    "ball_bonus": 38,
     "win1_payout": 3519850000,
     "win1_count": 4
   },
@@ -944,6 +1022,7 @@
     "ball4": 27,
     "ball5": 30,
     "ball6": 32,
+    "ball_bonus": 14,
     "win1_payout": 3416443800,
     "win1_count": 4
   },
@@ -956,6 +1035,7 @@
     "ball4": 25,
     "ball5": 26,
     "ball6": 30,
+    "ball_bonus": 1,
     "win1_payout": 13809540000,
     "win1_count": 1
   },
@@ -968,6 +1048,7 @@
     "ball4": 13,
     "ball5": 20,
     "ball6": 33,
+    "ball_bonus": 6,
     "win1_payout": 2714288880,
     "win1_count": 5
   },
@@ -980,6 +1061,7 @@
     "ball4": 14,
     "ball5": 27,
     "ball6": 42,
+    "ball_bonus": 39,
     "win1_payout": 14562494400,
     "win1_count": 1
   },
@@ -992,6 +1074,7 @@
     "ball4": 17,
     "ball5": 19,
     "ball6": 34,
+    "ball_bonus": 14,
     "win1_payout": 7086948300,
     "win1_count": 2
   },
@@ -1004,6 +1087,7 @@
     "ball4": 34,
     "ball5": 42,
     "ball6": 45,
+    "ball_bonus": 11,
     "win1_payout": 7669779000,
     "win1_count": 2
   },
@@ -1016,6 +1100,7 @@
     "ball4": 23,
     "ball5": 31,
     "ball6": 36,
+    "ball_bonus": 21,
     "win1_payout": 3462109800,
     "win1_count": 4
   },
@@ -1028,6 +1113,7 @@
     "ball4": 39,
     "ball5": 41,
     "ball6": 45,
+    "ball_bonus": 33,
     "win1_payout": 14252186400,
     "win1_count": 1
   },
@@ -1040,6 +1126,7 @@
     "ball4": 23,
     "ball5": 34,
     "ball6": 43,
+    "ball_bonus": 26,
     "win1_payout": 1799358055,
     "win1_count": 11
   },
@@ -1052,6 +1139,7 @@
     "ball4": 24,
     "ball5": 30,
     "ball6": 41,
+    "ball_bonus": 27,
     "win1_payout": 3069709650,
     "win1_count": 4
   },
@@ -1064,6 +1152,7 @@
     "ball4": 29,
     "ball5": 33,
     "ball6": 40,
+    "ball_bonus": 37,
     "win1_payout": 4248321900,
     "win1_count": 3
   },
@@ -1076,6 +1165,7 @@
     "ball4": 35,
     "ball5": 38,
     "ball6": 44,
+    "ball_bonus": 10,
     "win1_payout": 3291435300,
     "win1_count": 4
   },
@@ -1088,6 +1178,7 @@
     "ball4": 26,
     "ball5": 29,
     "ball6": 42,
+    "ball_bonus": 27,
     "win1_payout": 3582902400,
     "win1_count": 4
   },
@@ -1100,6 +1191,7 @@
     "ball4": 33,
     "ball5": 35,
     "ball6": 36,
+    "ball_bonus": 17,
     "win1_payout": 1233270846,
     "win1_count": 11
   },
@@ -1112,6 +1204,7 @@
     "ball4": 36,
     "ball5": 38,
     "ball6": 44,
+    "ball_bonus": 19,
     "win1_payout": 2269178150,
     "win1_count": 6
   },
@@ -1124,6 +1217,7 @@
     "ball4": 40,
     "ball5": 41,
     "ball6": 45,
+    "ball_bonus": 6,
     "win1_payout": 2245339950,
     "win1_count": 6
   },
@@ -1136,6 +1230,7 @@
     "ball4": 31,
     "ball5": 34,
     "ball6": 43,
+    "ball_bonus": 14,
     "win1_payout": 1747741238,
     "win1_count": 8
   },
@@ -1148,6 +1243,7 @@
     "ball4": 21,
     "ball5": 22,
     "ball6": 31,
+    "ball_bonus": 20,
     "win1_payout": 1847133515,
     "win1_count": 7
   },
@@ -1160,6 +1256,7 @@
     "ball4": 15,
     "ball5": 20,
     "ball6": 36,
+    "ball_bonus": 3,
     "win1_payout": 1496214000,
     "win1_count": 9
   },
@@ -1172,6 +1269,7 @@
     "ball4": 23,
     "ball5": 24,
     "ball6": 32,
+    "ball_bonus": 43,
     "win1_payout": 3177972300,
     "win1_count": 4
   },
@@ -1184,6 +1282,7 @@
     "ball4": 27,
     "ball5": 29,
     "ball6": 37,
+    "ball_bonus": 11,
     "win1_payout": 2169219050,
     "win1_count": 6
   },
@@ -1196,6 +1295,7 @@
     "ball4": 23,
     "ball5": 37,
     "ball6": 42,
+    "ball_bonus": 6,
     "win1_payout": 3315315525,
     "win1_count": 4
   },
@@ -1208,6 +1308,7 @@
     "ball4": 32,
     "ball5": 35,
     "ball6": 45,
+    "ball_bonus": 8,
     "win1_payout": 2707297500,
     "win1_count": 5
   },
@@ -1220,6 +1321,7 @@
     "ball4": 26,
     "ball5": 35,
     "ball6": 40,
+    "ball_bonus": 42,
     "win1_payout": 1457153067,
     "win1_count": 9
   },
@@ -1232,6 +1334,7 @@
     "ball4": 27,
     "ball5": 30,
     "ball6": 45,
+    "ball_bonus": 10,
     "win1_payout": 1691589563,
     "win1_count": 8
   },
@@ -1244,6 +1347,7 @@
     "ball4": 34,
     "ball5": 42,
     "ball6": 44,
+    "ball_bonus": 35,
     "win1_payout": 6610743750,
     "win1_count": 2
   },
@@ -1256,6 +1360,7 @@
     "ball4": 34,
     "ball5": 41,
     "ball6": 45,
+    "ball_bonus": 28,
     "win1_payout": 3416781450,
     "win1_count": 4
   },
@@ -1268,6 +1373,7 @@
     "ball4": 22,
     "ball5": 24,
     "ball6": 33,
+    "ball_bonus": 29,
     "win1_payout": 810461157,
     "win1_count": 16
   },
@@ -1280,6 +1386,7 @@
     "ball4": 6,
     "ball5": 9,
     "ball6": 31,
+    "ball_bonus": 17,
     "win1_payout": 6679927800,
     "win1_count": 2
   },
@@ -1292,6 +1399,7 @@
     "ball4": 23,
     "ball5": 29,
     "ball6": 44,
+    "ball_bonus": 12,
     "win1_payout": 1998900772,
     "win1_count": 7
   },
@@ -1304,6 +1412,7 @@
     "ball4": 36,
     "ball5": 42,
     "ball6": 44,
+    "ball_bonus": 33,
     "win1_payout": 1246838200,
     "win1_count": 12
   },
@@ -1316,6 +1425,7 @@
     "ball4": 23,
     "ball5": 29,
     "ball6": 43,
+    "ball_bonus": 1,
     "win1_payout": 4566262000,
     "win1_count": 3
   },
@@ -1328,6 +1438,7 @@
     "ball4": 33,
     "ball5": 36,
     "ball6": 40,
+    "ball_bonus": 27,
     "win1_payout": 2199047450,
     "win1_count": 6
   },
@@ -1340,6 +1451,7 @@
     "ball4": 33,
     "ball5": 41,
     "ball6": 42,
+    "ball_bonus": 43,
     "win1_payout": 1567271167,
     "win1_count": 9
   },
@@ -1352,6 +1464,7 @@
     "ball4": 33,
     "ball5": 36,
     "ball6": 45,
+    "ball_bonus": 26,
     "win1_payout": 1561528934,
     "win1_count": 9
   },
@@ -1364,6 +1477,7 @@
     "ball4": 26,
     "ball5": 28,
     "ball6": 41,
+    "ball_bonus": 2,
     "win1_payout": 2362345050,
     "win1_count": 6
   },
@@ -1376,6 +1490,7 @@
     "ball4": 9,
     "ball5": 25,
     "ball6": 28,
+    "ball_bonus": 31,
     "win1_payout": 1488589567,
     "win1_count": 9
   },
@@ -1388,6 +1503,7 @@
     "ball4": 31,
     "ball5": 34,
     "ball6": 37,
+    "ball_bonus": 17,
     "win1_payout": 1997747315,
     "win1_count": 7
   },
@@ -1400,6 +1516,7 @@
     "ball4": 34,
     "ball5": 36,
     "ball6": 44,
+    "ball_bonus": 35,
     "win1_payout": 1558378334,
     "win1_count": 9
   },
@@ -1412,6 +1529,7 @@
     "ball4": 17,
     "ball5": 19,
     "ball6": 22,
+    "ball_bonus": 38,
     "win1_payout": 1297989720,
     "win1_count": 10
   },
@@ -1424,6 +1542,7 @@
     "ball4": 14,
     "ball5": 17,
     "ball6": 21,
+    "ball_bonus": 38,
     "win1_payout": 1474899400,
     "win1_count": 9
   },
@@ -1436,6 +1555,7 @@
     "ball4": 11,
     "ball5": 32,
     "ball6": 37,
+    "ball_bonus": 30,
     "win1_payout": 4364530300,
     "win1_count": 3
   },
@@ -1448,6 +1568,7 @@
     "ball4": 34,
     "ball5": 38,
     "ball6": 43,
+    "ball_bonus": 9,
     "win1_payout": 6839648100,
     "win1_count": 2
   },
@@ -1460,6 +1581,7 @@
     "ball4": 17,
     "ball5": 36,
     "ball6": 40,
+    "ball_bonus": 8,
     "win1_payout": 1450073800,
     "win1_count": 9
   },
@@ -1472,6 +1594,7 @@
     "ball4": 28,
     "ball5": 30,
     "ball6": 45,
+    "ball_bonus": 27,
     "win1_payout": 2532982680,
     "win1_count": 5
   },
@@ -1484,6 +1607,7 @@
     "ball4": 25,
     "ball5": 29,
     "ball6": 42,
+    "ball_bonus": 1,
     "win1_payout": 1395936267,
     "win1_count": 9
   },
@@ -1496,6 +1620,7 @@
     "ball4": 33,
     "ball5": 35,
     "ball6": 36,
+    "ball_bonus": 18,
     "win1_payout": 1754870786,
     "win1_count": 7
   },
@@ -1508,6 +1633,7 @@
     "ball4": 27,
     "ball5": 40,
     "ball6": 43,
+    "ball_bonus": 1,
     "win1_payout": 1369301500,
     "win1_count": 9
   },
@@ -1520,6 +1646,7 @@
     "ball4": 29,
     "ball5": 32,
     "ball6": 43,
+    "ball_bonus": 35,
     "win1_payout": 1965939150,
     "win1_count": 6
   },
@@ -1532,6 +1659,7 @@
     "ball4": 36,
     "ball5": 37,
     "ball6": 45,
+    "ball_bonus": 39,
     "win1_payout": 2064043100,
     "win1_count": 6
   },
@@ -1544,6 +1672,7 @@
     "ball4": 28,
     "ball5": 38,
     "ball6": 42,
+    "ball_bonus": 17,
     "win1_payout": 1093629655,
     "win1_count": 11
   },
@@ -1556,6 +1685,7 @@
     "ball4": 27,
     "ball5": 42,
     "ball6": 45,
+    "ball_bonus": 31,
     "win1_payout": 3036496650,
     "win1_count": 4
   },
@@ -1568,6 +1698,7 @@
     "ball4": 14,
     "ball5": 15,
     "ball6": 21,
+    "ball_bonus": 37,
     "win1_payout": 1451214488,
     "win1_count": 8
   },
@@ -1580,6 +1711,7 @@
     "ball4": 34,
     "ball5": 41,
     "ball6": 45,
+    "ball_bonus": 43,
     "win1_payout": 2920473525,
     "win1_count": 4
   },
@@ -1592,6 +1724,7 @@
     "ball4": 18,
     "ball5": 23,
     "ball6": 26,
+    "ball_bonus": 13,
     "win1_payout": 1450242600,
     "win1_count": 8
   },
@@ -1604,6 +1737,7 @@
     "ball4": 23,
     "ball5": 31,
     "ball6": 35,
+    "ball_bonus": 43,
     "win1_payout": 2349155100,
     "win1_count": 5
   },
@@ -1616,6 +1750,7 @@
     "ball4": 28,
     "ball5": 35,
     "ball6": 39,
+    "ball_bonus": 16,
     "win1_payout": 1717293515,
     "win1_count": 7
   },
@@ -1628,6 +1763,7 @@
     "ball4": 36,
     "ball5": 41,
     "ball6": 42,
+    "ball_bonus": 11,
     "win1_payout": 1997694150,
     "win1_count": 6
   },
@@ -1640,6 +1776,7 @@
     "ball4": 25,
     "ball5": 36,
     "ball6": 39,
+    "ball_bonus": 15,
     "win1_payout": 1270403467,
     "win1_count": 9
   },
@@ -1652,6 +1789,7 @@
     "ball4": 28,
     "ball5": 37,
     "ball6": 39,
+    "ball_bonus": 19,
     "win1_payout": 2227152000,
     "win1_count": 5
   },
@@ -1664,6 +1802,7 @@
     "ball4": 20,
     "ball5": 28,
     "ball6": 43,
+    "ball_bonus": 13,
     "win1_payout": 1650210215,
     "win1_count": 7
   },
@@ -1676,6 +1815,7 @@
     "ball4": 18,
     "ball5": 19,
     "ball6": 28,
+    "ball_bonus": 8,
     "win1_payout": 2109462840,
     "win1_count": 5
   },
@@ -1688,6 +1828,7 @@
     "ball4": 31,
     "ball5": 42,
     "ball6": 43,
+    "ball_bonus": 2,
     "win1_payout": 1900552400,
     "win1_count": 6
   },
@@ -1700,6 +1841,7 @@
     "ball4": 34,
     "ball5": 40,
     "ball6": 44,
+    "ball_bonus": 19,
     "win1_payout": 1018265564,
     "win1_count": 11
   },
@@ -1712,6 +1854,7 @@
     "ball4": 42,
     "ball5": 43,
     "ball6": 45,
+    "ball_bonus": 8,
     "win1_payout": 3954584700,
     "win1_count": 3
   },
@@ -1724,6 +1867,7 @@
     "ball4": 26,
     "ball5": 36,
     "ball6": 37,
+    "ball_bonus": 43,
     "win1_payout": 1402440413,
     "win1_count": 8
   },
@@ -1736,6 +1880,7 @@
     "ball4": 20,
     "ball5": 27,
     "ball6": 44,
+    "ball_bonus": 9,
     "win1_payout": 3797838200,
     "win1_count": 3
   },
@@ -1748,6 +1893,7 @@
     "ball4": 35,
     "ball5": 41,
     "ball6": 42,
+    "ball_bonus": 25,
     "win1_payout": 6043415250,
     "win1_count": 2
   },
@@ -1760,6 +1906,7 @@
     "ball4": 21,
     "ball5": 40,
     "ball6": 42,
+    "ball_bonus": 36,
     "win1_payout": 1700040215,
     "win1_count": 7
   },
@@ -1772,6 +1919,7 @@
     "ball4": 34,
     "ball5": 35,
     "ball6": 36,
+    "ball_bonus": 17,
     "win1_payout": 2323596420,
     "win1_count": 5
   },
@@ -1784,6 +1932,7 @@
     "ball4": 34,
     "ball5": 41,
     "ball6": 42,
+    "ball_bonus": 27,
     "win1_payout": 1639052143,
     "win1_count": 7
   },
@@ -1796,6 +1945,7 @@
     "ball4": 28,
     "ball5": 37,
     "ball6": 39,
+    "ball_bonus": 16,
     "win1_payout": 2831645850,
     "win1_count": 4
   },
@@ -1808,6 +1958,7 @@
     "ball4": 13,
     "ball5": 18,
     "ball6": 19,
+    "ball_bonus": 15,
     "win1_payout": 2716634025,
     "win1_count": 4
   },
@@ -1820,6 +1971,7 @@
     "ball4": 26,
     "ball5": 29,
     "ball6": 34,
+    "ball_bonus": 43,
     "win1_payout": 2278131840,
     "win1_count": 5
   },
@@ -1832,6 +1984,7 @@
     "ball4": 12,
     "ball5": 13,
     "ball6": 36,
+    "ball_bonus": 33,
     "win1_payout": 2730526125,
     "win1_count": 4
   },
@@ -1844,6 +1997,7 @@
     "ball4": 35,
     "ball5": 40,
     "ball6": 45,
+    "ball_bonus": 20,
     "win1_payout": 2836628700,
     "win1_count": 4
   },
@@ -1856,6 +2010,7 @@
     "ball4": 32,
     "ball5": 33,
     "ball6": 41,
+    "ball_bonus": 4,
     "win1_payout": 1193005734,
     "win1_count": 9
   },
@@ -1868,6 +2023,7 @@
     "ball4": 30,
     "ball5": 42,
     "ball6": 45,
+    "ball_bonus": 2,
     "win1_payout": 1401099900,
     "win1_count": 8
   },
@@ -1880,6 +2036,7 @@
     "ball4": 33,
     "ball5": 35,
     "ball6": 39,
+    "ball_bonus": 37,
     "win1_payout": 5484903750,
     "win1_count": 2
   },
@@ -1892,6 +2049,7 @@
     "ball4": 18,
     "ball5": 21,
     "ball6": 34,
+    "ball_bonus": 7,
     "win1_payout": 1069544340,
     "win1_count": 10
   },
@@ -1904,6 +2062,7 @@
     "ball4": 41,
     "ball5": 42,
     "ball6": 43,
+    "ball_bonus": 32,
     "win1_payout": 1755407300,
     "win1_count": 6
   },
@@ -1916,6 +2075,7 @@
     "ball4": 34,
     "ball5": 39,
     "ball6": 41,
+    "ball_bonus": 1,
     "win1_payout": 5490805350,
     "win1_count": 2
   },
@@ -1928,6 +2088,7 @@
     "ball4": 40,
     "ball5": 42,
     "ball6": 45,
+    "ball_bonus": 44,
     "win1_payout": 1996876272,
     "win1_count": 7
   },
@@ -1940,6 +2101,7 @@
     "ball4": 25,
     "ball5": 38,
     "ball6": 41,
+    "ball_bonus": 24,
     "win1_payout": 2308265760,
     "win1_count": 5
   },
@@ -1952,6 +2114,7 @@
     "ball4": 28,
     "ball5": 29,
     "ball6": 44,
+    "ball_bonus": 16,
     "win1_payout": 1629726515,
     "win1_count": 7
   },
@@ -1964,6 +2127,7 @@
     "ball4": 11,
     "ball5": 39,
     "ball6": 41,
+    "ball_bonus": 27,
     "win1_payout": 4054937900,
     "win1_count": 3
   },
@@ -1976,6 +2140,7 @@
     "ball4": 19,
     "ball5": 22,
     "ball6": 42,
+    "ball_bonus": 31,
     "win1_payout": 6767426700,
     "win1_count": 2
   },
@@ -1988,6 +2153,7 @@
     "ball4": 36,
     "ball5": 39,
     "ball6": 45,
+    "ball_bonus": 14,
     "win1_payout": 1111299982,
     "win1_count": 11
   },
@@ -2000,6 +2166,7 @@
     "ball4": 30,
     "ball5": 36,
     "ball6": 39,
+    "ball_bonus": 4,
     "win1_payout": 2491222920,
     "win1_count": 5
   },
@@ -2012,6 +2179,7 @@
     "ball4": 40,
     "ball5": 42,
     "ball6": 43,
+    "ball_bonus": 30,
     "win1_payout": 2349946920,
     "win1_count": 5
   },
@@ -2024,6 +2192,7 @@
     "ball4": 37,
     "ball5": 43,
     "ball6": 45,
+    "ball_bonus": 19,
     "win1_payout": 2482888380,
     "win1_count": 5
   },
@@ -2036,6 +2205,7 @@
     "ball4": 15,
     "ball5": 31,
     "ball6": 42,
+    "ball_bonus": 10,
     "win1_payout": 1923108250,
     "win1_count": 6
   },
@@ -2048,6 +2218,7 @@
     "ball4": 29,
     "ball5": 34,
     "ball6": 35,
+    "ball_bonus": 1,
     "win1_payout": 1961339700,
     "win1_count": 6
   },
@@ -2060,6 +2231,7 @@
     "ball4": 24,
     "ball5": 26,
     "ball6": 41,
+    "ball_bonus": 35,
     "win1_payout": 1081154073,
     "win1_count": 11
   },
@@ -2072,6 +2244,7 @@
     "ball4": 30,
     "ball5": 33,
     "ball6": 34,
+    "ball_bonus": 18,
     "win1_payout": 1487736788,
     "win1_count": 8
   },
@@ -2084,6 +2257,7 @@
     "ball4": 22,
     "ball5": 35,
     "ball6": 39,
+    "ball_bonus": 16,
     "win1_payout": 1771103058,
     "win1_count": 7
   },
@@ -2096,6 +2270,7 @@
     "ball4": 31,
     "ball5": 33,
     "ball6": 36,
+    "ball_bonus": 17,
     "win1_payout": 2371132620,
     "win1_count": 5
   },
@@ -2108,6 +2283,7 @@
     "ball4": 32,
     "ball5": 33,
     "ball6": 34,
+    "ball_bonus": 15,
     "win1_payout": 2314663080,
     "win1_count": 5
   },
@@ -2120,6 +2296,7 @@
     "ball4": 16,
     "ball5": 37,
     "ball6": 43,
+    "ball_bonus": 6,
     "win1_payout": 1693285500,
     "win1_count": 7
   },
@@ -2132,6 +2309,7 @@
     "ball4": 12,
     "ball5": 18,
     "ball6": 23,
+    "ball_bonus": 9,
     "win1_payout": 2254621080,
     "win1_count": 5
   },
@@ -2144,6 +2322,7 @@
     "ball4": 25,
     "ball5": 39,
     "ball6": 43,
+    "ball_bonus": 32,
     "win1_payout": 1081093920,
     "win1_count": 10
   },
@@ -2156,6 +2335,7 @@
     "ball4": 21,
     "ball5": 29,
     "ball6": 34,
+    "ball_bonus": 22,
     "win1_payout": 5763371550,
     "win1_count": 2
   },
@@ -2168,6 +2348,7 @@
     "ball4": 32,
     "ball5": 40,
     "ball6": 45,
+    "ball_bonus": 44,
     "win1_payout": 1941763300,
     "win1_count": 6
   },
@@ -2180,6 +2361,7 @@
     "ball4": 29,
     "ball5": 34,
     "ball6": 40,
+    "ball_bonus": 35,
     "win1_payout": 3721439400,
     "win1_count": 3
   },
@@ -2192,6 +2374,7 @@
     "ball4": 34,
     "ball5": 40,
     "ball6": 42,
+    "ball_bonus": 5,
     "win1_payout": 1777221500,
     "win1_count": 6
   },
@@ -2204,6 +2387,7 @@
     "ball4": 16,
     "ball5": 20,
     "ball6": 33,
+    "ball_bonus": 41,
     "win1_payout": 1747753050,
     "win1_count": 6
   },
@@ -2216,6 +2400,7 @@
     "ball4": 8,
     "ball5": 19,
     "ball6": 38,
+    "ball_bonus": 14,
     "win1_payout": 3522485800,
     "win1_count": 3
   },
@@ -2228,6 +2413,7 @@
     "ball4": 19,
     "ball5": 21,
     "ball6": 45,
+    "ball_bonus": 9,
     "win1_payout": 1187882600,
     "win1_count": 9
   },
@@ -2240,6 +2426,7 @@
     "ball4": 18,
     "ball5": 29,
     "ball6": 38,
+    "ball_bonus": 42,
     "win1_payout": 1544733900,
     "win1_count": 7
   },
@@ -2252,6 +2439,7 @@
     "ball4": 30,
     "ball5": 31,
     "ball6": 34,
+    "ball_bonus": 36,
     "win1_payout": 3501405200,
     "win1_count": 3
   },
@@ -2264,6 +2452,7 @@
     "ball4": 35,
     "ball5": 37,
     "ball6": 45,
+    "ball_bonus": 28,
     "win1_payout": 3461775100,
     "win1_count": 3
   },
@@ -2276,6 +2465,7 @@
     "ball4": 30,
     "ball5": 31,
     "ball6": 44,
+    "ball_bonus": 15,
     "win1_payout": 1784159450,
     "win1_count": 6
   },
@@ -2288,6 +2478,7 @@
     "ball4": 25,
     "ball5": 32,
     "ball6": 37,
+    "ball_bonus": 8,
     "win1_payout": 2577114675,
     "win1_count": 4
   },
@@ -2300,6 +2491,7 @@
     "ball4": 18,
     "ball5": 37,
     "ball6": 45,
+    "ball_bonus": 33,
     "win1_payout": 2445348375,
     "win1_count": 4
   },
@@ -2312,6 +2504,7 @@
     "ball4": 26,
     "ball5": 36,
     "ball6": 39,
+    "ball_bonus": 13,
     "win1_payout": 3404449700,
     "win1_count": 3
   },
@@ -2324,6 +2517,7 @@
     "ball4": 26,
     "ball5": 39,
     "ball6": 44,
+    "ball_bonus": 28,
     "win1_payout": 2650567875,
     "win1_count": 4
   },
@@ -2336,6 +2530,7 @@
     "ball4": 22,
     "ball5": 35,
     "ball6": 40,
+    "ball_bonus": 31,
     "win1_payout": 918992591,
     "win1_count": 11
   },
@@ -2348,6 +2543,7 @@
     "ball4": 41,
     "ball5": 44,
     "ball6": 45,
+    "ball_bonus": 30,
     "win1_payout": 727876520,
     "win1_count": 15
   },
@@ -2360,6 +2556,7 @@
     "ball4": 34,
     "ball5": 42,
     "ball6": 45,
+    "ball_bonus": 4,
     "win1_payout": 1803018300,
     "win1_count": 6
   },
@@ -2372,6 +2569,7 @@
     "ball4": 25,
     "ball5": 41,
     "ball6": 45,
+    "ball_bonus": 2,
     "win1_payout": 1797855050,
     "win1_count": 6
   },
@@ -2384,6 +2582,7 @@
     "ball4": 25,
     "ball5": 30,
     "ball6": 36,
+    "ball_bonus": 43,
     "win1_payout": 5344252200,
     "win1_count": 2
   },
@@ -2396,6 +2595,7 @@
     "ball4": 14,
     "ball5": 17,
     "ball6": 20,
+    "ball_bonus": 7,
     "win1_payout": 1344616613,
     "win1_count": 8
   },
@@ -2408,6 +2608,7 @@
     "ball4": 38,
     "ball5": 39,
     "ball6": 44,
+    "ball_bonus": 26,
     "win1_payout": 9719465400,
     "win1_count": 1
   },
@@ -2420,6 +2621,7 @@
     "ball4": 33,
     "ball5": 39,
     "ball6": 44,
+    "ball_bonus": 17,
     "win1_payout": 1893391700,
     "win1_count": 6
   },
@@ -2432,6 +2634,7 @@
     "ball4": 24,
     "ball5": 30,
     "ball6": 32,
+    "ball_bonus": 7,
     "win1_payout": 2164564740,
     "win1_count": 5
   },
@@ -2444,6 +2647,7 @@
     "ball4": 35,
     "ball5": 40,
     "ball6": 45,
+    "ball_bonus": 5,
     "win1_payout": 1358347125,
     "win1_count": 8
   },
@@ -2456,6 +2660,7 @@
     "ball4": 29,
     "ball5": 35,
     "ball6": 37,
+    "ball_bonus": 30,
     "win1_payout": 1835221800,
     "win1_count": 6
   },
@@ -2468,6 +2673,7 @@
     "ball4": 15,
     "ball5": 20,
     "ball6": 25,
+    "ball_bonus": 43,
     "win1_payout": 2032859340,
     "win1_count": 5
   },
@@ -2480,6 +2686,7 @@
     "ball4": 31,
     "ball5": 32,
     "ball6": 37,
+    "ball_bonus": 38,
     "win1_payout": 2104673760,
     "win1_count": 5
   },
@@ -2492,6 +2699,7 @@
     "ball4": 34,
     "ball5": 40,
     "ball6": 44,
+    "ball_bonus": 24,
     "win1_payout": 1760767400,
     "win1_count": 6
   },
@@ -2504,6 +2712,7 @@
     "ball4": 20,
     "ball5": 24,
     "ball6": 33,
+    "ball_bonus": 37,
     "win1_payout": 1660896350,
     "win1_count": 6
   },
@@ -2516,6 +2725,7 @@
     "ball4": 23,
     "ball5": 25,
     "ball6": 37,
+    "ball_bonus": 39,
     "win1_payout": 5139085950,
     "win1_count": 2
   },
@@ -2528,6 +2738,7 @@
     "ball4": 20,
     "ball5": 33,
     "ball6": 41,
+    "ball_bonus": 8,
     "win1_payout": 1035800250,
     "win1_count": 10
   },
@@ -2540,6 +2751,7 @@
     "ball4": 21,
     "ball5": 31,
     "ball6": 38,
+    "ball_bonus": 8,
     "win1_payout": 2660747250,
     "win1_count": 4
   },
@@ -2552,6 +2764,7 @@
     "ball4": 5,
     "ball5": 20,
     "ball6": 24,
+    "ball_bonus": 42,
     "win1_payout": 1376678025,
     "win1_count": 8
   },
@@ -2564,6 +2777,7 @@
     "ball4": 25,
     "ball5": 28,
     "ball6": 37,
+    "ball_bonus": 32,
     "win1_payout": 1406980875,
     "win1_count": 8
   },
@@ -2576,6 +2790,7 @@
     "ball4": 15,
     "ball5": 43,
     "ball6": 44,
+    "ball_bonus": 4,
     "win1_payout": 1587689615,
     "win1_count": 7
   },
@@ -2588,6 +2803,7 @@
     "ball4": 33,
     "ball5": 36,
     "ball6": 40,
+    "ball_bonus": 1,
     "win1_payout": 848506108,
     "win1_count": 13
   },
@@ -2600,6 +2816,7 @@
     "ball4": 33,
     "ball5": 35,
     "ball6": 39,
+    "ball_bonus": 38,
     "win1_payout": 1611246172,
     "win1_count": 7
   },
@@ -2612,6 +2829,7 @@
     "ball4": 18,
     "ball5": 29,
     "ball6": 44,
+    "ball_bonus": 20,
     "win1_payout": 2779075800,
     "win1_count": 4
   },
@@ -2624,6 +2842,7 @@
     "ball4": 26,
     "ball5": 35,
     "ball6": 37,
+    "ball_bonus": 16,
     "win1_payout": 1208409167,
     "win1_count": 9
   },
@@ -2636,6 +2855,7 @@
     "ball4": 21,
     "ball5": 34,
     "ball6": 43,
+    "ball_bonus": 31,
     "win1_payout": 1958094950,
     "win1_count": 6
   },
@@ -2648,6 +2868,7 @@
     "ball4": 35,
     "ball5": 37,
     "ball6": 40,
+    "ball_bonus": 10,
     "win1_payout": 1800104250,
     "win1_count": 6
   },
@@ -2660,6 +2881,7 @@
     "ball4": 29,
     "ball5": 39,
     "ball6": 43,
+    "ball_bonus": 44,
     "win1_payout": 2275193820,
     "win1_count": 5
   },
@@ -2672,6 +2894,7 @@
     "ball4": 20,
     "ball5": 26,
     "ball6": 27,
+    "ball_bonus": 38,
     "win1_payout": 1498170600,
     "win1_count": 7
   },
@@ -2684,6 +2907,7 @@
     "ball4": 27,
     "ball5": 30,
     "ball6": 42,
+    "ball_bonus": 7,
     "win1_payout": 1808969950,
     "win1_count": 6
   },
@@ -2696,6 +2920,7 @@
     "ball4": 19,
     "ball5": 31,
     "ball6": 36,
+    "ball_bonus": 7,
     "win1_payout": 1777201800,
     "win1_count": 6
   },
@@ -2708,6 +2933,7 @@
     "ball4": 14,
     "ball5": 21,
     "ball6": 22,
+    "ball_bonus": 34,
     "win1_payout": 1744100150,
     "win1_count": 6
   },
@@ -2720,6 +2946,7 @@
     "ball4": 16,
     "ball5": 22,
     "ball6": 42,
+    "ball_bonus": 2,
     "win1_payout": 5253542400,
     "win1_count": 2
   },
@@ -2732,6 +2959,7 @@
     "ball4": 36,
     "ball5": 39,
     "ball6": 44,
+    "ball_bonus": 23,
     "win1_payout": 1146700334,
     "win1_count": 9
   },
@@ -2744,6 +2972,7 @@
     "ball4": 11,
     "ball5": 23,
     "ball6": 38,
+    "ball_bonus": 35,
     "win1_payout": 1451441100,
     "win1_count": 7
   },
@@ -2756,6 +2985,7 @@
     "ball4": 29,
     "ball5": 32,
     "ball6": 33,
+    "ball_bonus": 12,
     "win1_payout": 1292929163,
     "win1_count": 8
   },
@@ -2768,6 +2998,7 @@
     "ball4": 31,
     "ball5": 44,
     "ball6": 45,
+    "ball_bonus": 27,
     "win1_payout": 1088365900,
     "win1_count": 9
   },
@@ -2780,6 +3011,7 @@
     "ball4": 12,
     "ball5": 24,
     "ball6": 44,
+    "ball_bonus": 35,
     "win1_payout": 1110918400,
     "win1_count": 9
   },
@@ -2792,6 +3024,7 @@
     "ball4": 17,
     "ball5": 28,
     "ball6": 40,
+    "ball_bonus": 39,
     "win1_payout": 999153750,
     "win1_count": 10
   },
@@ -2804,6 +3037,7 @@
     "ball4": 24,
     "ball5": 26,
     "ball6": 37,
+    "ball_bonus": 4,
     "win1_payout": 2519743875,
     "win1_count": 4
   },
@@ -2816,6 +3050,7 @@
     "ball4": 27,
     "ball5": 31,
     "ball6": 37,
+    "ball_bonus": 8,
     "win1_payout": 3433330100,
     "win1_count": 3
   },
@@ -2828,6 +3063,7 @@
     "ball4": 13,
     "ball5": 37,
     "ball6": 39,
+    "ball_bonus": 7,
     "win1_payout": 5030040150,
     "win1_count": 2
   },
@@ -2840,6 +3076,7 @@
     "ball4": 21,
     "ball5": 24,
     "ball6": 44,
+    "ball_bonus": 33,
     "win1_payout": 1440630729,
     "win1_count": 7
   },
@@ -2852,6 +3089,7 @@
     "ball4": 28,
     "ball5": 31,
     "ball6": 34,
+    "ball_bonus": 35,
     "win1_payout": 1121660567,
     "win1_count": 9
   },
@@ -2864,6 +3102,7 @@
     "ball4": 39,
     "ball5": 41,
     "ball6": 44,
+    "ball_bonus": 7,
     "win1_payout": 1134140167,
     "win1_count": 9
   },
@@ -2876,6 +3115,7 @@
     "ball4": 40,
     "ball5": 41,
     "ball6": 43,
+    "ball_bonus": 21,
     "win1_payout": 5098251450,
     "win1_count": 2
   },
@@ -2888,6 +3128,7 @@
     "ball4": 27,
     "ball5": 28,
     "ball6": 35,
+    "ball_bonus": 21,
     "win1_payout": 2552016300,
     "win1_count": 4
   },
@@ -2900,6 +3141,7 @@
     "ball4": 21,
     "ball5": 32,
     "ball6": 34,
+    "ball_bonus": 43,
     "win1_payout": 1234542375,
     "win1_count": 8
   },
@@ -2912,6 +3154,7 @@
     "ball4": 19,
     "ball5": 28,
     "ball6": 42,
+    "ball_bonus": 34,
     "win1_payout": 2408850000,
     "win1_count": 4
   },
@@ -2924,6 +3167,7 @@
     "ball4": 36,
     "ball5": 37,
     "ball6": 38,
+    "ball_bonus": 19,
     "win1_payout": 9121583100,
     "win1_count": 1
   },
@@ -2936,6 +3180,7 @@
     "ball4": 31,
     "ball5": 32,
     "ball6": 38,
+    "ball_bonus": 22,
     "win1_payout": 1382583129,
     "win1_count": 7
   },
@@ -2948,6 +3193,7 @@
     "ball4": 23,
     "ball5": 26,
     "ball6": 39,
+    "ball_bonus": 15,
     "win1_payout": 1911774240,
     "win1_count": 5
   },
@@ -2960,6 +3206,7 @@
     "ball4": 36,
     "ball5": 39,
     "ball6": 40,
+    "ball_bonus": 13,
     "win1_payout": 1669313900,
     "win1_count": 6
   },
@@ -2972,6 +3219,7 @@
     "ball4": 23,
     "ball5": 38,
     "ball6": 45,
+    "ball_bonus": 13,
     "win1_payout": 1227479363,
     "win1_count": 8
   },
@@ -2984,6 +3232,7 @@
     "ball4": 31,
     "ball5": 41,
     "ball6": 44,
+    "ball_bonus": 11,
     "win1_payout": 1663568700,
     "win1_count": 6
   },
@@ -2996,6 +3245,7 @@
     "ball4": 37,
     "ball5": 43,
     "ball6": 45,
+    "ball_bonus": 38,
     "win1_payout": 1994726280,
     "win1_count": 5
   },
@@ -3008,6 +3258,7 @@
     "ball4": 25,
     "ball5": 28,
     "ball6": 38,
+    "ball_bonus": 45,
     "win1_payout": 1282616400,
     "win1_count": 8
   },
@@ -3020,6 +3271,7 @@
     "ball4": 31,
     "ball5": 39,
     "ball6": 45,
+    "ball_bonus": 28,
     "win1_payout": 1391089715,
     "win1_count": 7
   },
@@ -3032,6 +3284,7 @@
     "ball4": 31,
     "ball5": 34,
     "ball6": 36,
+    "ball_bonus": 33,
     "win1_payout": 2466189525,
     "win1_count": 4
   },
@@ -3044,6 +3297,7 @@
     "ball4": 20,
     "ball5": 24,
     "ball6": 30,
+    "ball_bonus": 27,
     "win1_payout": 9741015900,
     "win1_count": 1
   },
@@ -3056,6 +3310,7 @@
     "ball4": 24,
     "ball5": 27,
     "ball6": 42,
+    "ball_bonus": 32,
     "win1_payout": 1598618550,
     "win1_count": 6
   },
@@ -3068,6 +3323,7 @@
     "ball4": 21,
     "ball5": 23,
     "ball6": 43,
+    "ball_bonus": 32,
     "win1_payout": 4891017000,
     "win1_count": 2
   },
@@ -3080,6 +3336,7 @@
     "ball4": 31,
     "ball5": 32,
     "ball6": 37,
+    "ball_bonus": 4,
     "win1_payout": 2391377025,
     "win1_count": 4
   },
@@ -3092,6 +3349,7 @@
     "ball4": 31,
     "ball5": 38,
     "ball6": 40,
+    "ball_bonus": 17,
     "win1_payout": 2426434350,
     "win1_count": 4
   },
@@ -3104,6 +3362,7 @@
     "ball4": 35,
     "ball5": 42,
     "ball6": 45,
+    "ball_bonus": 34,
     "win1_payout": 4838533500,
     "win1_count": 2
   },
@@ -3116,6 +3375,7 @@
     "ball4": 24,
     "ball5": 37,
     "ball6": 40,
+    "ball_bonus": 43,
     "win1_payout": 2310085575,
     "win1_count": 4
   },
@@ -3128,6 +3388,7 @@
     "ball4": 18,
     "ball5": 31,
     "ball6": 43,
+    "ball_bonus": 2,
     "win1_payout": 3192299100,
     "win1_count": 3
   },
@@ -3140,6 +3401,7 @@
     "ball4": 25,
     "ball5": 29,
     "ball6": 31,
+    "ball_bonus": 36,
     "win1_payout": 4518741600,
     "win1_count": 2
   },
@@ -3152,6 +3414,7 @@
     "ball4": 32,
     "ball5": 37,
     "ball6": 40,
+    "ball_bonus": 18,
     "win1_payout": 1551704900,
     "win1_count": 6
   },
@@ -3164,6 +3427,7 @@
     "ball4": 36,
     "ball5": 41,
     "ball6": 44,
+    "ball_bonus": 5,
     "win1_payout": 1344889200,
     "win1_count": 7
   },
@@ -3176,6 +3440,7 @@
     "ball4": 37,
     "ball5": 38,
     "ball6": 39,
+    "ball_bonus": 12,
     "win1_payout": 1200838575,
     "win1_count": 8
   },
@@ -3188,6 +3453,7 @@
     "ball4": 11,
     "ball5": 22,
     "ball6": 42,
+    "ball_bonus": 37,
     "win1_payout": 3207211700,
     "win1_count": 3
   },
@@ -3200,6 +3466,7 @@
     "ball4": 34,
     "ball5": 36,
     "ball6": 41,
+    "ball_bonus": 1,
     "win1_payout": 3257663300,
     "win1_count": 3
   },
@@ -3212,6 +3479,7 @@
     "ball4": 24,
     "ball5": 32,
     "ball6": 45,
+    "ball_bonus": 12,
     "win1_payout": 1350954515,
     "win1_count": 7
   },
@@ -3224,6 +3492,7 @@
     "ball4": 36,
     "ball5": 42,
     "ball6": 43,
+    "ball_bonus": 32,
     "win1_payout": 1961399940,
     "win1_count": 5
   },
@@ -3236,6 +3505,7 @@
     "ball4": 20,
     "ball5": 21,
     "ball6": 26,
+    "ball_bonus": 27,
     "win1_payout": 1927830060,
     "win1_count": 5
   },
@@ -3248,6 +3518,7 @@
     "ball4": 27,
     "ball5": 29,
     "ball6": 40,
+    "ball_bonus": 36,
     "win1_payout": 1565918150,
     "win1_count": 6
   },
@@ -3260,6 +3531,7 @@
     "ball4": 27,
     "ball5": 39,
     "ball6": 43,
+    "ball_bonus": 28,
     "win1_payout": 1104622800,
     "win1_count": 9
   },
@@ -3272,6 +3544,7 @@
     "ball4": 31,
     "ball5": 34,
     "ball6": 44,
+    "ball_bonus": 6,
     "win1_payout": 3339543100,
     "win1_count": 3
   },
@@ -3284,6 +3557,7 @@
     "ball4": 26,
     "ball5": 35,
     "ball6": 39,
+    "ball_bonus": 25,
     "win1_payout": 2505085575,
     "win1_count": 4
   },
@@ -3296,6 +3570,7 @@
     "ball4": 35,
     "ball5": 38,
     "ball6": 40,
+    "ball_bonus": 26,
     "win1_payout": 10044066900,
     "win1_count": 1
   },
@@ -3308,6 +3583,7 @@
     "ball4": 33,
     "ball5": 39,
     "ball6": 41,
+    "ball_bonus": 25,
     "win1_payout": 3312569000,
     "win1_count": 3
   },
@@ -3320,6 +3596,7 @@
     "ball4": 15,
     "ball5": 25,
     "ball6": 29,
+    "ball_bonus": 20,
     "win1_payout": 3272627800,
     "win1_count": 3
   },
@@ -3332,6 +3609,7 @@
     "ball4": 39,
     "ball5": 41,
     "ball6": 43,
+    "ball_bonus": 13,
     "win1_payout": 3186530000,
     "win1_count": 3
   },
@@ -3344,6 +3622,7 @@
     "ball4": 36,
     "ball5": 37,
     "ball6": 38,
+    "ball_bonus": 11,
     "win1_payout": 1914205320,
     "win1_count": 5
   },
@@ -3356,6 +3635,7 @@
     "ball4": 24,
     "ball5": 36,
     "ball6": 37,
+    "ball_bonus": 35,
     "win1_payout": 1355258529,
     "win1_count": 7
   },
@@ -3368,6 +3648,7 @@
     "ball4": 6,
     "ball5": 14,
     "ball6": 41,
+    "ball_bonus": 12,
     "win1_payout": 1554683200,
     "win1_count": 6
   },
@@ -3380,6 +3661,7 @@
     "ball4": 18,
     "ball5": 31,
     "ball6": 32,
+    "ball_bonus": 30,
     "win1_payout": 1322052643,
     "win1_count": 7
   },
@@ -3392,6 +3674,7 @@
     "ball4": 31,
     "ball5": 38,
     "ball6": 45,
+    "ball_bonus": 42,
     "win1_payout": 3137224600,
     "win1_count": 3
   },
@@ -3404,6 +3687,7 @@
     "ball4": 24,
     "ball5": 30,
     "ball6": 45,
+    "ball_bonus": 28,
     "win1_payout": 3117640300,
     "win1_count": 3
   },
@@ -3416,6 +3700,7 @@
     "ball4": 40,
     "ball5": 41,
     "ball6": 45,
+    "ball_bonus": 2,
     "win1_payout": 3164370100,
     "win1_count": 3
   },
@@ -3428,6 +3713,7 @@
     "ball4": 40,
     "ball5": 42,
     "ball6": 44,
+    "ball_bonus": 17,
     "win1_payout": 3236566300,
     "win1_count": 3
   },
@@ -3440,6 +3726,7 @@
     "ball4": 27,
     "ball5": 35,
     "ball6": 37,
+    "ball_bonus": 41,
     "win1_payout": 1328657100,
     "win1_count": 7
   },
@@ -3452,6 +3739,7 @@
     "ball4": 28,
     "ball5": 35,
     "ball6": 41,
+    "ball_bonus": 10,
     "win1_payout": 2357261550,
     "win1_count": 4
   },
@@ -3464,6 +3752,7 @@
     "ball4": 37,
     "ball5": 38,
     "ball6": 42,
+    "ball_bonus": 10,
     "win1_payout": 0,
     "win1_count": 0
   },
@@ -3476,6 +3765,7 @@
     "ball4": 32,
     "ball5": 39,
     "ball6": 45,
+    "ball_bonus": 7,
     "win1_payout": 2149214424,
     "win1_count": 13
   },
@@ -3488,6 +3778,7 @@
     "ball4": 18,
     "ball5": 20,
     "ball6": 42,
+    "ball_bonus": 45,
     "win1_payout": 1450585200,
     "win1_count": 7
   },
@@ -3500,6 +3791,7 @@
     "ball4": 32,
     "ball5": 33,
     "ball6": 34,
+    "ball_bonus": 10,
     "win1_payout": 720373950,
     "win1_count": 14
   },
@@ -3512,6 +3804,7 @@
     "ball4": 21,
     "ball5": 29,
     "ball6": 33,
+    "ball_bonus": 24,
     "win1_payout": 1656764400,
     "win1_count": 6
   },
@@ -3524,6 +3817,7 @@
     "ball4": 30,
     "ball5": 37,
     "ball6": 38,
+    "ball_bonus": 40,
     "win1_payout": 2406504975,
     "win1_count": 4
   },
@@ -3536,6 +3830,7 @@
     "ball4": 16,
     "ball5": 18,
     "ball6": 38,
+    "ball_bonus": 8,
     "win1_payout": 0,
     "win1_count": 0
   },
@@ -3548,6 +3843,7 @@
     "ball4": 27,
     "ball5": 30,
     "ball6": 45,
+    "ball_bonus": 44,
     "win1_payout": 3066088275,
     "win1_count": 8
   },
@@ -3560,6 +3856,7 @@
     "ball4": 20,
     "ball5": 28,
     "ball6": 32,
+    "ball_bonus": 34,
     "win1_payout": 5056668750,
     "win1_count": 2
   },
@@ -3572,6 +3869,7 @@
     "ball4": 29,
     "ball5": 37,
     "ball6": 40,
+    "ball_bonus": 19,
     "win1_payout": 9909778500,
     "win1_count": 1
   },
@@ -3584,6 +3882,7 @@
     "ball4": 25,
     "ball5": 36,
     "ball6": 45,
+    "ball_bonus": 24,
     "win1_payout": 1483772529,
     "win1_count": 7
   },
@@ -3596,6 +3895,7 @@
     "ball4": 12,
     "ball5": 26,
     "ball6": 38,
+    "ball_bonus": 39,
     "win1_payout": 836092425,
     "win1_count": 12
   },
@@ -3608,6 +3908,7 @@
     "ball4": 33,
     "ball5": 37,
     "ball6": 43,
+    "ball_bonus": 26,
     "win1_payout": 1447385015,
     "win1_count": 7
   },
@@ -3620,6 +3921,7 @@
     "ball4": 32,
     "ball5": 38,
     "ball6": 42,
+    "ball_bonus": 4,
     "win1_payout": 5472167250,
     "win1_count": 2
   },
@@ -3632,6 +3934,7 @@
     "ball4": 30,
     "ball5": 38,
     "ball6": 45,
+    "ball_bonus": 43,
     "win1_payout": 1672749000,
     "win1_count": 6
   },
@@ -3644,6 +3947,7 @@
     "ball4": 26,
     "ball5": 33,
     "ball6": 41,
+    "ball_bonus": 38,
     "win1_payout": 1661646150,
     "win1_count": 6
   },
@@ -3656,6 +3960,7 @@
     "ball4": 21,
     "ball5": 23,
     "ball6": 39,
+    "ball_bonus": 9,
     "win1_payout": 2008210140,
     "win1_count": 5
   },
@@ -3668,6 +3973,7 @@
     "ball4": 30,
     "ball5": 34,
     "ball6": 41,
+    "ball_bonus": 19,
     "win1_payout": 2102669520,
     "win1_count": 5
   },
@@ -3680,6 +3986,7 @@
     "ball4": 23,
     "ball5": 25,
     "ball6": 45,
+    "ball_bonus": 12,
     "win1_payout": 2587643250,
     "win1_count": 4
   },
@@ -3692,6 +3999,7 @@
     "ball4": 19,
     "ball5": 37,
     "ball6": 45,
+    "ball_bonus": 40,
     "win1_payout": 10232872800,
     "win1_count": 1
   },
@@ -3704,6 +4012,7 @@
     "ball4": 11,
     "ball5": 18,
     "ball6": 36,
+    "ball_bonus": 22,
     "win1_payout": 901622946,
     "win1_count": 11
   },
@@ -3716,6 +4025,7 @@
     "ball4": 28,
     "ball5": 34,
     "ball6": 41,
+    "ball_bonus": 16,
     "win1_payout": 1296713325,
     "win1_count": 8
   },
@@ -3728,6 +4038,7 @@
     "ball4": 27,
     "ball5": 28,
     "ball6": 32,
+    "ball_bonus": 10,
     "win1_payout": 1237691063,
     "win1_count": 8
   },
@@ -3740,6 +4051,7 @@
     "ball4": 6,
     "ball5": 12,
     "ball6": 20,
+    "ball_bonus": 25,
     "win1_payout": 629017820,
     "win1_count": 15
   },
@@ -3752,6 +4064,7 @@
     "ball4": 35,
     "ball5": 43,
     "ball6": 45,
+    "ball_bonus": 2,
     "win1_payout": 1715422800,
     "win1_count": 6
   },
@@ -3764,6 +4077,7 @@
     "ball4": 34,
     "ball5": 38,
     "ball6": 41,
+    "ball_bonus": 2,
     "win1_payout": 1660512200,
     "win1_count": 6
   },
@@ -3776,6 +4090,7 @@
     "ball4": 35,
     "ball5": 43,
     "ball6": 45,
+    "ball_bonus": 23,
     "win1_payout": 1308728625,
     "win1_count": 8
   },
@@ -3788,6 +4103,7 @@
     "ball4": 27,
     "ball5": 31,
     "ball6": 39,
+    "ball_bonus": 43,
     "win1_payout": 1673586400,
     "win1_count": 6
   },
@@ -3800,6 +4116,7 @@
     "ball4": 22,
     "ball5": 36,
     "ball6": 39,
+    "ball_bonus": 8,
     "win1_payout": 2576258550,
     "win1_count": 4
   },
@@ -3812,6 +4129,7 @@
     "ball4": 20,
     "ball5": 34,
     "ball6": 45,
+    "ball_bonus": 21,
     "win1_payout": 1207436600,
     "win1_count": 9
   },
@@ -3824,6 +4142,7 @@
     "ball4": 28,
     "ball5": 33,
     "ball6": 42,
+    "ball_bonus": 37,
     "win1_payout": 2135659380,
     "win1_count": 5
   },
@@ -3836,6 +4155,7 @@
     "ball4": 25,
     "ball5": 41,
     "ball6": 45,
+    "ball_bonus": 3,
     "win1_payout": 5513067900,
     "win1_count": 2
   },
@@ -3848,6 +4168,7 @@
     "ball4": 21,
     "ball5": 25,
     "ball6": 34,
+    "ball_bonus": 42,
     "win1_payout": 1959136100,
     "win1_count": 6
   },
@@ -3860,6 +4181,7 @@
     "ball4": 32,
     "ball5": 38,
     "ball6": 43,
+    "ball_bonus": 20,
     "win1_payout": 1904544700,
     "win1_count": 6
   },
@@ -3872,6 +4194,7 @@
     "ball4": 32,
     "ball5": 36,
     "ball6": 42,
+    "ball_bonus": 3,
     "win1_payout": 1461025388,
     "win1_count": 8
   },
@@ -3884,6 +4207,7 @@
     "ball4": 25,
     "ball5": 33,
     "ball6": 36,
+    "ball_bonus": 17,
     "win1_payout": 1865130350,
     "win1_count": 6
   },
@@ -3896,6 +4220,7 @@
     "ball4": 32,
     "ball5": 44,
     "ball6": 45,
+    "ball_bonus": 33,
     "win1_payout": 1806122450,
     "win1_count": 6
   },
@@ -3908,6 +4233,7 @@
     "ball4": 33,
     "ball5": 36,
     "ball6": 39,
+    "ball_bonus": 40,
     "win1_payout": 1832134550,
     "win1_count": 6
   },
@@ -3920,6 +4246,7 @@
     "ball4": 17,
     "ball5": 32,
     "ball6": 44,
+    "ball_bonus": 24,
     "win1_payout": 882674750,
     "win1_count": 12
   },
@@ -3932,6 +4259,7 @@
     "ball4": 16,
     "ball5": 17,
     "ball6": 28,
+    "ball_bonus": 24,
     "win1_payout": 1819795900,
     "win1_count": 6
   },
@@ -3944,6 +4272,7 @@
     "ball4": 30,
     "ball5": 35,
     "ball6": 42,
+    "ball_bonus": 4,
     "win1_payout": 1830391200,
     "win1_count": 6
   },
@@ -3956,6 +4285,7 @@
     "ball4": 17,
     "ball5": 19,
     "ball6": 20,
+    "ball_bonus": 23,
     "win1_payout": 1162280200,
     "win1_count": 9
   },
@@ -3968,6 +4298,7 @@
     "ball4": 26,
     "ball5": 31,
     "ball6": 44,
+    "ball_bonus": 39,
     "win1_payout": 2165902620,
     "win1_count": 5
   },
@@ -3980,6 +4311,7 @@
     "ball4": 36,
     "ball5": 42,
     "ball6": 45,
+    "ball_bonus": 3,
     "win1_payout": 1359448388,
     "win1_count": 8
   },
@@ -3992,6 +4324,7 @@
     "ball4": 30,
     "ball5": 39,
     "ball6": 43,
+    "ball_bonus": 35,
     "win1_payout": 1550987143,
     "win1_count": 7
   },
@@ -4004,6 +4337,7 @@
     "ball4": 29,
     "ball5": 39,
     "ball6": 43,
+    "ball_bonus": 33,
     "win1_payout": 1523002972,
     "win1_count": 7
   },
@@ -4016,6 +4350,7 @@
     "ball4": 23,
     "ball5": 26,
     "ball6": 45,
+    "ball_bonus": 21,
     "win1_payout": 2037492480,
     "win1_count": 5
   },
@@ -4028,6 +4363,7 @@
     "ball4": 34,
     "ball5": 35,
     "ball6": 44,
+    "ball_bonus": 16,
     "win1_payout": 1685632650,
     "win1_count": 6
   },
@@ -4040,6 +4376,7 @@
     "ball4": 18,
     "ball5": 32,
     "ball6": 37,
+    "ball_bonus": 4,
     "win1_payout": 1257500513,
     "win1_count": 8
   },
@@ -4052,6 +4389,7 @@
     "ball4": 38,
     "ball5": 42,
     "ball6": 45,
+    "ball_bonus": 16,
     "win1_payout": 3383431000,
     "win1_count": 3
   },
@@ -4064,6 +4402,7 @@
     "ball4": 21,
     "ball5": 30,
     "ball6": 37,
+    "ball_bonus": 45,
     "win1_payout": 1096778334,
     "win1_count": 9
   },
@@ -4076,6 +4415,7 @@
     "ball4": 29,
     "ball5": 34,
     "ball6": 38,
+    "ball_bonus": 32,
     "win1_payout": 1439393186,
     "win1_count": 7
   },
@@ -4088,6 +4428,7 @@
     "ball4": 34,
     "ball5": 39,
     "ball6": 43,
+    "ball_bonus": 41,
     "win1_payout": 1497207772,
     "win1_count": 7
   },
@@ -4100,6 +4441,7 @@
     "ball4": 33,
     "ball5": 34,
     "ball6": 43,
+    "ball_bonus": 25,
     "win1_payout": 3454095800,
     "win1_count": 3
   },
@@ -4112,6 +4454,7 @@
     "ball4": 29,
     "ball5": 31,
     "ball6": 43,
+    "ball_bonus": 15,
     "win1_payout": 1717153000,
     "win1_count": 6
   },
@@ -4124,6 +4467,7 @@
     "ball4": 28,
     "ball5": 34,
     "ball6": 45,
+    "ball_bonus": 38,
     "win1_payout": 1467106543,
     "win1_count": 7
   },
@@ -4136,6 +4480,7 @@
     "ball4": 29,
     "ball5": 39,
     "ball6": 42,
+    "ball_bonus": 2,
     "win1_payout": 5203577550,
     "win1_count": 2
   },
@@ -4148,6 +4493,7 @@
     "ball4": 22,
     "ball5": 44,
     "ball6": 45,
+    "ball_bonus": 33,
     "win1_payout": 2017727340,
     "win1_count": 5
   },
@@ -4160,6 +4506,7 @@
     "ball4": 27,
     "ball5": 32,
     "ball6": 42,
+    "ball_bonus": 10,
     "win1_payout": 1456624286,
     "win1_count": 7
   },
@@ -4172,6 +4519,7 @@
     "ball4": 20,
     "ball5": 24,
     "ball6": 31,
+    "ball_bonus": 34,
     "win1_payout": 3299994000,
     "win1_count": 3
   },
@@ -4184,6 +4532,7 @@
     "ball4": 20,
     "ball5": 24,
     "ball6": 25,
+    "ball_bonus": 36,
     "win1_payout": 3353209000,
     "win1_count": 3
   },
@@ -4196,6 +4545,7 @@
     "ball4": 24,
     "ball5": 29,
     "ball6": 33,
+    "ball_bonus": 35,
     "win1_payout": 1101052467,
     "win1_count": 9
   },
@@ -4208,6 +4558,7 @@
     "ball4": 29,
     "ball5": 34,
     "ball6": 36,
+    "ball_bonus": 33,
     "win1_payout": 2583357150,
     "win1_count": 4
   },
@@ -4220,6 +4571,7 @@
     "ball4": 20,
     "ball5": 26,
     "ball6": 41,
+    "ball_bonus": 24,
     "win1_payout": 1732858250,
     "win1_count": 6
   },
@@ -4232,6 +4584,7 @@
     "ball4": 22,
     "ball5": 29,
     "ball6": 36,
+    "ball_bonus": 26,
     "win1_payout": 5290838250,
     "win1_count": 2
   },
@@ -4244,6 +4597,7 @@
     "ball4": 43,
     "ball5": 44,
     "ball6": 45,
+    "ball_bonus": 1,
     "win1_payout": 2124464340,
     "win1_count": 5
   },
@@ -4256,6 +4610,7 @@
     "ball4": 30,
     "ball5": 35,
     "ball6": 44,
+    "ball_bonus": 38,
     "win1_payout": 2145424800,
     "win1_count": 5
   },
@@ -4268,6 +4623,7 @@
     "ball4": 25,
     "ball5": 29,
     "ball6": 45,
+    "ball_bonus": 24,
     "win1_payout": 1157185267,
     "win1_count": 9
   },
@@ -4280,6 +4636,7 @@
     "ball4": 21,
     "ball5": 36,
     "ball6": 37,
+    "ball_bonus": 5,
     "win1_payout": 5313394350,
     "win1_count": 2
   },
@@ -4292,6 +4649,7 @@
     "ball4": 12,
     "ball5": 21,
     "ball6": 40,
+    "ball_bonus": 37,
     "win1_payout": 3472654900,
     "win1_count": 3
   },
@@ -4304,6 +4662,7 @@
     "ball4": 20,
     "ball5": 24,
     "ball6": 40,
+    "ball_bonus": 23,
     "win1_payout": 1286712600,
     "win1_count": 8
   },
@@ -4316,6 +4675,7 @@
     "ball4": 25,
     "ball5": 35,
     "ball6": 40,
+    "ball_bonus": 27,
     "win1_payout": 3566716200,
     "win1_count": 3
   },
@@ -4328,6 +4688,7 @@
     "ball4": 24,
     "ball5": 27,
     "ball6": 35,
+    "ball_bonus": 33,
     "win1_payout": 1473115115,
     "win1_count": 7
   },
@@ -4340,6 +4701,7 @@
     "ball4": 27,
     "ball5": 30,
     "ball6": 40,
+    "ball_bonus": 29,
     "win1_payout": 1729424650,
     "win1_count": 6
   },
@@ -4352,6 +4714,7 @@
     "ball4": 21,
     "ball5": 32,
     "ball6": 38,
+    "ball_bonus": 6,
     "win1_payout": 2615910600,
     "win1_count": 4
   },
@@ -4364,6 +4727,7 @@
     "ball4": 14,
     "ball5": 16,
     "ball6": 40,
+    "ball_bonus": 4,
     "win1_payout": 2531914800,
     "win1_count": 4
   },
@@ -4376,6 +4740,7 @@
     "ball4": 25,
     "ball5": 26,
     "ball6": 30,
+    "ball_bonus": 31,
     "win1_payout": 10697716800,
     "win1_count": 1
   },
@@ -4388,6 +4753,7 @@
     "ball4": 26,
     "ball5": 27,
     "ball6": 44,
+    "ball_bonus": 38,
     "win1_payout": 5351553900,
     "win1_count": 2
   },
@@ -4400,6 +4766,7 @@
     "ball4": 29,
     "ball5": 32,
     "ball6": 44,
+    "ball_bonus": 19,
     "win1_payout": 1581736586,
     "win1_count": 7
   },
@@ -4412,6 +4779,7 @@
     "ball4": 30,
     "ball5": 39,
     "ball6": 45,
+    "ball_bonus": 26,
     "win1_payout": 1465825115,
     "win1_count": 7
   },
@@ -4424,6 +4792,7 @@
     "ball4": 36,
     "ball5": 41,
     "ball6": 43,
+    "ball_bonus": 21,
     "win1_payout": 1842177750,
     "win1_count": 6
   },
@@ -4436,6 +4805,7 @@
     "ball4": 42,
     "ball5": 44,
     "ball6": 45,
+    "ball_bonus": 17,
     "win1_payout": 1678941943,
     "win1_count": 7
   },
@@ -4448,6 +4818,7 @@
     "ball4": 26,
     "ball5": 27,
     "ball6": 42,
+    "ball_bonus": 18,
     "win1_payout": 1524130543,
     "win1_count": 7
   },
@@ -4460,6 +4831,7 @@
     "ball4": 16,
     "ball5": 18,
     "ball6": 21,
+    "ball_bonus": 13,
     "win1_payout": 1192593200,
     "win1_count": 9
   },
@@ -4472,6 +4844,7 @@
     "ball4": 42,
     "ball5": 43,
     "ball6": 45,
+    "ball_bonus": 9,
     "win1_payout": 2791801125,
     "win1_count": 4
   },
@@ -4484,6 +4857,7 @@
     "ball4": 17,
     "ball5": 25,
     "ball6": 34,
+    "ball_bonus": 26,
     "win1_payout": 5528717850,
     "win1_count": 2
   },
@@ -4496,6 +4870,7 @@
     "ball4": 25,
     "ball5": 27,
     "ball6": 45,
+    "ball_bonus": 7,
     "win1_payout": 1581284058,
     "win1_count": 7
   },
@@ -4508,6 +4883,7 @@
     "ball4": 24,
     "ball5": 28,
     "ball6": 40,
+    "ball_bonus": 7,
     "win1_payout": 1956915800,
     "win1_count": 6
   },
@@ -4520,6 +4896,7 @@
     "ball4": 37,
     "ball5": 43,
     "ball6": 45,
+    "ball_bonus": 23,
     "win1_payout": 3912085400,
     "win1_count": 3
   },
@@ -4532,6 +4909,7 @@
     "ball4": 31,
     "ball5": 34,
     "ball6": 39,
+    "ball_bonus": 43,
     "win1_payout": 2317698240,
     "win1_count": 5
   },
@@ -4544,6 +4922,7 @@
     "ball4": 31,
     "ball5": 35,
     "ball6": 40,
+    "ball_bonus": 19,
     "win1_payout": 1598999786,
     "win1_count": 7
   },
@@ -4556,6 +4935,7 @@
     "ball4": 17,
     "ball5": 26,
     "ball6": 37,
+    "ball_bonus": 27,
     "win1_payout": 2684274825,
     "win1_count": 4
   },
@@ -4568,6 +4948,7 @@
     "ball4": 12,
     "ball5": 16,
     "ball6": 20,
+    "ball_bonus": 11,
     "win1_payout": 565738895,
     "win1_count": 19
   },
@@ -4580,6 +4961,7 @@
     "ball4": 24,
     "ball5": 27,
     "ball6": 42,
+    "ball_bonus": 19,
     "win1_payout": 1846674900,
     "win1_count": 6
   },
@@ -4592,6 +4974,7 @@
     "ball4": 33,
     "ball5": 37,
     "ball6": 40,
+    "ball_bonus": 25,
     "win1_payout": 3596522100,
     "win1_count": 3
   },
@@ -4604,6 +4987,7 @@
     "ball4": 32,
     "ball5": 36,
     "ball6": 38,
+    "ball_bonus": 7,
     "win1_payout": 3658734200,
     "win1_count": 3
   },
@@ -4616,6 +5000,7 @@
     "ball4": 21,
     "ball5": 29,
     "ball6": 32,
+    "ball_bonus": 9,
     "win1_payout": 1542032700,
     "win1_count": 7
   },
@@ -4628,6 +5013,7 @@
     "ball4": 19,
     "ball5": 31,
     "ball6": 40,
+    "ball_bonus": 26,
     "win1_payout": 1042953330,
     "win1_count": 10
   },
@@ -4640,6 +5026,7 @@
     "ball4": 34,
     "ball5": 40,
     "ball6": 43,
+    "ball_bonus": 20,
     "win1_payout": 2675533500,
     "win1_count": 4
   },
@@ -4652,6 +5039,7 @@
     "ball4": 17,
     "ball5": 29,
     "ball6": 32,
+    "ball_bonus": 45,
     "win1_payout": 2545543875,
     "win1_count": 4
   },
@@ -4664,6 +5052,7 @@
     "ball4": 20,
     "ball5": 23,
     "ball6": 26,
+    "ball_bonus": 3,
     "win1_payout": 2119027020,
     "win1_count": 5
   },
@@ -4676,6 +5065,7 @@
     "ball4": 37,
     "ball5": 39,
     "ball6": 40,
+    "ball_bonus": 15,
     "win1_payout": 10373997900,
     "win1_count": 1
   },
@@ -4688,6 +5078,7 @@
     "ball4": 22,
     "ball5": 28,
     "ball6": 39,
+    "ball_bonus": 30,
     "win1_payout": 10508749800,
     "win1_count": 1
   },
@@ -4700,6 +5091,7 @@
     "ball4": 8,
     "ball5": 24,
     "ball6": 42,
+    "ball_bonus": 43,
     "win1_payout": 1713528700,
     "win1_count": 6
   },
@@ -4712,6 +5104,7 @@
     "ball4": 40,
     "ball5": 41,
     "ball6": 43,
+    "ball_bonus": 21,
     "win1_payout": 1362003975,
     "win1_count": 8
   },
@@ -4724,6 +5117,7 @@
     "ball4": 22,
     "ball5": 25,
     "ball6": 28,
+    "ball_bonus": 15,
     "win1_payout": 10654349100,
     "win1_count": 1
   },
@@ -4736,6 +5130,7 @@
     "ball4": 26,
     "ball5": 31,
     "ball6": 35,
+    "ball_bonus": 7,
     "win1_payout": 1534635000,
     "win1_count": 7
   },
@@ -4748,6 +5143,7 @@
     "ball4": 34,
     "ball5": 40,
     "ball6": 45,
+    "ball_bonus": 30,
     "win1_payout": 5296622400,
     "win1_count": 2
   },
@@ -4760,6 +5156,7 @@
     "ball4": 22,
     "ball5": 25,
     "ball6": 33,
+    "ball_bonus": 8,
     "win1_payout": 3499519700,
     "win1_count": 3
   },
@@ -4772,6 +5169,7 @@
     "ball4": 23,
     "ball5": 42,
     "ball6": 44,
+    "ball_bonus": 7,
     "win1_payout": 2680625550,
     "win1_count": 4
   },
@@ -4784,6 +5182,7 @@
     "ball4": 17,
     "ball5": 19,
     "ball6": 42,
+    "ball_bonus": 20,
     "win1_payout": 1276854975,
     "win1_count": 8
   },
@@ -4796,6 +5195,7 @@
     "ball4": 34,
     "ball5": 41,
     "ball6": 43,
+    "ball_bonus": 2,
     "win1_payout": 2669834325,
     "win1_count": 4
   },
@@ -4808,6 +5208,7 @@
     "ball4": 31,
     "ball5": 38,
     "ball6": 43,
+    "ball_bonus": 9,
     "win1_payout": 1168214792,
     "win1_count": 9
   },
@@ -4820,6 +5221,7 @@
     "ball4": 19,
     "ball5": 22,
     "ball6": 36,
+    "ball_bonus": 32,
     "win1_payout": 2662206188,
     "win1_count": 4
   },
@@ -4832,6 +5234,7 @@
     "ball4": 24,
     "ball5": 28,
     "ball6": 37,
+    "ball_bonus": 26,
     "win1_payout": 2122396875,
     "win1_count": 5
   },
@@ -4844,6 +5247,7 @@
     "ball4": 24,
     "ball5": 33,
     "ball6": 40,
+    "ball_bonus": 36,
     "win1_payout": 3566659375,
     "win1_count": 3
   },
@@ -4856,6 +5260,7 @@
     "ball4": 25,
     "ball5": 26,
     "ball6": 44,
+    "ball_bonus": 4,
     "win1_payout": 3543878000,
     "win1_count": 3
   },
@@ -4868,6 +5273,7 @@
     "ball4": 24,
     "ball5": 27,
     "ball6": 36,
+    "ball_bonus": 45,
     "win1_payout": 2156142450,
     "win1_count": 5
   },
@@ -4880,6 +5286,7 @@
     "ball4": 16,
     "ball5": 24,
     "ball6": 25,
+    "ball_bonus": 1,
     "win1_payout": 1649707286,
     "win1_count": 7
   },
@@ -4892,6 +5299,7 @@
     "ball4": 22,
     "ball5": 30,
     "ball6": 37,
+    "ball_bonus": 16,
     "win1_payout": 2235375825,
     "win1_count": 5
   },
@@ -4904,6 +5312,7 @@
     "ball4": 31,
     "ball5": 32,
     "ball6": 40,
+    "ball_bonus": 38,
     "win1_payout": 2896989750,
     "win1_count": 4
   },
@@ -4916,6 +5325,7 @@
     "ball4": 32,
     "ball5": 40,
     "ball6": 41,
+    "ball_bonus": 16,
     "win1_payout": 1249335709,
     "win1_count": 9
   },
@@ -4928,6 +5338,7 @@
     "ball4": 35,
     "ball5": 37,
     "ball6": 39,
+    "ball_bonus": 5,
     "win1_payout": 953227563,
     "win1_count": 12
   },
@@ -4940,6 +5351,7 @@
     "ball4": 41,
     "ball5": 42,
     "ball6": 45,
+    "ball_bonus": 40,
     "win1_payout": 1656199822,
     "win1_count": 7
   },
@@ -4952,6 +5364,7 @@
     "ball4": 23,
     "ball5": 34,
     "ball6": 40,
+    "ball_bonus": 3,
     "win1_payout": 2814673500,
     "win1_count": 4
   },
@@ -4964,6 +5377,7 @@
     "ball4": 22,
     "ball5": 23,
     "ball6": 44,
+    "ball_bonus": 43,
     "win1_payout": 11703832500,
     "win1_count": 1
   },
@@ -4976,6 +5390,7 @@
     "ball4": 26,
     "ball5": 30,
     "ball6": 40,
+    "ball_bonus": 24,
     "win1_payout": 1334182407,
     "win1_count": 8
   },
@@ -4988,6 +5403,7 @@
     "ball4": 11,
     "ball5": 22,
     "ball6": 26,
+    "ball_bonus": 44,
     "win1_payout": 1072037100,
     "win1_count": 10
   },
@@ -5000,6 +5416,7 @@
     "ball4": 20,
     "ball5": 22,
     "ball6": 43,
+    "ball_bonus": 44,
     "win1_payout": 2818329938,
     "win1_count": 4
   },
@@ -5012,6 +5429,7 @@
     "ball4": 26,
     "ball5": 28,
     "ball6": 34,
+    "ball_bonus": 31,
     "win1_payout": 1435649766,
     "win1_count": 8
   },
@@ -5024,6 +5442,7 @@
     "ball4": 14,
     "ball5": 28,
     "ball6": 30,
+    "ball_bonus": 7,
     "win1_payout": 3796490750,
     "win1_count": 3
   },
@@ -5036,6 +5455,7 @@
     "ball4": 29,
     "ball5": 31,
     "ball6": 34,
+    "ball_bonus": 27,
     "win1_payout": 1424856375,
     "win1_count": 8
   },
@@ -5048,6 +5468,7 @@
     "ball4": 27,
     "ball5": 28,
     "ball6": 44,
+    "ball_bonus": 30,
     "win1_payout": 2321144325,
     "win1_count": 5
   },
@@ -5060,6 +5481,7 @@
     "ball4": 21,
     "ball5": 34,
     "ball6": 44,
+    "ball_bonus": 12,
     "win1_payout": 2205251375,
     "win1_count": 6
   },
@@ -5072,6 +5494,7 @@
     "ball4": 28,
     "ball5": 29,
     "ball6": 40,
+    "ball_bonus": 5,
     "win1_payout": 3896153875,
     "win1_count": 3
   },
@@ -5084,6 +5507,7 @@
     "ball4": 31,
     "ball5": 34,
     "ball6": 44,
+    "ball_bonus": 30,
     "win1_payout": 1109480813,
     "win1_count": 10
   },
@@ -5096,6 +5520,7 @@
     "ball4": 27,
     "ball5": 33,
     "ball6": 38,
+    "ball_bonus": 3,
     "win1_payout": 1534833000,
     "win1_count": 8
   },
@@ -5108,6 +5533,7 @@
     "ball4": 27,
     "ball5": 39,
     "ball6": 43,
+    "ball_bonus": 19,
     "win1_payout": 3057233625,
     "win1_count": 4
   },
@@ -5120,6 +5546,7 @@
     "ball4": 24,
     "ball5": 28,
     "ball6": 30,
+    "ball_bonus": 21,
     "win1_payout": 12571445625,
     "win1_count": 1
   },
@@ -5132,6 +5559,7 @@
     "ball4": 22,
     "ball5": 37,
     "ball6": 40,
+    "ball_bonus": 8,
     "win1_payout": 1437683209,
     "win1_count": 9
   },
@@ -5144,6 +5572,7 @@
     "ball4": 34,
     "ball5": 39,
     "ball6": 42,
+    "ball_bonus": 16,
     "win1_payout": 1485904709,
     "win1_count": 9
   },
@@ -5156,6 +5585,7 @@
     "ball4": 18,
     "ball5": 30,
     "ball6": 34,
+    "ball_bonus": 44,
     "win1_payout": 1611763219,
     "win1_count": 8
   },
@@ -5168,6 +5598,7 @@
     "ball4": 31,
     "ball5": 38,
     "ball6": 45,
+    "ball_bonus": 6,
     "win1_payout": 1268434013,
     "win1_count": 10
   },
@@ -5180,6 +5611,7 @@
     "ball4": 11,
     "ball5": 27,
     "ball6": 39,
+    "ball_bonus": 33,
     "win1_payout": 2299427550,
     "win1_count": 5
   },
@@ -5192,6 +5624,7 @@
     "ball4": 33,
     "ball5": 35,
     "ball6": 43,
+    "ball_bonus": 27,
     "win1_payout": 1182294410,
     "win1_count": 11
   },
@@ -5204,6 +5637,7 @@
     "ball4": 24,
     "ball5": 33,
     "ball6": 37,
+    "ball_bonus": 35,
     "win1_payout": 1480060266,
     "win1_count": 8
   },
@@ -5216,6 +5650,7 @@
     "ball4": 30,
     "ball5": 38,
     "ball6": 45,
+    "ball_bonus": 42,
     "win1_payout": 1287550013,
     "win1_count": 10
   },
@@ -5228,6 +5663,7 @@
     "ball4": 22,
     "ball5": 33,
     "ball6": 34,
+    "ball_bonus": 28,
     "win1_payout": 1512266579,
     "win1_count": 8
   },
@@ -5240,6 +5676,7 @@
     "ball4": 38,
     "ball5": 41,
     "ball6": 44,
+    "ball_bonus": 21,
     "win1_payout": 2096245438,
     "win1_count": 6
   },
@@ -5252,6 +5689,7 @@
     "ball4": 26,
     "ball5": 29,
     "ball6": 38,
+    "ball_bonus": 45,
     "win1_payout": 1377142167,
     "win1_count": 9
   },
@@ -5264,6 +5702,7 @@
     "ball4": 31,
     "ball5": 37,
     "ball6": 40,
+    "ball_bonus": 25,
     "win1_payout": 1900077375,
     "win1_count": 6
   },
@@ -5276,6 +5715,7 @@
     "ball4": 34,
     "ball5": 36,
     "ball6": 44,
+    "ball_bonus": 2,
     "win1_payout": 1995873000,
     "win1_count": 6
   },
@@ -5288,6 +5728,7 @@
     "ball4": 30,
     "ball5": 34,
     "ball6": 35,
+    "ball_bonus": 9,
     "win1_payout": 3170417063,
     "win1_count": 4
   },
@@ -5300,6 +5741,7 @@
     "ball4": 36,
     "ball5": 38,
     "ball6": 40,
+    "ball_bonus": 41,
     "win1_payout": 1413413042,
     "win1_count": 9
   },
@@ -5312,6 +5754,7 @@
     "ball4": 19,
     "ball5": 20,
     "ball6": 44,
+    "ball_bonus": 14,
     "win1_payout": 1327597584,
     "win1_count": 9
   },
@@ -5324,6 +5767,7 @@
     "ball4": 35,
     "ball5": 43,
     "ball6": 45,
+    "ball_bonus": 17,
     "win1_payout": 4154188625,
     "win1_count": 3
   },
@@ -5336,6 +5780,7 @@
     "ball4": 30,
     "ball5": 39,
     "ball6": 45,
+    "ball_bonus": 32,
     "win1_payout": 1791683036,
     "win1_count": 7
   },
@@ -5348,6 +5793,7 @@
     "ball4": 14,
     "ball5": 26,
     "ball6": 35,
+    "ball_bonus": 6,
     "win1_payout": 4051247625,
     "win1_count": 3
   },
@@ -5360,6 +5806,7 @@
     "ball4": 9,
     "ball5": 17,
     "ball6": 33,
+    "ball_bonus": 34,
     "win1_payout": 2657941125,
     "win1_count": 4
   },
@@ -5372,6 +5819,7 @@
     "ball4": 27,
     "ball5": 40,
     "ball6": 41,
+    "ball_bonus": 36,
     "win1_payout": 4026212750,
     "win1_count": 3
   },
@@ -5384,6 +5832,7 @@
     "ball4": 26,
     "ball5": 35,
     "ball6": 43,
+    "ball_bonus": 36,
     "win1_payout": 4059715250,
     "win1_count": 3
   },
@@ -5396,6 +5845,7 @@
     "ball4": 21,
     "ball5": 23,
     "ball6": 31,
+    "ball_bonus": 13,
     "win1_payout": 1990391625,
     "win1_count": 6
   },
@@ -5408,6 +5858,7 @@
     "ball4": 24,
     "ball5": 30,
     "ball6": 38,
+    "ball_bonus": 29,
     "win1_payout": 882138952,
     "win1_count": 13
   },
@@ -5420,6 +5871,7 @@
     "ball4": 30,
     "ball5": 32,
     "ball6": 34,
+    "ball_bonus": 27,
     "win1_payout": 1276902000,
     "win1_count": 9
   },
@@ -5432,6 +5884,7 @@
     "ball4": 38,
     "ball5": 40,
     "ball6": 42,
+    "ball_bonus": 30,
     "win1_payout": 2262732375,
     "win1_count": 5
   },
@@ -5444,6 +5897,7 @@
     "ball4": 34,
     "ball5": 38,
     "ball6": 41,
+    "ball_bonus": 10,
     "win1_payout": 1609125590,
     "win1_count": 7
   },
@@ -5456,6 +5910,7 @@
     "ball4": 26,
     "ball5": 30,
     "ball6": 35,
+    "ball_bonus": 24,
     "win1_payout": 1635711483,
     "win1_count": 7
   },
@@ -5468,6 +5923,7 @@
     "ball4": 18,
     "ball5": 23,
     "ball6": 27,
+    "ball_bonus": 44,
     "win1_payout": 1598505054,
     "win1_count": 7
   },
@@ -5480,6 +5936,7 @@
     "ball4": 23,
     "ball5": 27,
     "ball6": 40,
+    "ball_bonus": 33,
     "win1_payout": 1159902825,
     "win1_count": 10
   },
@@ -5492,6 +5949,7 @@
     "ball4": 32,
     "ball5": 36,
     "ball6": 40,
+    "ball_bonus": 18,
     "win1_payout": 1608812625,
     "win1_count": 8
   },
@@ -5504,6 +5962,7 @@
     "ball4": 14,
     "ball5": 25,
     "ball6": 40,
+    "ball_bonus": 12,
     "win1_payout": 1655842233,
     "win1_count": 7
   },
@@ -5516,6 +5975,7 @@
     "ball4": 30,
     "ball5": 43,
     "ball6": 45,
+    "ball_bonus": 41,
     "win1_payout": 3180895782,
     "win1_count": 4
   },
@@ -5528,6 +5988,7 @@
     "ball4": 31,
     "ball5": 37,
     "ball6": 40,
+    "ball_bonus": 43,
     "win1_payout": 1948674875,
     "win1_count": 6
   },
@@ -5540,6 +6001,7 @@
     "ball4": 32,
     "ball5": 37,
     "ball6": 45,
+    "ball_bonus": 4,
     "win1_payout": 1483559297,
     "win1_count": 8
   },
@@ -5552,6 +6014,7 @@
     "ball4": 33,
     "ball5": 34,
     "ball6": 44,
+    "ball_bonus": 40,
     "win1_payout": 0,
     "win1_count": 0
   },
@@ -5564,6 +6027,7 @@
     "ball4": 34,
     "ball5": 42,
     "ball6": 44,
+    "ball_bonus": 4,
     "win1_payout": 3355721106,
     "win1_count": 13
   },
@@ -5576,6 +6040,7 @@
     "ball4": 13,
     "ball5": 22,
     "ball6": 38,
+    "ball_bonus": 31,
     "win1_payout": 1923662893,
     "win1_count": 7
   },
@@ -5588,6 +6053,7 @@
     "ball4": 23,
     "ball5": 32,
     "ball6": 44,
+    "ball_bonus": 20,
     "win1_payout": 1530313459,
     "win1_count": 9
   },
@@ -5600,6 +6066,7 @@
     "ball4": 17,
     "ball5": 24,
     "ball6": 40,
+    "ball_bonus": 39,
     "win1_payout": 1435441084,
     "win1_count": 9
   },
@@ -5612,6 +6079,7 @@
     "ball4": 28,
     "ball5": 37,
     "ball6": 43,
+    "ball_bonus": 17,
     "win1_payout": 1527197167,
     "win1_count": 9
   },
@@ -5624,6 +6092,7 @@
     "ball4": 34,
     "ball5": 37,
     "ball6": 38,
+    "ball_bonus": 33,
     "win1_payout": 3330131250,
     "win1_count": 4
   },
@@ -5636,6 +6105,7 @@
     "ball4": 39,
     "ball5": 41,
     "ball6": 42,
+    "ball_bonus": 27,
     "win1_payout": 4333330625,
     "win1_count": 3
   },
@@ -5648,6 +6118,7 @@
     "ball4": 37,
     "ball5": 39,
     "ball6": 41,
+    "ball_bonus": 43,
     "win1_payout": 1939332858,
     "win1_count": 7
   },
@@ -5660,6 +6131,7 @@
     "ball4": 31,
     "ball5": 36,
     "ball6": 43,
+    "ball_bonus": 44,
     "win1_payout": 1809656090,
     "win1_count": 7
   },
@@ -5672,6 +6144,7 @@
     "ball4": 22,
     "ball5": 23,
     "ball6": 36,
+    "ball_bonus": 34,
     "win1_payout": 3250418063,
     "win1_count": 4
   },
@@ -5684,6 +6157,7 @@
     "ball4": 31,
     "ball5": 33,
     "ball6": 45,
+    "ball_bonus": 43,
     "win1_payout": 936690800,
     "win1_count": 15
   },
@@ -5696,6 +6170,7 @@
     "ball4": 16,
     "ball5": 21,
     "ball6": 29,
+    "ball_bonus": 3,
     "win1_payout": 1693923047,
     "win1_count": 8
   },
@@ -5708,6 +6183,7 @@
     "ball4": 15,
     "ball5": 37,
     "ball6": 38,
+    "ball_bonus": 27,
     "win1_payout": 3439851469,
     "win1_count": 4
   },
@@ -5720,6 +6196,7 @@
     "ball4": 32,
     "ball5": 33,
     "ball6": 45,
+    "ball_bonus": 37,
     "win1_payout": 1919011829,
     "win1_count": 8
   },
@@ -5732,6 +6209,7 @@
     "ball4": 37,
     "ball5": 39,
     "ball6": 43,
+    "ball_bonus": 8,
     "win1_payout": 987224759,
     "win1_count": 14
   },
@@ -5744,6 +6222,7 @@
     "ball4": 27,
     "ball5": 35,
     "ball6": 44,
+    "ball_bonus": 24,
     "win1_payout": 2233046500,
     "win1_count": 6
   },
@@ -5756,6 +6235,7 @@
     "ball4": 17,
     "ball5": 30,
     "ball6": 31,
+    "ball_bonus": 16,
     "win1_payout": 2996742282,
     "win1_count": 4
   },
@@ -5768,6 +6248,7 @@
     "ball4": 29,
     "ball5": 40,
     "ball6": 41,
+    "ball_bonus": 20,
     "win1_payout": 4639355750,
     "win1_count": 3
   },
@@ -5780,6 +6261,7 @@
     "ball4": 24,
     "ball5": 25,
     "ball6": 35,
+    "ball_bonus": 43,
     "win1_payout": 1897921179,
     "win1_count": 7
   },
@@ -5792,6 +6274,7 @@
     "ball4": 22,
     "ball5": 28,
     "ball6": 34,
+    "ball_bonus": 5,
     "win1_payout": 2567196675,
     "win1_count": 5
   },
@@ -5804,6 +6287,7 @@
     "ball4": 28,
     "ball5": 32,
     "ball6": 45,
+    "ball_bonus": 11,
     "win1_payout": 2305303063,
     "win1_count": 6
   },
@@ -5816,6 +6300,7 @@
     "ball4": 27,
     "ball5": 36,
     "ball6": 39,
+    "ball_bonus": 20,
     "win1_payout": 1501474917,
     "win1_count": 9
   },
@@ -5828,6 +6313,7 @@
     "ball4": 25,
     "ball5": 38,
     "ball6": 40,
+    "ball_bonus": 43,
     "win1_payout": 1008634125,
     "win1_count": 13
   },
@@ -5840,6 +6326,7 @@
     "ball4": 27,
     "ball5": 37,
     "ball6": 41,
+    "ball_bonus": 21,
     "win1_payout": 1638830766,
     "win1_count": 8
   },
@@ -5852,6 +6339,7 @@
     "ball4": 30,
     "ball5": 31,
     "ball6": 38,
+    "ball_bonus": 25,
     "win1_payout": 1330393575,
     "win1_count": 10
   },
@@ -5864,6 +6352,7 @@
     "ball4": 15,
     "ball5": 20,
     "ball6": 27,
+    "ball_bonus": 11,
     "win1_payout": 2106360625,
     "win1_count": 6
   },
@@ -5876,6 +6365,7 @@
     "ball4": 29,
     "ball5": 40,
     "ball6": 43,
+    "ball_bonus": 42,
     "win1_payout": 1860234161,
     "win1_count": 7
   },
@@ -5888,6 +6378,7 @@
     "ball4": 36,
     "ball5": 39,
     "ball6": 42,
+    "ball_bonus": 4,
     "win1_payout": 3304634438,
     "win1_count": 4
   },
@@ -5900,6 +6391,7 @@
     "ball4": 35,
     "ball5": 37,
     "ball6": 40,
+    "ball_bonus": 42,
     "win1_payout": 2493013800,
     "win1_count": 5
   },
@@ -5912,6 +6404,7 @@
     "ball4": 33,
     "ball5": 36,
     "ball6": 37,
+    "ball_bonus": 25,
     "win1_payout": 1451120334,
     "win1_count": 9
   },
@@ -5924,6 +6417,7 @@
     "ball4": 15,
     "ball5": 30,
     "ball6": 43,
+    "ball_bonus": 22,
     "win1_payout": 1054588407,
     "win1_count": 12
   },
@@ -5936,6 +6430,7 @@
     "ball4": 27,
     "ball5": 34,
     "ball6": 44,
+    "ball_bonus": 6,
     "win1_payout": 2111645000,
     "win1_count": 6
   },
@@ -5948,6 +6443,7 @@
     "ball4": 29,
     "ball5": 36,
     "ball6": 41,
+    "ball_bonus": 39,
     "win1_payout": 3285932250,
     "win1_count": 4
   },
@@ -5960,6 +6456,7 @@
     "ball4": 24,
     "ball5": 43,
     "ball6": 44,
+    "ball_bonus": 13,
     "win1_payout": 2222817813,
     "win1_count": 6
   },
@@ -5972,6 +6469,7 @@
     "ball4": 32,
     "ball5": 39,
     "ball6": 41,
+    "ball_bonus": 3,
     "win1_payout": 3244503094,
     "win1_count": 4
   },
@@ -5984,6 +6482,7 @@
     "ball4": 27,
     "ball5": 35,
     "ball6": 40,
+    "ball_bonus": 43,
     "win1_payout": 4070480250,
     "win1_count": 3
   },
@@ -5996,6 +6495,7 @@
     "ball4": 20,
     "ball5": 24,
     "ball6": 34,
+    "ball_bonus": 41,
     "win1_payout": 1351072375,
     "win1_count": 9
   },
@@ -6008,6 +6508,7 @@
     "ball4": 17,
     "ball5": 31,
     "ball6": 42,
+    "ball_bonus": 2,
     "win1_payout": 3025200094,
     "win1_count": 4
   },
@@ -6020,6 +6521,7 @@
     "ball4": 32,
     "ball5": 34,
     "ball6": 40,
+    "ball_bonus": 26,
     "win1_payout": 2201458125,
     "win1_count": 6
   },
@@ -6032,6 +6534,7 @@
     "ball4": 30,
     "ball5": 34,
     "ball6": 36,
+    "ball_bonus": 40,
     "win1_payout": 1853634911,
     "win1_count": 7
   },
@@ -6044,6 +6547,7 @@
     "ball4": 26,
     "ball5": 43,
     "ball6": 44,
+    "ball_bonus": 31,
     "win1_payout": 1443236959,
     "win1_count": 9
   },
@@ -6056,6 +6560,7 @@
     "ball4": 25,
     "ball5": 38,
     "ball6": 40,
+    "ball_bonus": 44,
     "win1_payout": 1917955188,
     "win1_count": 6
   },
@@ -6068,6 +6573,7 @@
     "ball4": 22,
     "ball5": 24,
     "ball6": 30,
+    "ball_bonus": 31,
     "win1_payout": 4073333875,
     "win1_count": 3
   },
@@ -6080,6 +6586,7 @@
     "ball4": 33,
     "ball5": 40,
     "ball6": 41,
+    "ball_bonus": 4,
     "win1_payout": 1416438875,
     "win1_count": 9
   },
@@ -6092,6 +6599,7 @@
     "ball4": 34,
     "ball5": 35,
     "ball6": 43,
+    "ball_bonus": 37,
     "win1_payout": 1599557860,
     "win1_count": 8
   },
@@ -6104,6 +6612,7 @@
     "ball4": 35,
     "ball5": 42,
     "ball6": 43,
+    "ball_bonus": 24,
     "win1_payout": 2689076100,
     "win1_count": 5
   },
@@ -6116,6 +6625,7 @@
     "ball4": 33,
     "ball5": 39,
     "ball6": 40,
+    "ball_bonus": 42,
     "win1_payout": 2644158150,
     "win1_count": 5
   },
@@ -6128,6 +6638,7 @@
     "ball4": 23,
     "ball5": 26,
     "ball6": 42,
+    "ball_bonus": 24,
     "win1_payout": 2165579250,
     "win1_count": 6
   },
@@ -6140,6 +6651,7 @@
     "ball4": 13,
     "ball5": 26,
     "ball6": 27,
+    "ball_bonus": 1,
     "win1_payout": 940094452,
     "win1_count": 13
   },
@@ -6152,6 +6664,7 @@
     "ball4": 23,
     "ball5": 27,
     "ball6": 33,
+    "ball_bonus": 12,
     "win1_payout": 4589624750,
     "win1_count": 3
   },
@@ -6164,6 +6677,7 @@
     "ball4": 26,
     "ball5": 35,
     "ball6": 42,
+    "ball_bonus": 9,
     "win1_payout": 4451055500,
     "win1_count": 3
   },
@@ -6176,6 +6690,7 @@
     "ball4": 15,
     "ball5": 23,
     "ball6": 37,
+    "ball_bonus": 8,
     "win1_payout": 13200466875,
     "win1_count": 1
   },
@@ -6188,6 +6703,7 @@
     "ball4": 41,
     "ball5": 43,
     "ball6": 44,
+    "ball_bonus": 30,
     "win1_payout": 1294190182,
     "win1_count": 11
   },
@@ -6200,6 +6716,7 @@
     "ball4": 28,
     "ball5": 36,
     "ball6": 41,
+    "ball_bonus": 10,
     "win1_payout": 2659057725,
     "win1_count": 5
   },
@@ -6212,6 +6729,7 @@
     "ball4": 32,
     "ball5": 34,
     "ball6": 38,
+    "ball_bonus": 6,
     "win1_payout": 2263804125,
     "win1_count": 6
   },
@@ -6224,6 +6742,7 @@
     "ball4": 16,
     "ball5": 30,
     "ball6": 43,
+    "ball_bonus": 3,
     "win1_payout": 1950601393,
     "win1_count": 7
   },
@@ -6236,6 +6755,7 @@
     "ball4": 28,
     "ball5": 38,
     "ball6": 40,
+    "ball_bonus": 1,
     "win1_payout": 2167205438,
     "win1_count": 6
   },
@@ -6248,6 +6768,7 @@
     "ball4": 29,
     "ball5": 32,
     "ball6": 36,
+    "ball_bonus": 19,
     "win1_payout": 1693420922,
     "win1_count": 8
   },
@@ -6260,6 +6781,7 @@
     "ball4": 14,
     "ball5": 37,
     "ball6": 41,
+    "ball_bonus": 11,
     "win1_payout": 2281623000,
     "win1_count": 6
   },
@@ -6272,6 +6794,7 @@
     "ball4": 38,
     "ball5": 40,
     "ball6": 45,
+    "ball_bonus": 7,
     "win1_payout": 1780355840,
     "win1_count": 7
   },
@@ -6284,6 +6807,7 @@
     "ball4": 38,
     "ball5": 41,
     "ball6": 45,
+    "ball_bonus": 21,
     "win1_payout": 3491695594,
     "win1_count": 4
   },
@@ -6296,6 +6820,7 @@
     "ball4": 29,
     "ball5": 39,
     "ball6": 44,
+    "ball_bonus": 22,
     "win1_payout": 1501132375,
     "win1_count": 9
   },
@@ -6308,6 +6833,7 @@
     "ball4": 20,
     "ball5": 35,
     "ball6": 39,
+    "ball_bonus": 31,
     "win1_payout": 1491031959,
     "win1_count": 9
   },
@@ -6320,6 +6846,7 @@
     "ball4": 32,
     "ball5": 33,
     "ball6": 42,
+    "ball_bonus": 38,
     "win1_payout": 1032386366,
     "win1_count": 13
   },
@@ -6332,6 +6859,7 @@
     "ball4": 31,
     "ball5": 39,
     "ball6": 40,
+    "ball_bonus": 10,
     "win1_payout": 1197889125,
     "win1_count": 11
   },
@@ -6344,6 +6872,7 @@
     "ball4": 27,
     "ball5": 31,
     "ball6": 42,
+    "ball_bonus": 39,
     "win1_payout": 1749114797,
     "win1_count": 8
   },
@@ -6356,6 +6885,7 @@
     "ball4": 29,
     "ball5": 33,
     "ball6": 41,
+    "ball_bonus": 22,
     "win1_payout": 1231656239,
     "win1_count": 11
   },
@@ -6368,6 +6898,7 @@
     "ball4": 21,
     "ball5": 27,
     "ball6": 35,
+    "ball_bonus": 45,
     "win1_payout": 1521519750,
     "win1_count": 9
   },
@@ -6380,6 +6911,7 @@
     "ball4": 24,
     "ball5": 29,
     "ball6": 44,
+    "ball_bonus": 3,
     "win1_payout": 2216896286,
     "win1_count": 7
   },
@@ -6392,6 +6924,7 @@
     "ball4": 17,
     "ball5": 31,
     "ball6": 33,
+    "ball_bonus": 23,
     "win1_payout": 1785671579,
     "win1_count": 8
   },
@@ -6404,6 +6937,7 @@
     "ball4": 29,
     "ball5": 37,
     "ball6": 38,
+    "ball_bonus": 32,
     "win1_payout": 14215763250,
     "win1_count": 1
   },
@@ -6416,6 +6950,7 @@
     "ball4": 15,
     "ball5": 18,
     "ball6": 39,
+    "ball_bonus": 34,
     "win1_payout": 4935603000,
     "win1_count": 3
   },
@@ -6428,6 +6963,7 @@
     "ball4": 32,
     "ball5": 37,
     "ball6": 43,
+    "ball_bonus": 12,
     "win1_payout": 1308523603,
     "win1_count": 11
   },
@@ -6440,6 +6976,7 @@
     "ball4": 30,
     "ball5": 36,
     "ball6": 43,
+    "ball_bonus": 11,
     "win1_payout": 2104038911,
     "win1_count": 7
   },
@@ -6452,6 +6989,7 @@
     "ball4": 31,
     "ball5": 32,
     "ball6": 34,
+    "ball_bonus": 11,
     "win1_payout": 4688021625,
     "win1_count": 3
   },
@@ -6464,6 +7002,7 @@
     "ball4": 31,
     "ball5": 42,
     "ball6": 43,
+    "ball_bonus": 26,
     "win1_payout": 1621036667,
     "win1_count": 9
   },
@@ -6476,6 +7015,7 @@
     "ball4": 15,
     "ball5": 34,
     "ball6": 36,
+    "ball_bonus": 14,
     "win1_payout": 1989365250,
     "win1_count": 7
   },
@@ -6488,6 +7028,7 @@
     "ball4": 28,
     "ball5": 32,
     "ball6": 34,
+    "ball_bonus": 43,
     "win1_payout": 1269327171,
     "win1_count": 11
   },
@@ -6500,6 +7041,7 @@
     "ball4": 26,
     "ball5": 41,
     "ball6": 45,
+    "ball_bonus": 34,
     "win1_payout": 2335152563,
     "win1_count": 6
   },
@@ -6512,6 +7054,7 @@
     "ball4": 31,
     "ball5": 34,
     "ball6": 44,
+    "ball_bonus": 12,
     "win1_payout": 1112934844,
     "win1_count": 12
   },
@@ -6524,6 +7067,7 @@
     "ball4": 25,
     "ball5": 36,
     "ball6": 44,
+    "ball_bonus": 10,
     "win1_payout": 1046388433,
     "win1_count": 13
   },
@@ -6536,6 +7080,7 @@
     "ball4": 27,
     "ball5": 34,
     "ball6": 35,
+    "ball_bonus": 2,
     "win1_payout": 1198994353,
     "win1_count": 11
   },
@@ -6548,6 +7093,7 @@
     "ball4": 27,
     "ball5": 37,
     "ball6": 43,
+    "ball_bonus": 6,
     "win1_payout": 405939950,
     "win1_count": 30
   },
@@ -6560,6 +7106,7 @@
     "ball4": 22,
     "ball5": 34,
     "ball6": 39,
+    "ball_bonus": 28,
     "win1_payout": 2838444450,
     "win1_count": 5
   },
@@ -6572,6 +7119,7 @@
     "ball4": 21,
     "ball5": 32,
     "ball6": 45,
+    "ball_bonus": 14,
     "win1_payout": 1736871891,
     "win1_count": 8
   },
@@ -6584,6 +7132,7 @@
     "ball4": 38,
     "ball5": 40,
     "ball6": 44,
+    "ball_bonus": 17,
     "win1_payout": 1760805047,
     "win1_count": 8
   },
@@ -6596,6 +7145,7 @@
     "ball4": 20,
     "ball5": 34,
     "ball6": 37,
+    "ball_bonus": 41,
     "win1_payout": 1118679205,
     "win1_count": 11
   },
@@ -6608,6 +7158,7 @@
     "ball4": 24,
     "ball5": 27,
     "ball6": 44,
+    "ball_bonus": 25,
     "win1_payout": 13526973750,
     "win1_count": 1
   },
@@ -6620,6 +7171,7 @@
     "ball4": 32,
     "ball5": 35,
     "ball6": 40,
+    "ball_bonus": 43,
     "win1_payout": 1330824225,
     "win1_count": 10
   },
@@ -6632,6 +7184,7 @@
     "ball4": 28,
     "ball5": 29,
     "ball6": 39,
+    "ball_bonus": 37,
     "win1_payout": 2249631438,
     "win1_count": 6
   },
@@ -6644,6 +7197,7 @@
     "ball4": 32,
     "ball5": 41,
     "ball6": 42,
+    "ball_bonus": 6,
     "win1_payout": 6813893625,
     "win1_count": 2
   },
@@ -6656,6 +7210,7 @@
     "ball4": 24,
     "ball5": 26,
     "ball6": 36,
+    "ball_bonus": 12,
     "win1_payout": 1711027360,
     "win1_count": 8
   },
@@ -6668,6 +7223,7 @@
     "ball4": 28,
     "ball5": 30,
     "ball6": 44,
+    "ball_bonus": 43,
     "win1_payout": 2005209161,
     "win1_count": 7
   },
@@ -6680,6 +7236,7 @@
     "ball4": 28,
     "ball5": 35,
     "ball6": 40,
+    "ball_bonus": 31,
     "win1_payout": 1888069286,
     "win1_count": 7
   },
@@ -6692,6 +7249,7 @@
     "ball4": 26,
     "ball5": 40,
     "ball6": 43,
+    "ball_bonus": 29,
     "win1_payout": 1315913663,
     "win1_count": 10
   },
@@ -6704,6 +7262,7 @@
     "ball4": 32,
     "ball5": 44,
     "ball6": 45,
+    "ball_bonus": 23,
     "win1_payout": 1926145608,
     "win1_count": 7
   },
@@ -6716,6 +7275,7 @@
     "ball4": 23,
     "ball5": 29,
     "ball6": 45,
+    "ball_bonus": 28,
     "win1_payout": 1976697215,
     "win1_count": 7
   },
@@ -6728,6 +7288,7 @@
     "ball4": 37,
     "ball5": 42,
     "ball6": 45,
+    "ball_bonus": 20,
     "win1_payout": 2753712225,
     "win1_count": 5
   },
@@ -6740,6 +7301,7 @@
     "ball4": 17,
     "ball5": 20,
     "ball6": 31,
+    "ball_bonus": 33,
     "win1_payout": 1166694614,
     "win1_count": 11
   },
@@ -6752,6 +7314,7 @@
     "ball4": 17,
     "ball5": 31,
     "ball6": 32,
+    "ball_bonus": 21,
     "win1_payout": 1932735643,
     "win1_count": 7
   },
@@ -6764,6 +7327,7 @@
     "ball4": 26,
     "ball5": 27,
     "ball6": 34,
+    "ball_bonus": 2,
     "win1_payout": 1934801143,
     "win1_count": 7
   },
@@ -6776,6 +7340,7 @@
     "ball4": 27,
     "ball5": 40,
     "ball6": 45,
+    "ball_bonus": 38,
     "win1_payout": 1742064469,
     "win1_count": 8
   },
@@ -6788,6 +7353,7 @@
     "ball4": 25,
     "ball5": 26,
     "ball6": 43,
+    "ball_bonus": 41,
     "win1_payout": 3508951032,
     "win1_count": 4
   },
@@ -6800,6 +7366,7 @@
     "ball4": 16,
     "ball5": 32,
     "ball6": 41,
+    "ball_bonus": 28,
     "win1_payout": 2318659438,
     "win1_count": 6
   },
@@ -6812,6 +7379,7 @@
     "ball4": 20,
     "ball5": 31,
     "ball6": 44,
+    "ball_bonus": 40,
     "win1_payout": 1305167550,
     "win1_count": 10
   },
@@ -6824,6 +7392,7 @@
     "ball4": 23,
     "ball5": 24,
     "ball6": 35,
+    "ball_bonus": 1,
     "win1_payout": 3467925188,
     "win1_count": 4
   },
@@ -6836,6 +7405,7 @@
     "ball4": 27,
     "ball5": 29,
     "ball6": 33,
+    "ball_bonus": 42,
     "win1_payout": 1527791625,
     "win1_count": 9
   },
@@ -6848,6 +7418,7 @@
     "ball4": 26,
     "ball5": 38,
     "ball6": 43,
+    "ball_bonus": 29,
     "win1_payout": 1966538465,
     "win1_count": 7
   },
@@ -6860,6 +7431,7 @@
     "ball4": 33,
     "ball5": 37,
     "ball6": 45,
+    "ball_bonus": 1,
     "win1_payout": 1668216188,
     "win1_count": 8
   },
@@ -6872,6 +7444,7 @@
     "ball4": 34,
     "ball5": 35,
     "ball6": 43,
+    "ball_bonus": 14,
     "win1_payout": 1645691766,
     "win1_count": 8
   },
@@ -6884,6 +7457,7 @@
     "ball4": 19,
     "ball5": 25,
     "ball6": 43,
+    "ball_bonus": 2,
     "win1_payout": 6965184938,
     "win1_count": 2
   },
@@ -6896,6 +7470,7 @@
     "ball4": 30,
     "ball5": 33,
     "ball6": 34,
+    "ball_bonus": 6,
     "win1_payout": 1699267875,
     "win1_count": 8
   },
@@ -6908,6 +7483,7 @@
     "ball4": 25,
     "ball5": 35,
     "ball6": 41,
+    "ball_bonus": 13,
     "win1_payout": 4321966000,
     "win1_count": 3
   },
@@ -6920,6 +7496,7 @@
     "ball4": 31,
     "ball5": 34,
     "ball6": 37,
+    "ball_bonus": 33,
     "win1_payout": 4484438375,
     "win1_count": 3
   },
@@ -6932,6 +7509,7 @@
     "ball4": 32,
     "ball5": 34,
     "ball6": 42,
+    "ball_bonus": 16,
     "win1_payout": 2796466575,
     "win1_count": 5
   },
@@ -6944,6 +7522,7 @@
     "ball4": 22,
     "ball5": 37,
     "ball6": 42,
+    "ball_bonus": 39,
     "win1_payout": 1396068444,
     "win1_count": 11
   },
@@ -6956,6 +7535,7 @@
     "ball4": 11,
     "ball5": 32,
     "ball6": 35,
+    "ball_bonus": 33,
     "win1_payout": 2028610500,
     "win1_count": 7
   },
@@ -6968,6 +7548,7 @@
     "ball4": 20,
     "ball5": 42,
     "ball6": 44,
+    "ball_bonus": 33,
     "win1_payout": 1844554547,
     "win1_count": 8
   },
@@ -6980,6 +7561,7 @@
     "ball4": 33,
     "ball5": 40,
     "ball6": 41,
+    "ball_bonus": 25,
     "win1_payout": 3560558719,
     "win1_count": 4
   },
@@ -6992,6 +7574,7 @@
     "ball4": 33,
     "ball5": 40,
     "ball6": 44,
+    "ball_bonus": 24,
     "win1_payout": 1341848353,
     "win1_count": 11
   },
@@ -7004,6 +7587,7 @@
     "ball4": 39,
     "ball5": 40,
     "ball6": 41,
+    "ball_bonus": 36,
     "win1_payout": 5033183250,
     "win1_count": 3
   },
@@ -7016,6 +7600,7 @@
     "ball4": 16,
     "ball5": 38,
     "ball6": 41,
+    "ball_bonus": 4,
     "win1_payout": 1620546334,
     "win1_count": 9
   },
@@ -7028,6 +7613,7 @@
     "ball4": 15,
     "ball5": 21,
     "ball6": 34,
+    "ball_bonus": 5,
     "win1_payout": 1778354344,
     "win1_count": 8
   },
@@ -7040,6 +7626,7 @@
     "ball4": 31,
     "ball5": 32,
     "ball6": 37,
+    "ball_bonus": 17,
     "win1_payout": 4974577375,
     "win1_count": 3
   },
@@ -7052,6 +7639,7 @@
     "ball4": 22,
     "ball5": 25,
     "ball6": 41,
+    "ball_bonus": 30,
     "win1_payout": 2889342075,
     "win1_count": 5
   },
@@ -7064,6 +7652,7 @@
     "ball4": 33,
     "ball5": 38,
     "ball6": 39,
+    "ball_bonus": 22,
     "win1_payout": 2136877983,
     "win1_count": 7
   },
@@ -7076,6 +7665,7 @@
     "ball4": 38,
     "ball5": 41,
     "ball6": 45,
+    "ball_bonus": 23,
     "win1_payout": 2185183983,
     "win1_count": 7
   },
@@ -7088,6 +7678,7 @@
     "ball4": 30,
     "ball5": 38,
     "ball6": 39,
+    "ball_bonus": 5,
     "win1_payout": 2964676200,
     "win1_count": 5
   },
@@ -7100,6 +7691,7 @@
     "ball4": 13,
     "ball5": 28,
     "ball6": 44,
+    "ball_bonus": 43,
     "win1_payout": 2356381688,
     "win1_count": 6
   },
@@ -7112,6 +7704,7 @@
     "ball4": 24,
     "ball5": 33,
     "ball6": 38,
+    "ball_bonus": 28,
     "win1_payout": 1532833500,
     "win1_count": 9
   },
@@ -7124,6 +7717,7 @@
     "ball4": 25,
     "ball5": 28,
     "ball6": 37,
+    "ball_bonus": 3,
     "win1_payout": 1255592796,
     "win1_count": 11
   },
@@ -7136,6 +7730,7 @@
     "ball4": 35,
     "ball5": 38,
     "ball6": 40,
+    "ball_bonus": 5,
     "win1_payout": 1744525219,
     "win1_count": 8
   },
@@ -7148,6 +7743,7 @@
     "ball4": 14,
     "ball5": 25,
     "ball6": 43,
+    "ball_bonus": 17,
     "win1_payout": 1328267663,
     "win1_count": 10
   },
@@ -7160,6 +7756,7 @@
     "ball4": 24,
     "ball5": 35,
     "ball6": 43,
+    "ball_bonus": 37,
     "win1_payout": 1057920606,
     "win1_count": 13
   },
@@ -7172,6 +7769,7 @@
     "ball4": 33,
     "ball5": 38,
     "ball6": 45,
+    "ball_bonus": 22,
     "win1_payout": 833998594,
     "win1_count": 16
   },
@@ -7184,6 +7782,7 @@
     "ball4": 29,
     "ball5": 34,
     "ball6": 35,
+    "ball_bonus": 27,
     "win1_payout": 1710918329,
     "win1_count": 8
   },
@@ -7196,6 +7795,7 @@
     "ball4": 27,
     "ball5": 29,
     "ball6": 36,
+    "ball_bonus": 44,
     "win1_payout": 901798725,
     "win1_count": 15
   },
@@ -7208,6 +7808,7 @@
     "ball4": 31,
     "ball5": 34,
     "ball6": 35,
+    "ball_bonus": 37,
     "win1_payout": 1524565209,
     "win1_count": 9
   },
@@ -7220,6 +7821,7 @@
     "ball4": 27,
     "ball5": 30,
     "ball6": 38,
+    "ball_bonus": 2,
     "win1_payout": 1689530860,
     "win1_count": 8
   },
@@ -7232,6 +7834,7 @@
     "ball4": 26,
     "ball5": 27,
     "ball6": 43,
+    "ball_bonus": 28,
     "win1_payout": 3452136563,
     "win1_count": 4
   },
@@ -7244,6 +7847,7 @@
     "ball4": 21,
     "ball5": 33,
     "ball6": 34,
+    "ball_bonus": 30,
     "win1_payout": 1229141557,
     "win1_count": 11
   },
@@ -7256,6 +7860,7 @@
     "ball4": 9,
     "ball5": 10,
     "ball6": 38,
+    "ball_bonus": 42,
     "win1_payout": 1394232250,
     "win1_count": 9
   },
@@ -7268,6 +7873,7 @@
     "ball4": 14,
     "ball5": 20,
     "ball6": 39,
+    "ball_bonus": 22,
     "win1_payout": 1311566850,
     "win1_count": 10
   },
@@ -7280,6 +7886,7 @@
     "ball4": 36,
     "ball5": 38,
     "ball6": 39,
+    "ball_bonus": 13,
     "win1_payout": 3494480907,
     "win1_count": 4
   },
@@ -7292,6 +7899,7 @@
     "ball4": 19,
     "ball5": 39,
     "ball6": 44,
+    "ball_bonus": 41,
     "win1_payout": 1943530018,
     "win1_count": 7
   },
@@ -7304,6 +7912,7 @@
     "ball4": 34,
     "ball5": 39,
     "ball6": 40,
+    "ball_bonus": 13,
     "win1_payout": 6339311438,
     "win1_count": 2
   },
@@ -7316,6 +7925,7 @@
     "ball4": 23,
     "ball5": 28,
     "ball6": 36,
+    "ball_bonus": 33,
     "win1_payout": 3516018375,
     "win1_count": 4
   },
@@ -7328,6 +7938,7 @@
     "ball4": 33,
     "ball5": 36,
     "ball6": 37,
+    "ball_bonus": 14,
     "win1_payout": 3502706157,
     "win1_count": 4
   },
@@ -7340,6 +7951,7 @@
     "ball4": 19,
     "ball5": 25,
     "ball6": 33,
+    "ball_bonus": 40,
     "win1_payout": 1181705250,
     "win1_count": 11
   },
@@ -7352,6 +7964,7 @@
     "ball4": 16,
     "ball5": 41,
     "ball6": 44,
+    "ball_bonus": 35,
     "win1_payout": 1549831209,
     "win1_count": 9
   },
@@ -7364,6 +7977,7 @@
     "ball4": 39,
     "ball5": 40,
     "ball6": 44,
+    "ball_bonus": 18,
     "win1_payout": 2540975438,
     "win1_count": 6
   },
@@ -7376,6 +7990,7 @@
     "ball4": 19,
     "ball5": 23,
     "ball6": 27,
+    "ball_bonus": 35,
     "win1_payout": 1535062417,
     "win1_count": 9
   },
@@ -7388,6 +8003,7 @@
     "ball4": 23,
     "ball5": 40,
     "ball6": 45,
+    "ball_bonus": 3,
     "win1_payout": 1611811250,
     "win1_count": 9
   },
@@ -7400,6 +8016,7 @@
     "ball4": 12,
     "ball5": 24,
     "ball6": 27,
+    "ball_bonus": 28,
     "win1_payout": 1629701860,
     "win1_count": 8
   },
@@ -7412,6 +8029,7 @@
     "ball4": 30,
     "ball5": 42,
     "ball6": 43,
+    "ball_bonus": 15,
     "win1_payout": 2881326225,
     "win1_count": 5
   },
@@ -7424,6 +8042,7 @@
     "ball4": 30,
     "ball5": 35,
     "ball6": 40,
+    "ball_bonus": 21,
     "win1_payout": 4612479375,
     "win1_count": 3
   },
@@ -7436,6 +8055,7 @@
     "ball4": 32,
     "ball5": 39,
     "ball6": 45,
+    "ball_bonus": 40,
     "win1_payout": 2028283233,
     "win1_count": 7
   },
@@ -7448,6 +8068,7 @@
     "ball4": 16,
     "ball5": 19,
     "ball6": 42,
+    "ball_bonus": 9,
     "win1_payout": 2359723500,
     "win1_count": 6
   },
@@ -7460,6 +8081,7 @@
     "ball4": 21,
     "ball5": 28,
     "ball6": 34,
+    "ball_bonus": 24,
     "win1_payout": 1630598292,
     "win1_count": 9
   },
@@ -7472,6 +8094,7 @@
     "ball4": 39,
     "ball5": 41,
     "ball6": 45,
+    "ball_bonus": 25,
     "win1_payout": 1813702594,
     "win1_count": 8
   },
@@ -7484,6 +8107,7 @@
     "ball4": 26,
     "ball5": 27,
     "ball6": 35,
+    "ball_bonus": 16,
     "win1_payout": 2763729450,
     "win1_count": 5
   },
@@ -7496,6 +8120,7 @@
     "ball4": 20,
     "ball5": 21,
     "ball6": 39,
+    "ball_bonus": 13,
     "win1_payout": 2765184675,
     "win1_count": 5
   },
@@ -7508,6 +8133,7 @@
     "ball4": 33,
     "ball5": 40,
     "ball6": 43,
+    "ball_bonus": 15,
     "win1_payout": 1717871110,
     "win1_count": 8
   },
@@ -7520,6 +8146,7 @@
     "ball4": 25,
     "ball5": 31,
     "ball6": 45,
+    "ball_bonus": 12,
     "win1_payout": 1352230650,
     "win1_count": 10
   },
@@ -7532,6 +8159,7 @@
     "ball4": 15,
     "ball5": 23,
     "ball6": 42,
+    "ball_bonus": 11,
     "win1_payout": 1499942875,
     "win1_count": 9
   },
@@ -7544,6 +8172,7 @@
     "ball4": 38,
     "ball5": 43,
     "ball6": 44,
+    "ball_bonus": 1,
     "win1_payout": 2919433575,
     "win1_count": 5
   },
@@ -7556,6 +8185,7 @@
     "ball4": 24,
     "ball5": 27,
     "ball6": 31,
+    "ball_bonus": 15,
     "win1_payout": 4836305500,
     "win1_count": 3
   },
@@ -7568,6 +8198,7 @@
     "ball4": 23,
     "ball5": 31,
     "ball6": 34,
+    "ball_bonus": 8,
     "win1_payout": 3919853532,
     "win1_count": 4
   },
@@ -7580,6 +8211,7 @@
     "ball4": 32,
     "ball5": 35,
     "ball6": 44,
+    "ball_bonus": 6,
     "win1_payout": 1432587716,
     "win1_count": 11
   },
@@ -7592,6 +8224,7 @@
     "ball4": 20,
     "ball5": 39,
     "ball6": 41,
+    "ball_bonus": 13,
     "win1_payout": 1217257094,
     "win1_count": 12
   },
@@ -7604,6 +8237,7 @@
     "ball4": 12,
     "ball5": 20,
     "ball6": 27,
+    "ball_bonus": 38,
     "win1_payout": 1077935106,
     "win1_count": 13
   },
@@ -7616,6 +8250,7 @@
     "ball4": 26,
     "ball5": 29,
     "ball6": 33,
+    "ball_bonus": 32,
     "win1_payout": 1855587235,
     "win1_count": 8
   },
@@ -7628,6 +8263,7 @@
     "ball4": 16,
     "ball5": 20,
     "ball6": 31,
+    "ball_bonus": 26,
     "win1_payout": 1832362219,
     "win1_count": 8
   },
@@ -7640,6 +8276,7 @@
     "ball4": 37,
     "ball5": 38,
     "ball6": 44,
+    "ball_bonus": 23,
     "win1_payout": 3899241094,
     "win1_count": 4
   },
@@ -7652,6 +8289,7 @@
     "ball4": 24,
     "ball5": 31,
     "ball6": 34,
+    "ball_bonus": 6,
     "win1_payout": 2229403179,
     "win1_count": 7
   },
@@ -7664,6 +8302,7 @@
     "ball4": 23,
     "ball5": 25,
     "ball6": 32,
+    "ball_bonus": 40,
     "win1_payout": 4061185219,
     "win1_count": 4
   },
@@ -7676,6 +8315,7 @@
     "ball4": 21,
     "ball5": 26,
     "ball6": 35,
+    "ball_bonus": 23,
     "win1_payout": 1728768834,
     "win1_count": 9
   },
@@ -7688,6 +8328,7 @@
     "ball4": 36,
     "ball5": 37,
     "ball6": 43,
+    "ball_bonus": 12,
     "win1_payout": 1990074563,
     "win1_count": 8
   },
@@ -7700,6 +8341,7 @@
     "ball4": 24,
     "ball5": 39,
     "ball6": 45,
+    "ball_bonus": 32,
     "win1_payout": 1251460438,
     "win1_count": 12
   },
@@ -7712,6 +8354,7 @@
     "ball4": 32,
     "ball5": 33,
     "ball6": 40,
+    "ball_bonus": 13,
     "win1_payout": 2535763625,
     "win1_count": 6
   },
@@ -7724,6 +8367,7 @@
     "ball4": 23,
     "ball5": 28,
     "ball6": 36,
+    "ball_bonus": 8,
     "win1_payout": 1831451204,
     "win1_count": 8
   },
@@ -7736,6 +8380,7 @@
     "ball4": 26,
     "ball5": 40,
     "ball6": 41,
+    "ball_bonus": 31,
     "win1_payout": 3696297750,
     "win1_count": 4
   },
@@ -7748,6 +8393,7 @@
     "ball4": 41,
     "ball5": 43,
     "ball6": 45,
+    "ball_bonus": 30,
     "win1_payout": 2215498393,
     "win1_count": 7
   },
@@ -7760,6 +8406,7 @@
     "ball4": 23,
     "ball5": 24,
     "ball6": 30,
+    "ball_bonus": 29,
     "win1_payout": 2189725608,
     "win1_count": 7
   },
@@ -7772,6 +8419,7 @@
     "ball4": 37,
     "ball5": 38,
     "ball6": 43,
+    "ball_bonus": 4,
     "win1_payout": 2120987947,
     "win1_count": 7
   },
@@ -7784,6 +8432,7 @@
     "ball4": 33,
     "ball5": 41,
     "ball6": 42,
+    "ball_bonus": 20,
     "win1_payout": 2948042100,
     "win1_count": 5
   },
@@ -7796,6 +8445,7 @@
     "ball4": 11,
     "ball5": 31,
     "ball6": 41,
+    "ball_bonus": 35,
     "win1_payout": 2849298900,
     "win1_count": 5
   },
@@ -7808,6 +8458,7 @@
     "ball4": 26,
     "ball5": 29,
     "ball6": 44,
+    "ball_bonus": 18,
     "win1_payout": 1855306454,
     "win1_count": 8
   },
@@ -7820,6 +8471,7 @@
     "ball4": 40,
     "ball5": 41,
     "ball6": 44,
+    "ball_bonus": 20,
     "win1_payout": 3003483525,
     "win1_count": 5
   },
@@ -7832,6 +8484,7 @@
     "ball4": 27,
     "ball5": 38,
     "ball6": 39,
+    "ball_bonus": 1,
     "win1_payout": 980958670,
     "win1_count": 14
   },
@@ -7844,6 +8497,7 @@
     "ball4": 31,
     "ball5": 36,
     "ball6": 43,
+    "ball_bonus": 6,
     "win1_payout": 1879301391,
     "win1_count": 8
   },
@@ -7856,6 +8510,7 @@
     "ball4": 39,
     "ball5": 40,
     "ball6": 44,
+    "ball_bonus": 18,
     "win1_payout": 1661439625,
     "win1_count": 9
   },
@@ -7868,6 +8523,7 @@
     "ball4": 16,
     "ball5": 31,
     "ball6": 40,
+    "ball_bonus": 39,
     "win1_payout": 7330002750,
     "win1_count": 2
   },
@@ -7880,6 +8536,7 @@
     "ball4": 39,
     "ball5": 40,
     "ball6": 43,
+    "ball_bonus": 23,
     "win1_payout": 1694762792,
     "win1_count": 9
   },
@@ -7892,6 +8549,7 @@
     "ball4": 28,
     "ball5": 32,
     "ball6": 36,
+    "ball_bonus": 37,
     "win1_payout": 1634031375,
     "win1_count": 9
   },
@@ -7904,6 +8562,7 @@
     "ball4": 27,
     "ball5": 29,
     "ball6": 42,
+    "ball_bonus": 45,
     "win1_payout": 1336604216,
     "win1_count": 11
   },
@@ -7916,6 +8575,7 @@
     "ball4": 33,
     "ball5": 39,
     "ball6": 44,
+    "ball_bonus": 14,
     "win1_payout": 1421272575,
     "win1_count": 10
   },
@@ -7928,6 +8588,7 @@
     "ball4": 20,
     "ball5": 27,
     "ball6": 38,
+    "ball_bonus": 40,
     "win1_payout": 1713025547,
     "win1_count": 8
   },
@@ -7940,6 +8601,7 @@
     "ball4": 11,
     "ball5": 15,
     "ball6": 37,
+    "ball_bonus": 26,
     "win1_payout": 1689733688,
     "win1_count": 8
   },
@@ -7952,6 +8614,7 @@
     "ball4": 19,
     "ball5": 38,
     "ball6": 42,
+    "ball_bonus": 20,
     "win1_payout": 2080244143,
     "win1_count": 7
   },
@@ -7964,6 +8627,7 @@
     "ball4": 36,
     "ball5": 41,
     "ball6": 44,
+    "ball_bonus": 5,
     "win1_payout": 1536801338,
     "win1_count": 10
   },
@@ -7976,6 +8640,7 @@
     "ball4": 17,
     "ball5": 38,
     "ball6": 44,
+    "ball_bonus": 13,
     "win1_payout": 3643230375,
     "win1_count": 4
   },
@@ -7988,6 +8653,7 @@
     "ball4": 11,
     "ball5": 17,
     "ball6": 28,
+    "ball_bonus": 16,
     "win1_payout": 2396901063,
     "win1_count": 6
   },
@@ -8000,6 +8666,7 @@
     "ball4": 37,
     "ball5": 42,
     "ball6": 43,
+    "ball_bonus": 13,
     "win1_payout": 2228764393,
     "win1_count": 7
   },
@@ -8012,6 +8679,7 @@
     "ball4": 24,
     "ball5": 27,
     "ball6": 32,
+    "ball_bonus": 3,
     "win1_payout": 2991158625,
     "win1_count": 5
   },
@@ -8024,6 +8692,7 @@
     "ball4": 29,
     "ball5": 33,
     "ball6": 38,
+    "ball_bonus": 9,
     "win1_payout": 2708173188,
     "win1_count": 6
   },
@@ -8036,6 +8705,7 @@
     "ball4": 27,
     "ball5": 40,
     "ball6": 41,
+    "ball_bonus": 25,
     "win1_payout": 1191725219,
     "win1_count": 12
   },
@@ -8048,6 +8718,7 @@
     "ball4": 13,
     "ball5": 31,
     "ball6": 35,
+    "ball_bonus": 24,
     "win1_payout": 3722322844,
     "win1_count": 4
   },
@@ -8060,6 +8731,7 @@
     "ball4": 31,
     "ball5": 36,
     "ball6": 45,
+    "ball_bonus": 43,
     "win1_payout": 1754745000,
     "win1_count": 9
   },
@@ -8072,6 +8744,7 @@
     "ball4": 29,
     "ball5": 33,
     "ball6": 44,
+    "ball_bonus": 5,
     "win1_payout": 1491453300,
     "win1_count": 10
   },
@@ -8084,6 +8757,7 @@
     "ball4": 25,
     "ball5": 27,
     "ball6": 31,
+    "ball_bonus": 11,
     "win1_payout": 1770565500,
     "win1_count": 8
   },
@@ -8096,6 +8770,7 @@
     "ball4": 15,
     "ball5": 18,
     "ball6": 45,
+    "ball_bonus": 7,
     "win1_payout": 3514549032,
     "win1_count": 4
   },
@@ -8108,6 +8783,7 @@
     "ball4": 34,
     "ball5": 39,
     "ball6": 45,
+    "ball_bonus": 27,
     "win1_payout": 1879726500,
     "win1_count": 8
   },
@@ -8120,6 +8796,7 @@
     "ball4": 36,
     "ball5": 41,
     "ball6": 44,
+    "ball_bonus": 42,
     "win1_payout": 1921114407,
     "win1_count": 8
   },
@@ -8132,6 +8809,7 @@
     "ball4": 12,
     "ball5": 25,
     "ball6": 37,
+    "ball_bonus": 45,
     "win1_payout": 2288490188,
     "win1_count": 6
   },
@@ -8144,6 +8822,7 @@
     "ball4": 14,
     "ball5": 26,
     "ball6": 34,
+    "ball_bonus": 35,
     "win1_payout": 2863005600,
     "win1_count": 5
   },
@@ -8156,6 +8835,7 @@
     "ball4": 29,
     "ball5": 32,
     "ball6": 42,
+    "ball_bonus": 30,
     "win1_payout": 1110570563,
     "win1_count": 14
   },
@@ -8168,6 +8848,7 @@
     "ball4": 29,
     "ball5": 43,
     "ball6": 44,
+    "ball_bonus": 7,
     "win1_payout": 2696328938,
     "win1_count": 6
   },
@@ -8180,6 +8861,7 @@
     "ball4": 35,
     "ball5": 38,
     "ball6": 43,
+    "ball_bonus": 2,
     "win1_payout": 4063713563,
     "win1_count": 4
   },
@@ -8192,6 +8874,7 @@
     "ball4": 27,
     "ball5": 28,
     "ball6": 40,
+    "ball_bonus": 15,
     "win1_payout": 1010930883,
     "win1_count": 16
   },
@@ -8204,6 +8887,7 @@
     "ball4": 17,
     "ball5": 25,
     "ball6": 39,
+    "ball_bonus": 40,
     "win1_payout": 1688815709,
     "win1_count": 9
   },
@@ -8216,6 +8900,7 @@
     "ball4": 28,
     "ball5": 38,
     "ball6": 40,
+    "ball_bonus": 18,
     "win1_payout": 1494367671,
     "win1_count": 11
   },
@@ -8228,6 +8913,7 @@
     "ball4": 24,
     "ball5": 25,
     "ball6": 43,
+    "ball_bonus": 13,
     "win1_payout": 1937531719,
     "win1_count": 8
   },
@@ -8240,6 +8926,7 @@
     "ball4": 13,
     "ball5": 28,
     "ball6": 42,
+    "ball_bonus": 45,
     "win1_payout": 2720029313,
     "win1_count": 6
   },
@@ -8252,6 +8939,7 @@
     "ball4": 23,
     "ball5": 34,
     "ball6": 35,
+    "ball_bonus": 2,
     "win1_payout": 1967536750,
     "win1_count": 9
   },
@@ -8264,6 +8952,7 @@
     "ball4": 30,
     "ball5": 36,
     "ball6": 38,
+    "ball_bonus": 34,
     "win1_payout": 2321775911,
     "win1_count": 7
   },
@@ -8276,6 +8965,7 @@
     "ball4": 34,
     "ball5": 38,
     "ball6": 39,
+    "ball_bonus": 43,
     "win1_payout": 1126507625,
     "win1_count": 15
   },
@@ -8288,6 +8978,7 @@
     "ball4": 35,
     "ball5": 43,
     "ball6": 45,
+    "ball_bonus": 16,
     "win1_payout": 2839296750,
     "win1_count": 6
   },
@@ -8300,6 +8991,7 @@
     "ball4": 15,
     "ball5": 32,
     "ball6": 36,
+    "ball_bonus": 44,
     "win1_payout": 2301273697,
     "win1_count": 7
   },
@@ -8312,6 +9004,7 @@
     "ball4": 28,
     "ball5": 34,
     "ball6": 42,
+    "ball_bonus": 30,
     "win1_payout": 1642763813,
     "win1_count": 10
   },
@@ -8324,6 +9017,7 @@
     "ball4": 25,
     "ball5": 33,
     "ball6": 43,
+    "ball_bonus": 12,
     "win1_payout": 1555036388,
     "win1_count": 10
   },
@@ -8336,6 +9030,7 @@
     "ball4": 33,
     "ball5": 34,
     "ball6": 38,
+    "ball_bonus": 14,
     "win1_payout": 1450214830,
     "win1_count": 11
   },
@@ -8348,6 +9043,7 @@
     "ball4": 18,
     "ball5": 34,
     "ball6": 38,
+    "ball_bonus": 21,
     "win1_payout": 1632054413,
     "win1_count": 10
   },
@@ -8360,6 +9056,7 @@
     "ball4": 11,
     "ball5": 33,
     "ball6": 39,
+    "ball_bonus": 31,
     "win1_payout": 1531443038,
     "win1_count": 10
   },
@@ -8372,6 +9069,7 @@
     "ball4": 21,
     "ball5": 33,
     "ball6": 37,
+    "ball_bonus": 18,
     "win1_payout": 1921084125,
     "win1_count": 8
   },
@@ -8384,6 +9082,7 @@
     "ball4": 16,
     "ball5": 21,
     "ball6": 29,
+    "ball_bonus": 3,
     "win1_payout": 1995411375,
     "win1_count": 8
   },
@@ -8396,6 +9095,7 @@
     "ball4": 29,
     "ball5": 30,
     "ball6": 44,
+    "ball_bonus": 13,
     "win1_payout": 2082099188,
     "win1_count": 8
   },
@@ -8408,6 +9108,7 @@
     "ball4": 16,
     "ball5": 36,
     "ball6": 38,
+    "ball_bonus": 35,
     "win1_payout": 1583183175,
     "win1_count": 10
   },
@@ -8420,6 +9121,7 @@
     "ball4": 24,
     "ball5": 26,
     "ball6": 29,
+    "ball_bonus": 9,
     "win1_payout": 1465091387,
     "win1_count": 11
   },
@@ -8432,6 +9134,7 @@
     "ball4": 33,
     "ball5": 41,
     "ball6": 44,
+    "ball_bonus": 21,
     "win1_payout": 3235784100,
     "win1_count": 5
   },
@@ -8444,6 +9147,7 @@
     "ball4": 23,
     "ball5": 33,
     "ball6": 42,
+    "ball_bonus": 45,
     "win1_payout": 3865190344,
     "win1_count": 4
   },
@@ -8456,6 +9160,7 @@
     "ball4": 22,
     "ball5": 28,
     "ball6": 45,
+    "ball_bonus": 23,
     "win1_payout": 3987206532,
     "win1_count": 4
   },
@@ -8468,6 +9173,7 @@
     "ball4": 10,
     "ball5": 28,
     "ball6": 30,
+    "ball_bonus": 37,
     "win1_payout": 3831746063,
     "win1_count": 4
   },
@@ -8480,6 +9186,7 @@
     "ball4": 24,
     "ball5": 39,
     "ball6": 44,
+    "ball_bonus": 35,
     "win1_payout": 1322167313,
     "win1_count": 12
   },
@@ -8492,6 +9199,7 @@
     "ball4": 19,
     "ball5": 34,
     "ball6": 45,
+    "ball_bonus": 1,
     "win1_payout": 4099552219,
     "win1_count": 4
   },
@@ -8504,6 +9212,7 @@
     "ball4": 36,
     "ball5": 39,
     "ball6": 44,
+    "ball_bonus": 32,
     "win1_payout": 1165271625,
     "win1_count": 14
   },
@@ -8516,6 +9225,7 @@
     "ball4": 24,
     "ball5": 25,
     "ball6": 33,
+    "ball_bonus": 10,
     "win1_payout": 2895441150,
     "win1_count": 5
   },
@@ -8528,6 +9238,7 @@
     "ball4": 35,
     "ball5": 37,
     "ball6": 45,
+    "ball_bonus": 42,
     "win1_payout": 2277413358,
     "win1_count": 7
   },
@@ -8540,6 +9251,7 @@
     "ball4": 31,
     "ball5": 33,
     "ball6": 45,
+    "ball_bonus": 19,
     "win1_payout": 4034485125,
     "win1_count": 4
   },
@@ -8552,6 +9264,7 @@
     "ball4": 18,
     "ball5": 19,
     "ball6": 23,
+    "ball_bonus": 44,
     "win1_payout": 1714720917,
     "win1_count": 9
   },
@@ -8564,6 +9277,7 @@
     "ball4": 33,
     "ball5": 37,
     "ball6": 40,
+    "ball_bonus": 20,
     "win1_payout": 2085131733,
     "win1_count": 7
   },
@@ -8576,6 +9290,7 @@
     "ball4": 33,
     "ball5": 41,
     "ball6": 44,
+    "ball_bonus": 10,
     "win1_payout": 2605510438,
     "win1_count": 6
   },
@@ -8588,6 +9303,7 @@
     "ball4": 16,
     "ball5": 29,
     "ball6": 30,
+    "ball_bonus": 21,
     "win1_payout": 1358752157,
     "win1_count": 12
   },
@@ -8600,6 +9316,7 @@
     "ball4": 25,
     "ball5": 28,
     "ball6": 32,
+    "ball_bonus": 44,
     "win1_payout": 2702433688,
     "win1_count": 6
   },
@@ -8612,6 +9329,7 @@
     "ball4": 23,
     "ball5": 32,
     "ball6": 39,
+    "ball_bonus": 40,
     "win1_payout": 926166464,
     "win1_count": 17
   },
@@ -8624,6 +9342,7 @@
     "ball4": 19,
     "ball5": 20,
     "ball6": 43,
+    "ball_bonus": 26,
     "win1_payout": 1879581334,
     "win1_count": 9
   },
@@ -8636,6 +9355,7 @@
     "ball4": 34,
     "ball5": 36,
     "ball6": 37,
+    "ball_bonus": 41,
     "win1_payout": 1233770358,
     "win1_count": 14
   },
@@ -8648,6 +9368,7 @@
     "ball4": 41,
     "ball5": 43,
     "ball6": 44,
+    "ball_bonus": 31,
     "win1_payout": 2273767360,
     "win1_count": 8
   },
@@ -8660,6 +9381,7 @@
     "ball4": 30,
     "ball5": 39,
     "ball6": 43,
+    "ball_bonus": 45,
     "win1_payout": 4365422719,
     "win1_count": 4
   },
@@ -8672,6 +9394,7 @@
     "ball4": 35,
     "ball5": 36,
     "ball6": 44,
+    "ball_bonus": 22,
     "win1_payout": 2114365360,
     "win1_count": 8
   },
@@ -8684,6 +9407,7 @@
     "ball4": 35,
     "ball5": 37,
     "ball6": 41,
+    "ball_bonus": 14,
     "win1_payout": 1427789813,
     "win1_count": 12
   },
@@ -8696,6 +9420,7 @@
     "ball4": 21,
     "ball5": 41,
     "ball6": 43,
+    "ball_bonus": 38,
     "win1_payout": 1579217250,
     "win1_count": 11
   },
@@ -8708,6 +9433,7 @@
     "ball4": 23,
     "ball5": 34,
     "ball6": 44,
+    "ball_bonus": 24,
     "win1_payout": 1166872634,
     "win1_count": 14
   },
@@ -8720,6 +9446,7 @@
     "ball4": 19,
     "ball5": 21,
     "ball6": 31,
+    "ball_bonus": 20,
     "win1_payout": 1115107742,
     "win1_count": 14
   },
@@ -8732,6 +9459,7 @@
     "ball4": 30,
     "ball5": 34,
     "ball6": 37,
+    "ball_bonus": 36,
     "win1_payout": 3243464400,
     "win1_count": 5
   },
@@ -8744,6 +9472,7 @@
     "ball4": 26,
     "ball5": 36,
     "ball6": 45,
+    "ball_bonus": 16,
     "win1_payout": 4198250719,
     "win1_count": 4
   },
@@ -8756,6 +9485,7 @@
     "ball4": 15,
     "ball5": 18,
     "ball6": 22,
+    "ball_bonus": 39,
     "win1_payout": 2017382110,
     "win1_count": 8
   },
@@ -8768,6 +9498,7 @@
     "ball4": 25,
     "ball5": 42,
     "ball6": 45,
+    "ball_bonus": 39,
     "win1_payout": 2340471054,
     "win1_count": 7
   },
@@ -8780,6 +9511,7 @@
     "ball4": 17,
     "ball5": 27,
     "ball6": 32,
+    "ball_bonus": 43,
     "win1_payout": 2203270608,
     "win1_count": 7
   },
@@ -8792,6 +9524,7 @@
     "ball4": 33,
     "ball5": 35,
     "ball6": 40,
+    "ball_bonus": 13,
     "win1_payout": 4016725125,
     "win1_count": 4
   },
@@ -8804,6 +9537,7 @@
     "ball4": 38,
     "ball5": 41,
     "ball6": 45,
+    "ball_bonus": 18,
     "win1_payout": 1949395500,
     "win1_count": 9
   },
@@ -8816,6 +9550,7 @@
     "ball4": 27,
     "ball5": 37,
     "ball6": 41,
+    "ball_bonus": 4,
     "win1_payout": 1847231588,
     "win1_count": 10
   },
@@ -8828,6 +9563,7 @@
     "ball4": 18,
     "ball5": 21,
     "ball6": 27,
+    "ball_bonus": 6,
     "win1_payout": 3397362225,
     "win1_count": 5
   },
@@ -8840,6 +9576,7 @@
     "ball4": 24,
     "ball5": 27,
     "ball6": 41,
+    "ball_bonus": 11,
     "win1_payout": 4283061000,
     "win1_count": 4
   },
@@ -8852,6 +9589,7 @@
     "ball4": 38,
     "ball5": 42,
     "ball6": 43,
+    "ball_bonus": 36,
     "win1_payout": 1634191091,
     "win1_count": 11
   },
@@ -8864,6 +9602,7 @@
     "ball4": 33,
     "ball5": 34,
     "ball6": 35,
+    "ball_bonus": 30,
     "win1_payout": 4744122282,
     "win1_count": 4
   },
@@ -8876,6 +9615,7 @@
     "ball4": 16,
     "ball5": 17,
     "ball6": 19,
+    "ball_bonus": 31,
     "win1_payout": 936929792,
     "win1_count": 18
   },
@@ -8888,6 +9628,7 @@
     "ball4": 34,
     "ball5": 44,
     "ball6": 45,
+    "ball_bonus": 16,
     "win1_payout": 3043595938,
     "win1_count": 6
   },
@@ -8900,6 +9641,7 @@
     "ball4": 36,
     "ball5": 37,
     "ball6": 40,
+    "ball_bonus": 6,
     "win1_payout": 1111814813,
     "win1_count": 16
   },
@@ -8912,6 +9654,7 @@
     "ball4": 34,
     "ball5": 41,
     "ball6": 44,
+    "ball_bonus": 10,
     "win1_payout": 2608641000,
     "win1_count": 7
   },
@@ -8924,6 +9667,7 @@
     "ball4": 21,
     "ball5": 34,
     "ball6": 41,
+    "ball_bonus": 43,
     "win1_payout": 1155411575,
     "win1_count": 15
   },
@@ -8936,6 +9680,7 @@
     "ball4": 9,
     "ball5": 12,
     "ball6": 23,
+    "ball_bonus": 10,
     "win1_payout": 746822982,
     "win1_count": 20
   },
@@ -8948,6 +9693,7 @@
     "ball4": 36,
     "ball5": 42,
     "ball6": 45,
+    "ball_bonus": 25,
     "win1_payout": 2038623709,
     "win1_count": 9
   },
@@ -8960,6 +9706,7 @@
     "ball4": 14,
     "ball5": 23,
     "ball6": 28,
+    "ball_bonus": 17,
     "win1_payout": 1903214584,
     "win1_count": 9
   },
@@ -8972,6 +9719,7 @@
     "ball4": 22,
     "ball5": 31,
     "ball6": 32,
+    "ball_bonus": 29,
     "win1_payout": 1928246542,
     "win1_count": 9
   },
@@ -8984,6 +9732,7 @@
     "ball4": 26,
     "ball5": 34,
     "ball6": 45,
+    "ball_bonus": 41,
     "win1_payout": 1350104395,
     "win1_count": 13
   },
@@ -8996,6 +9745,7 @@
     "ball4": 19,
     "ball5": 24,
     "ball6": 36,
+    "ball_bonus": 12,
     "win1_payout": 2522104286,
     "win1_count": 7
   },
@@ -9008,6 +9758,7 @@
     "ball4": 20,
     "ball5": 28,
     "ball6": 44,
+    "ball_bonus": 17,
     "win1_payout": 2097968110,
     "win1_count": 8
   },
@@ -9020,6 +9771,7 @@
     "ball4": 33,
     "ball5": 40,
     "ball6": 43,
+    "ball_bonus": 7,
     "win1_payout": 1870358834,
     "win1_count": 9
   },
@@ -9032,6 +9784,7 @@
     "ball4": 24,
     "ball5": 37,
     "ball6": 41,
+    "ball_bonus": 3,
     "win1_payout": 2711105063,
     "win1_count": 6
   },
@@ -9044,6 +9797,7 @@
     "ball4": 24,
     "ball5": 29,
     "ball6": 31,
+    "ball_bonus": 32,
     "win1_payout": 3427542000,
     "win1_count": 5
   },
@@ -9056,6 +9810,7 @@
     "ball4": 28,
     "ball5": 30,
     "ball6": 36,
+    "ball_bonus": 37,
     "win1_payout": 2214427266,
     "win1_count": 8
   },
@@ -9068,6 +9823,7 @@
     "ball4": 18,
     "ball5": 27,
     "ball6": 28,
+    "ball_bonus": 4,
     "win1_payout": 3414434700,
     "win1_count": 5
   },
@@ -9080,6 +9836,7 @@
     "ball4": 17,
     "ball5": 33,
     "ball6": 44,
+    "ball_bonus": 1,
     "win1_payout": 739839858,
     "win1_count": 21
   },
@@ -9092,6 +9849,7 @@
     "ball4": 30,
     "ball5": 39,
     "ball6": 43,
+    "ball_bonus": 24,
     "win1_payout": 2078969954,
     "win1_count": 8
   },
@@ -9104,6 +9862,7 @@
     "ball4": 40,
     "ball5": 42,
     "ball6": 43,
+    "ball_bonus": 32,
     "win1_payout": 3032670500,
     "win1_count": 6
   },
@@ -9116,6 +9875,7 @@
     "ball4": 31,
     "ball5": 42,
     "ball6": 43,
+    "ball_bonus": 12,
     "win1_payout": 2253299391,
     "win1_count": 8
   },
@@ -9128,6 +9888,7 @@
     "ball4": 24,
     "ball5": 42,
     "ball6": 45,
+    "ball_bonus": 30,
     "win1_payout": 2392730518,
     "win1_count": 7
   },
@@ -9140,6 +9901,7 @@
     "ball4": 21,
     "ball5": 26,
     "ball6": 41,
+    "ball_bonus": 16,
     "win1_payout": 1631432063,
     "win1_count": 10
   },
@@ -9152,6 +9914,7 @@
     "ball4": 32,
     "ball5": 34,
     "ball6": 43,
+    "ball_bonus": 10,
     "win1_payout": 2138130000,
     "win1_count": 8
   },
@@ -9164,6 +9927,7 @@
     "ball4": 31,
     "ball5": 34,
     "ball6": 36,
+    "ball_bonus": 15,
     "win1_payout": 2459975465,
     "win1_count": 7
   },
@@ -9176,6 +9940,7 @@
     "ball4": 12,
     "ball5": 42,
     "ball6": 43,
+    "ball_bonus": 33,
     "win1_payout": 1109214250,
     "win1_count": 15
   },
@@ -9188,6 +9953,7 @@
     "ball4": 35,
     "ball5": 39,
     "ball6": 41,
+    "ball_bonus": 21,
     "win1_payout": 2173637297,
     "win1_count": 8
   },
@@ -9200,6 +9966,7 @@
     "ball4": 31,
     "ball5": 34,
     "ball6": 42,
+    "ball_bonus": 22,
     "win1_payout": 1163768725,
     "win1_count": 15
   },
@@ -9212,6 +9979,7 @@
     "ball4": 30,
     "ball5": 38,
     "ball6": 44,
+    "ball_bonus": 4,
     "win1_payout": 1363572260,
     "win1_count": 13
   },
@@ -9224,6 +9992,7 @@
     "ball4": 16,
     "ball5": 41,
     "ball6": 45,
+    "ball_bonus": 4,
     "win1_payout": 1930760042,
     "win1_count": 9
   },
@@ -9236,6 +10005,7 @@
     "ball4": 23,
     "ball5": 39,
     "ball6": 43,
+    "ball_bonus": 34,
     "win1_payout": 2163099329,
     "win1_count": 8
   },
@@ -9248,6 +10018,7 @@
     "ball4": 18,
     "ball5": 21,
     "ball6": 29,
+    "ball_bonus": 30,
     "win1_payout": 4362644907,
     "win1_count": 4
   },
@@ -9260,6 +10031,7 @@
     "ball4": 14,
     "ball5": 21,
     "ball6": 41,
+    "ball_bonus": 32,
     "win1_payout": 1769608838,
     "win1_count": 10
   },
@@ -9272,6 +10044,7 @@
     "ball4": 21,
     "ball5": 31,
     "ball6": 35,
+    "ball_bonus": 44,
     "win1_payout": 1609403080,
     "win1_count": 11
   },
@@ -9284,6 +10057,7 @@
     "ball4": 28,
     "ball5": 34,
     "ball6": 42,
+    "ball_bonus": 9,
     "win1_payout": 1709721512,
     "win1_count": 11
   },
@@ -9296,6 +10070,7 @@
     "ball4": 33,
     "ball5": 38,
     "ball6": 42,
+    "ball_bonus": 17,
     "win1_payout": 3470437650,
     "win1_count": 5
   },
@@ -9308,6 +10083,7 @@
     "ball4": 21,
     "ball5": 28,
     "ball6": 40,
+    "ball_bonus": 20,
     "win1_payout": 2557579393,
     "win1_count": 7
   },
@@ -9320,6 +10096,7 @@
     "ball4": 21,
     "ball5": 34,
     "ball6": 37,
+    "ball_bonus": 18,
     "win1_payout": 833468036,
     "win1_count": 21
   },
@@ -9332,6 +10109,7 @@
     "ball4": 36,
     "ball5": 37,
     "ball6": 41,
+    "ball_bonus": 11,
     "win1_payout": 6264069500,
     "win1_count": 3
   },
@@ -9344,6 +10122,7 @@
     "ball4": 24,
     "ball5": 34,
     "ball6": 41,
+    "ball_bonus": 4,
     "win1_payout": 1527709296,
     "win1_count": 11
   },
@@ -9356,6 +10135,7 @@
     "ball4": 21,
     "ball5": 27,
     "ball6": 45,
+    "ball_bonus": 16,
     "win1_payout": 1667520137,
     "win1_count": 11
   },
@@ -9368,6 +10148,7 @@
     "ball4": 19,
     "ball5": 24,
     "ball6": 39,
+    "ball_bonus": 43,
     "win1_payout": 1882891542,
     "win1_count": 9
   },
@@ -9380,6 +10161,7 @@
     "ball4": 34,
     "ball5": 38,
     "ball6": 45,
+    "ball_bonus": 20,
     "win1_payout": 1946487625,
     "win1_count": 9
   },
@@ -9392,6 +10174,7 @@
     "ball4": 17,
     "ball5": 38,
     "ball6": 45,
+    "ball_bonus": 36,
     "win1_payout": 4603964625,
     "win1_count": 4
   },
@@ -9404,6 +10187,7 @@
     "ball4": 24,
     "ball5": 31,
     "ball6": 39,
+    "ball_bonus": 22,
     "win1_payout": 1908678000,
     "win1_count": 9
   },
@@ -9416,6 +10200,7 @@
     "ball4": 25,
     "ball5": 26,
     "ball6": 33,
+    "ball_bonus": 40,
     "win1_payout": 2886622688,
     "win1_count": 6
   },
@@ -9428,6 +10213,7 @@
     "ball4": 20,
     "ball5": 24,
     "ball6": 30,
+    "ball_bonus": 38,
     "win1_payout": 4551365250,
     "win1_count": 4
   },
@@ -9440,6 +10226,7 @@
     "ball4": 16,
     "ball5": 27,
     "ball6": 28,
+    "ball_bonus": 9,
     "win1_payout": 3092108313,
     "win1_count": 6
   },
@@ -9452,6 +10239,7 @@
     "ball4": 19,
     "ball5": 35,
     "ball6": 39,
+    "ball_bonus": 29,
     "win1_payout": 1401475154,
     "win1_count": 13
   },
@@ -9464,6 +10252,7 @@
     "ball4": 12,
     "ball5": 19,
     "ball6": 45,
+    "ball_bonus": 38,
     "win1_payout": 1140976825,
     "win1_count": 15
   },
@@ -9476,6 +10265,7 @@
     "ball4": 27,
     "ball5": 30,
     "ball6": 41,
+    "ball_bonus": 12,
     "win1_payout": 1160516274,
     "win1_count": 16
   },
@@ -9488,6 +10278,7 @@
     "ball4": 31,
     "ball5": 33,
     "ball6": 42,
+    "ball_bonus": 32,
     "win1_payout": 1253081893,
     "win1_count": 14
   },
@@ -9500,6 +10291,7 @@
     "ball4": 25,
     "ball5": 29,
     "ball6": 36,
+    "ball_bonus": 16,
     "win1_payout": 2655736768,
     "win1_count": 7
   },
@@ -9512,6 +10304,7 @@
     "ball4": 35,
     "ball5": 38,
     "ball6": 43,
+    "ball_bonus": 31,
     "win1_payout": 3750146775,
     "win1_count": 5
   },
@@ -9524,6 +10317,7 @@
     "ball4": 19,
     "ball5": 30,
     "ball6": 38,
+    "ball_bonus": 13,
     "win1_payout": 2650940304,
     "win1_count": 7
   },
@@ -9536,6 +10330,7 @@
     "ball4": 26,
     "ball5": 34,
     "ball6": 38,
+    "ball_bonus": 36,
     "win1_payout": 1714977000,
     "win1_count": 11
   },
@@ -9548,6 +10343,7 @@
     "ball4": 36,
     "ball5": 40,
     "ball6": 41,
+    "ball_bonus": 5,
     "win1_payout": 2763490340,
     "win1_count": 7
   },
@@ -9560,6 +10356,7 @@
     "ball4": 32,
     "ball5": 39,
     "ball6": 45,
+    "ball_bonus": 36,
     "win1_payout": 2397028125,
     "win1_count": 8
   },
@@ -9572,6 +10369,7 @@
     "ball4": 22,
     "ball5": 32,
     "ball6": 36,
+    "ball_bonus": 41,
     "win1_payout": 2710791911,
     "win1_count": 7
   },
@@ -9584,6 +10382,7 @@
     "ball4": 34,
     "ball5": 42,
     "ball6": 45,
+    "ball_bonus": 33,
     "win1_payout": 1826427225,
     "win1_count": 10
   },
@@ -9596,6 +10395,7 @@
     "ball4": 12,
     "ball5": 28,
     "ball6": 45,
+    "ball_bonus": 26,
     "win1_payout": 1632246205,
     "win1_count": 11
   },
@@ -9608,6 +10408,7 @@
     "ball4": 37,
     "ball5": 43,
     "ball6": 44,
+    "ball_bonus": 2,
     "win1_payout": 2256786657,
     "win1_count": 8
   },
@@ -9620,6 +10421,7 @@
     "ball4": 18,
     "ball5": 24,
     "ball6": 42,
+    "ball_bonus": 27,
     "win1_payout": 1082947993,
     "win1_count": 16
   },
@@ -9632,6 +10434,7 @@
     "ball4": 26,
     "ball5": 30,
     "ball6": 43,
+    "ball_bonus": 2,
     "win1_payout": 3663810225,
     "win1_count": 5
   },
@@ -9644,6 +10447,7 @@
     "ball4": 26,
     "ball5": 32,
     "ball6": 36,
+    "ball_bonus": 9,
     "win1_payout": 1631996523,
     "win1_count": 11
   },
@@ -9656,6 +10460,7 @@
     "ball4": 18,
     "ball5": 31,
     "ball6": 32,
+    "ball_bonus": 42,
     "win1_payout": 4266061969,
     "win1_count": 4
   },
@@ -9668,6 +10473,7 @@
     "ball4": 31,
     "ball5": 37,
     "ball6": 38,
+    "ball_bonus": 27,
     "win1_payout": 2640760875,
     "win1_count": 7
   },
@@ -9680,6 +10486,7 @@
     "ball4": 25,
     "ball5": 34,
     "ball6": 35,
+    "ball_bonus": 33,
     "win1_payout": 2437662322,
     "win1_count": 7
   },
@@ -9692,6 +10499,7 @@
     "ball4": 32,
     "ball5": 41,
     "ball6": 43,
+    "ball_bonus": 24,
     "win1_payout": 3087620500,
     "win1_count": 6
   },
@@ -9704,6 +10512,7 @@
     "ball4": 17,
     "ball5": 23,
     "ball6": 40,
+    "ball_bonus": 39,
     "win1_payout": 2921372750,
     "win1_count": 6
   },
@@ -9716,6 +10525,7 @@
     "ball4": 21,
     "ball5": 39,
     "ball6": 43,
+    "ball_bonus": 11,
     "win1_payout": 2231598047,
     "win1_count": 8
   },
@@ -9728,6 +10538,7 @@
     "ball4": 21,
     "ball5": 36,
     "ball6": 45,
+    "ball_bonus": 25,
     "win1_payout": 2524148197,
     "win1_count": 7
   },
@@ -9740,6 +10551,7 @@
     "ball4": 14,
     "ball5": 16,
     "ball6": 43,
+    "ball_bonus": 10,
     "win1_payout": 2947954750,
     "win1_count": 6
   },
@@ -9752,6 +10564,7 @@
     "ball4": 35,
     "ball5": 42,
     "ball6": 44,
+    "ball_bonus": 27,
     "win1_payout": 4591763157,
     "win1_count": 4
   },
@@ -9764,6 +10577,7 @@
     "ball4": 38,
     "ball5": 42,
     "ball6": 45,
+    "ball_bonus": 30,
     "win1_payout": 3067192063,
     "win1_count": 6
   },
@@ -9776,6 +10590,7 @@
     "ball4": 26,
     "ball5": 27,
     "ball6": 36,
+    "ball_bonus": 4,
     "win1_payout": 2579855358,
     "win1_count": 7
   },
@@ -9788,6 +10603,7 @@
     "ball4": 29,
     "ball5": 31,
     "ball6": 39,
+    "ball_bonus": 7,
     "win1_payout": 2128107938,
     "win1_count": 8
   },
@@ -9800,6 +10616,7 @@
     "ball4": 13,
     "ball5": 25,
     "ball6": 43,
+    "ball_bonus": 34,
     "win1_payout": 1868477334,
     "win1_count": 9
   },
@@ -9812,6 +10629,7 @@
     "ball4": 28,
     "ball5": 29,
     "ball6": 30,
+    "ball_bonus": 3,
     "win1_payout": 1380804318,
     "win1_count": 13
   },
@@ -9824,6 +10642,7 @@
     "ball4": 38,
     "ball5": 40,
     "ball6": 45,
+    "ball_bonus": 15,
     "win1_payout": 2594534840,
     "win1_count": 7
   },
@@ -9836,6 +10655,7 @@
     "ball4": 30,
     "ball5": 35,
     "ball6": 42,
+    "ball_bonus": 6,
     "win1_payout": 4627313532,
     "win1_count": 4
   },
@@ -9848,6 +10668,7 @@
     "ball4": 24,
     "ball5": 29,
     "ball6": 44,
+    "ball_bonus": 16,
     "win1_payout": 1316155956,
     "win1_count": 14
   },
@@ -9860,6 +10681,7 @@
     "ball4": 24,
     "ball5": 27,
     "ball6": 36,
+    "ball_bonus": 12,
     "win1_payout": 5930898625,
     "win1_count": 3
   },
@@ -9872,6 +10694,7 @@
     "ball4": 26,
     "ball5": 39,
     "ball6": 40,
+    "ball_bonus": 15,
     "win1_payout": 2009843917,
     "win1_count": 9
   },
@@ -9884,6 +10707,7 @@
     "ball4": 29,
     "ball5": 34,
     "ball6": 38,
+    "ball_bonus": 26,
     "win1_payout": 1256646550,
     "win1_count": 15
   },
@@ -9896,6 +10720,7 @@
     "ball4": 31,
     "ball5": 33,
     "ball6": 38,
+    "ball_bonus": 42,
     "win1_payout": 1658710563,
     "win1_count": 12
   },
@@ -9908,6 +10733,7 @@
     "ball4": 25,
     "ball5": 33,
     "ball6": 36,
+    "ball_bonus": 42,
     "win1_payout": 2075192084,
     "win1_count": 9
   },
@@ -9920,6 +10746,7 @@
     "ball4": 29,
     "ball5": 33,
     "ball6": 44,
+    "ball_bonus": 14,
     "win1_payout": 1206500375,
     "win1_count": 15
   },
@@ -9932,6 +10759,7 @@
     "ball4": 29,
     "ball5": 31,
     "ball6": 39,
+    "ball_bonus": 18,
     "win1_payout": 1455185972,
     "win1_count": 13
   },
@@ -9944,6 +10772,7 @@
     "ball4": 35,
     "ball5": 43,
     "ball6": 45,
+    "ball_bonus": 29,
     "win1_payout": 2444650641,
     "win1_count": 8
   },
@@ -9956,6 +10785,7 @@
     "ball4": 18,
     "ball5": 37,
     "ball6": 38,
+    "ball_bonus": 17,
     "win1_payout": 2060528750,
     "win1_count": 9
   },
@@ -9968,6 +10798,7 @@
     "ball4": 19,
     "ball5": 31,
     "ball6": 39,
+    "ball_bonus": 9,
     "win1_payout": 1110702258,
     "win1_count": 16
   },
@@ -9980,6 +10811,7 @@
     "ball4": 26,
     "ball5": 40,
     "ball6": 43,
+    "ball_bonus": 30,
     "win1_payout": 2088204584,
     "win1_count": 9
   },
@@ -9992,6 +10824,7 @@
     "ball4": 39,
     "ball5": 41,
     "ball6": 42,
+    "ball_bonus": 19,
     "win1_payout": 2356317282,
     "win1_count": 8
   },
@@ -10004,6 +10837,7 @@
     "ball4": 35,
     "ball5": 42,
     "ball6": 43,
+    "ball_bonus": 3,
     "win1_payout": 1690693671,
     "win1_count": 11
   },
@@ -10016,6 +10850,7 @@
     "ball4": 28,
     "ball5": 38,
     "ball6": 45,
+    "ball_bonus": 35,
     "win1_payout": 1233681125,
     "win1_count": 15
   },
@@ -10028,6 +10863,7 @@
     "ball4": 14,
     "ball5": 26,
     "ball6": 28,
+    "ball_bonus": 19,
     "win1_payout": 1257843670,
     "win1_count": 14
   },
@@ -10040,6 +10876,7 @@
     "ball4": 30,
     "ball5": 33,
     "ball6": 45,
+    "ball_bonus": 6,
     "win1_payout": 3144449125,
     "win1_count": 6
   },
@@ -10052,6 +10889,7 @@
     "ball4": 33,
     "ball5": 36,
     "ball6": 38,
+    "ball_bonus": 20,
     "win1_payout": 3813733050,
     "win1_count": 5
   },
@@ -10064,6 +10902,7 @@
     "ball4": 12,
     "ball5": 13,
     "ball6": 19,
+    "ball_bonus": 35,
     "win1_payout": 1359454904,
     "win1_count": 13
   },
@@ -10076,6 +10915,7 @@
     "ball4": 28,
     "ball5": 29,
     "ball6": 43,
+    "ball_bonus": 27,
     "win1_payout": 2042961788,
     "win1_count": 10
   },
@@ -10088,6 +10928,7 @@
     "ball4": 30,
     "ball5": 33,
     "ball6": 38,
+    "ball_bonus": 24,
     "win1_payout": 1116095714,
     "win1_count": 17
   },
@@ -10100,6 +10941,7 @@
     "ball4": 36,
     "ball5": 39,
     "ball6": 42,
+    "ball_bonus": 38,
     "win1_payout": 2035475025,
     "win1_count": 10
   },
@@ -10112,6 +10954,7 @@
     "ball4": 33,
     "ball5": 34,
     "ball6": 42,
+    "ball_bonus": 4,
     "win1_payout": 4012970100,
     "win1_count": 5
   },
@@ -10124,6 +10967,7 @@
     "ball4": 15,
     "ball5": 33,
     "ball6": 45,
+    "ball_bonus": 18,
     "win1_payout": 1162963542,
     "win1_count": 18
   },
@@ -10136,6 +10980,7 @@
     "ball4": 33,
     "ball5": 40,
     "ball6": 45,
+    "ball_bonus": 6,
     "win1_payout": 1891217182,
     "win1_count": 11
   },
@@ -10148,6 +10993,7 @@
     "ball4": 41,
     "ball5": 43,
     "ball6": 45,
+    "ball_bonus": 13,
     "win1_payout": 1596884395,
     "win1_count": 13
   },
@@ -10160,6 +11006,7 @@
     "ball4": 28,
     "ball5": 30,
     "ball6": 42,
+    "ball_bonus": 22,
     "win1_payout": 2520846657,
     "win1_count": 8
   },
@@ -10172,6 +11019,7 @@
     "ball4": 22,
     "ball5": 38,
     "ball6": 39,
+    "ball_bonus": 34,
     "win1_payout": 3011580858,
     "win1_count": 7
   },
@@ -10184,6 +11032,7 @@
     "ball4": 29,
     "ball5": 34,
     "ball6": 39,
+    "ball_bonus": 3,
     "win1_payout": 1158252883,
     "win1_count": 17
   },
@@ -10196,6 +11045,7 @@
     "ball4": 28,
     "ball5": 36,
     "ball6": 39,
+    "ball_bonus": 5,
     "win1_payout": 3377587875,
     "win1_count": 6
   },
@@ -10208,6 +11058,7 @@
     "ball4": 26,
     "ball5": 31,
     "ball6": 44,
+    "ball_bonus": 40,
     "win1_payout": 2483692313,
     "win1_count": 8
   },
@@ -10220,6 +11071,7 @@
     "ball4": 30,
     "ball5": 33,
     "ball6": 35,
+    "ball_bonus": 9,
     "win1_payout": 4801543407,
     "win1_count": 4
   },
@@ -10232,6 +11084,7 @@
     "ball4": 26,
     "ball5": 27,
     "ball6": 44,
+    "ball_bonus": 13,
     "win1_payout": 2885006786,
     "win1_count": 7
   },
@@ -10244,6 +11097,7 @@
     "ball4": 32,
     "ball5": 36,
     "ball6": 43,
+    "ball_bonus": 3,
     "win1_payout": 3421706750,
     "win1_count": 6
   },
@@ -10256,6 +11110,7 @@
     "ball4": 19,
     "ball5": 43,
     "ball6": 44,
+    "ball_bonus": 7,
     "win1_payout": 2269510500,
     "win1_count": 9
   },
@@ -10268,6 +11123,7 @@
     "ball4": 41,
     "ball5": 43,
     "ball6": 44,
+    "ball_bonus": 17,
     "win1_payout": 3977927550,
     "win1_count": 5
   },
@@ -10280,6 +11136,7 @@
     "ball4": 28,
     "ball5": 34,
     "ball6": 38,
+    "ball_bonus": 43,
     "win1_payout": 1284915425,
     "win1_count": 15
   },
@@ -10292,6 +11149,7 @@
     "ball4": 38,
     "ball5": 39,
     "ball6": 43,
+    "ball_bonus": 23,
     "win1_payout": 2202347459,
     "win1_count": 9
   },
@@ -10304,6 +11162,7 @@
     "ball4": 38,
     "ball5": 39,
     "ball6": 41,
+    "ball_bonus": 24,
     "win1_payout": 1853927489,
     "win1_count": 11
   },
@@ -10316,6 +11175,7 @@
     "ball4": 25,
     "ball5": 27,
     "ball6": 32,
+    "ball_bonus": 42,
     "win1_payout": 1879899825,
     "win1_count": 10
   },
@@ -10328,6 +11188,7 @@
     "ball4": 21,
     "ball5": 22,
     "ball6": 25,
+    "ball_bonus": 24,
     "win1_payout": 4872108844,
     "win1_count": 4
   },
@@ -10340,6 +11201,7 @@
     "ball4": 40,
     "ball5": 42,
     "ball6": 43,
+    "ball_bonus": 32,
     "win1_payout": 2190922709,
     "win1_count": 9
   },
@@ -10352,6 +11214,7 @@
     "ball4": 35,
     "ball5": 39,
     "ball6": 43,
+    "ball_bonus": 12,
     "win1_payout": 2853357322,
     "win1_count": 7
   },
@@ -10364,6 +11227,7 @@
     "ball4": 13,
     "ball5": 25,
     "ball6": 36,
+    "ball_bonus": 32,
     "win1_payout": 1716553637,
     "win1_count": 11
   },
@@ -10376,6 +11240,7 @@
     "ball4": 32,
     "ball5": 33,
     "ball6": 45,
+    "ball_bonus": 2,
     "win1_payout": 1551729145,
     "win1_count": 13
   },
@@ -10388,6 +11253,7 @@
     "ball4": 34,
     "ball5": 37,
     "ball6": 39,
+    "ball_bonus": 12,
     "win1_payout": 2240409000,
     "win1_count": 9
   },
@@ -10400,6 +11266,7 @@
     "ball4": 22,
     "ball5": 24,
     "ball6": 40,
+    "ball_bonus": 41,
     "win1_payout": 3933755250,
     "win1_count": 5
   },
@@ -10412,6 +11279,7 @@
     "ball4": 41,
     "ball5": 43,
     "ball6": 44,
+    "ball_bonus": 25,
     "win1_payout": 3233804250,
     "win1_count": 6
   },
@@ -10424,6 +11292,7 @@
     "ball4": 27,
     "ball5": 37,
     "ball6": 39,
+    "ball_bonus": 4,
     "win1_payout": 1922582588,
     "win1_count": 10
   },
@@ -10436,6 +11305,7 @@
     "ball4": 32,
     "ball5": 40,
     "ball6": 42,
+    "ball_bonus": 31,
     "win1_payout": 1928842988,
     "win1_count": 10
   },
@@ -10448,6 +11318,7 @@
     "ball4": 26,
     "ball5": 30,
     "ball6": 34,
+    "ball_bonus": 38,
     "win1_payout": 2718071358,
     "win1_count": 7
   },
@@ -10460,6 +11331,7 @@
     "ball4": 32,
     "ball5": 33,
     "ball6": 43,
+    "ball_bonus": 29,
     "win1_payout": 1262705579,
     "win1_count": 16
   },
@@ -10472,6 +11344,7 @@
     "ball4": 13,
     "ball5": 33,
     "ball6": 39,
+    "ball_bonus": 38,
     "win1_payout": 1874553225,
     "win1_count": 10
   },
@@ -10484,6 +11357,7 @@
     "ball4": 23,
     "ball5": 28,
     "ball6": 42,
+    "ball_bonus": 32,
     "win1_payout": 1117123917,
     "win1_count": 18
   },
@@ -10496,6 +11370,7 @@
     "ball4": 34,
     "ball5": 39,
     "ball6": 44,
+    "ball_bonus": 36,
     "win1_payout": 1415946724,
     "win1_count": 14
   },
@@ -10508,6 +11383,7 @@
     "ball4": 26,
     "ball5": 34,
     "ball6": 42,
+    "ball_bonus": 24,
     "win1_payout": 1090657856,
     "win1_count": 19
   },
@@ -10520,6 +11396,7 @@
     "ball4": 22,
     "ball5": 23,
     "ball6": 43,
+    "ball_bonus": 12,
     "win1_payout": 1716607188,
     "win1_count": 12
   },
@@ -10532,6 +11409,7 @@
     "ball4": 16,
     "ball5": 25,
     "ball6": 31,
+    "ball_bonus": 3,
     "win1_payout": 3207993500,
     "win1_count": 6
   },
@@ -10544,6 +11422,7 @@
     "ball4": 14,
     "ball5": 15,
     "ball6": 35,
+    "ball_bonus": 20,
     "win1_payout": 3206361313,
     "win1_count": 6
   },
@@ -10556,6 +11435,7 @@
     "ball4": 23,
     "ball5": 24,
     "ball6": 45,
+    "ball_bonus": 38,
     "win1_payout": 2837810465,
     "win1_count": 7
   },
@@ -10568,6 +11448,7 @@
     "ball4": 26,
     "ball5": 27,
     "ball6": 32,
+    "ball_bonus": 9,
     "win1_payout": 2503212282,
     "win1_count": 8
   },
@@ -10580,6 +11461,7 @@
     "ball4": 43,
     "ball5": 44,
     "ball6": 45,
+    "ball_bonus": 23,
     "win1_payout": 4127270400,
     "win1_count": 5
   },
@@ -10592,6 +11474,7 @@
     "ball4": 33,
     "ball5": 37,
     "ball6": 44,
+    "ball_bonus": 22,
     "win1_payout": 1360519525,
     "win1_count": 15
   },
@@ -10604,6 +11487,7 @@
     "ball4": 28,
     "ball5": 37,
     "ball6": 45,
+    "ball_bonus": 17,
     "win1_payout": 1799077282,
     "win1_count": 12
   },
@@ -10616,6 +11500,7 @@
     "ball4": 27,
     "ball5": 39,
     "ball6": 45,
+    "ball_bonus": 31,
     "win1_payout": 1543832568,
     "win1_count": 13
   },
@@ -10628,6 +11513,7 @@
     "ball4": 37,
     "ball5": 42,
     "ball6": 45,
+    "ball_bonus": 2,
     "win1_payout": 2974643786,
     "win1_count": 7
   },
@@ -10640,6 +11526,7 @@
     "ball4": 27,
     "ball5": 36,
     "ball6": 45,
+    "ball_bonus": 10,
     "win1_payout": 2535268688,
     "win1_count": 8
   },
@@ -10652,6 +11539,7 @@
     "ball4": 31,
     "ball5": 34,
     "ball6": 38,
+    "ball_bonus": 32,
     "win1_payout": 2370359204,
     "win1_count": 8
   },
@@ -10664,6 +11552,7 @@
     "ball4": 38,
     "ball5": 39,
     "ball6": 42,
+    "ball_bonus": 26,
     "win1_payout": 2108986950,
     "win1_count": 10
   },
@@ -10676,6 +11565,7 @@
     "ball4": 18,
     "ball5": 29,
     "ball6": 37,
+    "ball_bonus": 6,
     "win1_payout": 2335486167,
     "win1_count": 9
   },
@@ -10688,6 +11578,7 @@
     "ball4": 31,
     "ball5": 39,
     "ball6": 41,
+    "ball_bonus": 19,
     "win1_payout": 3082673947,
     "win1_count": 7
   },
@@ -10700,6 +11591,7 @@
     "ball4": 18,
     "ball5": 26,
     "ball6": 42,
+    "ball_bonus": 36,
     "win1_payout": 1282017464,
     "win1_count": 17
   },
@@ -10712,6 +11604,7 @@
     "ball4": 23,
     "ball5": 25,
     "ball6": 41,
+    "ball_bonus": 10,
     "win1_payout": 2377433625,
     "win1_count": 9
   },
@@ -10724,6 +11617,7 @@
     "ball4": 40,
     "ball5": 41,
     "ball6": 43,
+    "ball_bonus": 45,
     "win1_payout": 2377935959,
     "win1_count": 9
   },
@@ -10736,6 +11630,7 @@
     "ball4": 38,
     "ball5": 39,
     "ball6": 41,
+    "ball_bonus": 23,
     "win1_payout": 1928079219,
     "win1_count": 12
   },
@@ -10748,6 +11643,7 @@
     "ball4": 26,
     "ball5": 38,
     "ball6": 45,
+    "ball_bonus": 23,
     "win1_payout": 3053222036,
     "win1_count": 7
   },
@@ -10760,6 +11656,7 @@
     "ball4": 22,
     "ball5": 26,
     "ball6": 36,
+    "ball_bonus": 29,
     "win1_payout": 1619922520,
     "win1_count": 13
   },
@@ -10772,6 +11669,7 @@
     "ball4": 35,
     "ball5": 37,
     "ball6": 42,
+    "ball_bonus": 17,
     "win1_payout": 2639313235,
     "win1_count": 8
   },
@@ -10784,6 +11682,7 @@
     "ball4": 21,
     "ball5": 33,
     "ball6": 39,
+    "ball_bonus": 37,
     "win1_payout": 3359356063,
     "win1_count": 6
   },
@@ -10796,6 +11695,7 @@
     "ball4": 18,
     "ball5": 35,
     "ball6": 38,
+    "ball_bonus": 14,
     "win1_payout": 3349851375,
     "win1_count": 6
   },
@@ -10808,6 +11708,7 @@
     "ball4": 23,
     "ball5": 30,
     "ball6": 34,
+    "ball_bonus": 21,
     "win1_payout": 2267974667,
     "win1_count": 9
   },
@@ -10820,6 +11721,7 @@
     "ball4": 24,
     "ball5": 36,
     "ball6": 39,
+    "ball_bonus": 30,
     "win1_payout": 1619317529,
     "win1_count": 13
   },
@@ -10832,6 +11734,7 @@
     "ball4": 21,
     "ball5": 22,
     "ball6": 28,
+    "ball_bonus": 45,
     "win1_payout": 1684582212,
     "win1_count": 13
   },
@@ -10844,6 +11747,7 @@
     "ball4": 26,
     "ball5": 43,
     "ball6": 45,
+    "ball_bonus": 11,
     "win1_payout": 2718077813,
     "win1_count": 8
   },
@@ -10856,6 +11760,7 @@
     "ball4": 27,
     "ball5": 38,
     "ball6": 40,
+    "ball_bonus": 20,
     "win1_payout": 3017862536,
     "win1_count": 7
   },
@@ -10868,6 +11773,7 @@
     "ball4": 28,
     "ball5": 31,
     "ball6": 32,
+    "ball_bonus": 20,
     "win1_payout": 2472607250,
     "win1_count": 9
   },
@@ -10880,6 +11786,7 @@
     "ball4": 38,
     "ball5": 40,
     "ball6": 44,
+    "ball_bonus": 37,
     "win1_payout": 3165059036,
     "win1_count": 7
   },
@@ -10892,6 +11799,7 @@
     "ball4": 22,
     "ball5": 23,
     "ball6": 44,
+    "ball_bonus": 30,
     "win1_payout": 2834856141,
     "win1_count": 8
   },
@@ -10904,6 +11812,7 @@
     "ball4": 30,
     "ball5": 34,
     "ball6": 35,
+    "ball_bonus": 33,
     "win1_payout": 2021062875,
     "win1_count": 11
   },
@@ -10916,6 +11825,7 @@
     "ball4": 27,
     "ball5": 35,
     "ball6": 39,
+    "ball_bonus": 31,
     "win1_payout": 941316375,
     "win1_count": 21
   },
@@ -10928,6 +11838,7 @@
     "ball4": 14,
     "ball5": 32,
     "ball6": 42,
+    "ball_bonus": 35,
     "win1_payout": 2113538625,
     "win1_count": 10
   },
@@ -10940,6 +11851,7 @@
     "ball4": 21,
     "ball5": 22,
     "ball6": 38,
+    "ball_bonus": 10,
     "win1_payout": 1493500581,
     "win1_count": 14
   },
@@ -10952,6 +11864,7 @@
     "ball4": 21,
     "ball5": 27,
     "ball6": 37,
+    "ball_bonus": 40,
     "win1_payout": 1338755602,
     "win1_count": 16
   },
@@ -10964,6 +11877,7 @@
     "ball4": 33,
     "ball5": 42,
     "ball6": 44,
+    "ball_bonus": 27,
     "win1_payout": 1950005557,
     "win1_count": 11
   },
@@ -10976,6 +11890,7 @@
     "ball4": 13,
     "ball5": 22,
     "ball6": 37,
+    "ball_bonus": 14,
     "win1_payout": 3518640500,
     "win1_count": 6
   },
@@ -10988,6 +11903,7 @@
     "ball4": 32,
     "ball5": 35,
     "ball6": 36,
+    "ball_bonus": 17,
     "win1_payout": 2025384341,
     "win1_count": 11
   },
@@ -11000,6 +11916,7 @@
     "ball4": 24,
     "ball5": 27,
     "ball6": 43,
+    "ball_bonus": 34,
     "win1_payout": 2144799638,
     "win1_count": 10
   },
@@ -11012,6 +11929,7 @@
     "ball4": 31,
     "ball5": 33,
     "ball6": 38,
+    "ball_bonus": 5,
     "win1_payout": 1117622646,
     "win1_count": 18
   },
@@ -11024,6 +11942,7 @@
     "ball4": 18,
     "ball5": 42,
     "ball6": 44,
+    "ball_bonus": 35,
     "win1_payout": 4305150450,
     "win1_count": 5
   },
@@ -11036,6 +11955,7 @@
     "ball4": 33,
     "ball5": 34,
     "ball6": 43,
+    "ball_bonus": 29,
     "win1_payout": 3120260197,
     "win1_count": 7
   },
@@ -11048,6 +11968,7 @@
     "ball4": 22,
     "ball5": 28,
     "ball6": 41,
+    "ball_bonus": 1,
     "win1_payout": 1232573405,
     "win1_count": 17
   },
@@ -11060,6 +11981,7 @@
     "ball4": 17,
     "ball5": 27,
     "ball6": 43,
+    "ball_bonus": 36,
     "win1_payout": 3417904500,
     "win1_count": 6
   },
@@ -11072,6 +11994,7 @@
     "ball4": 23,
     "ball5": 36,
     "ball6": 41,
+    "ball_bonus": 26,
     "win1_payout": 2667554625,
     "win1_count": 8
   },
@@ -11084,6 +12007,7 @@
     "ball4": 42,
     "ball5": 43,
     "ball6": 44,
+    "ball_bonus": 13,
     "win1_payout": 2382430667,
     "win1_count": 9
   },
@@ -11096,6 +12020,7 @@
     "ball4": 34,
     "ball5": 39,
     "ball6": 42,
+    "ball_bonus": 4,
     "win1_payout": 1771080532,
     "win1_count": 12
   },
@@ -11108,6 +12033,7 @@
     "ball4": 20,
     "ball5": 25,
     "ball6": 31,
+    "ball_bonus": 6,
     "win1_payout": 2032490663,
     "win1_count": 10
   },
@@ -11120,6 +12046,7 @@
     "ball4": 38,
     "ball5": 41,
     "ball6": 43,
+    "ball_bonus": 26,
     "win1_payout": 3714203875,
     "win1_count": 6
   },
@@ -11132,6 +12059,7 @@
     "ball4": 20,
     "ball5": 28,
     "ball6": 44,
+    "ball_bonus": 30,
     "win1_payout": 3134591358,
     "win1_count": 7
   },
@@ -11144,6 +12072,7 @@
     "ball4": 15,
     "ball5": 19,
     "ball6": 23,
+    "ball_bonus": 4,
     "win1_payout": 1308035157,
     "win1_count": 16
   },
@@ -11156,6 +12085,7 @@
     "ball4": 38,
     "ball5": 39,
     "ball6": 44,
+    "ball_bonus": 28,
     "win1_payout": 2832418829,
     "win1_count": 8
   },
@@ -11168,6 +12098,7 @@
     "ball4": 25,
     "ball5": 35,
     "ball6": 43,
+    "ball_bonus": 32,
     "win1_payout": 2957108063,
     "win1_count": 8
   },
@@ -11180,6 +12111,7 @@
     "ball4": 36,
     "ball5": 37,
     "ball6": 38,
+    "ball_bonus": 5,
     "win1_payout": 3390022983,
     "win1_count": 7
   },
@@ -11192,6 +12124,7 @@
     "ball4": 31,
     "ball5": 36,
     "ball6": 45,
+    "ball_bonus": 37,
     "win1_payout": 2927797079,
     "win1_count": 8
   },
@@ -11204,6 +12137,7 @@
     "ball4": 33,
     "ball5": 36,
     "ball6": 39,
+    "ball_bonus": 12,
     "win1_payout": 5765772844,
     "win1_count": 4
   },
@@ -11216,6 +12150,7 @@
     "ball4": 32,
     "ball5": 38,
     "ball6": 44,
+    "ball_bonus": 18,
     "win1_payout": 1711055424,
     "win1_count": 13
   },
@@ -11228,6 +12163,7 @@
     "ball4": 17,
     "ball5": 18,
     "ball6": 29,
+    "ball_bonus": 43,
     "win1_payout": 1492069179,
     "win1_count": 14
   },
@@ -11240,6 +12176,7 @@
     "ball4": 22,
     "ball5": 29,
     "ball6": 40,
+    "ball_bonus": 26,
     "win1_payout": 2058420819,
     "win1_count": 11
   },
@@ -11252,6 +12189,7 @@
     "ball4": 16,
     "ball5": 31,
     "ball6": 36,
+    "ball_bonus": 9,
     "win1_payout": 2249466563,
     "win1_count": 10
   },
@@ -11264,6 +12202,7 @@
     "ball4": 39,
     "ball5": 42,
     "ball6": 45,
+    "ball_bonus": 6,
     "win1_payout": 1708363039,
     "win1_count": 13
   },
@@ -11276,6 +12215,7 @@
     "ball4": 22,
     "ball5": 24,
     "ball6": 41,
+    "ball_bonus": 11,
     "win1_payout": 2846071079,
     "win1_count": 8
   },
@@ -11288,6 +12228,7 @@
     "ball4": 27,
     "ball5": 39,
     "ball6": 40,
+    "ball_bonus": 35,
     "win1_payout": 1347297422,
     "win1_count": 16
   },
@@ -11300,6 +12241,7 @@
     "ball4": 35,
     "ball5": 42,
     "ball6": 43,
+    "ball_bonus": 39,
     "win1_payout": 3761680313,
     "win1_count": 6
   },
@@ -11312,6 +12254,7 @@
     "ball4": 36,
     "ball5": 44,
     "ball6": 45,
+    "ball_bonus": 39,
     "win1_payout": 3435045108,
     "win1_count": 7
   },
@@ -11324,6 +12267,7 @@
     "ball4": 19,
     "ball5": 32,
     "ball6": 33,
+    "ball_bonus": 42,
     "win1_payout": 1961836356,
     "win1_count": 13
   },
@@ -11336,6 +12280,7 @@
     "ball4": 30,
     "ball5": 33,
     "ball6": 37,
+    "ball_bonus": 26,
     "win1_payout": 1765554491,
     "win1_count": 13
   },
@@ -11348,6 +12293,7 @@
     "ball4": 30,
     "ball5": 34,
     "ball6": 40,
+    "ball_bonus": 20,
     "win1_payout": 2157656182,
     "win1_count": 11
   },
@@ -11360,6 +12306,7 @@
     "ball4": 20,
     "ball5": 27,
     "ball6": 35,
+    "ball_bonus": 26,
     "win1_payout": 1275855750,
     "win1_count": 18
   },
@@ -11372,6 +12319,7 @@
     "ball4": 31,
     "ball5": 38,
     "ball6": 41,
+    "ball_bonus": 5,
     "win1_payout": 2188548716,
     "win1_count": 11
   },
@@ -11384,6 +12332,7 @@
     "ball4": 36,
     "ball5": 40,
     "ball6": 44,
+    "ball_bonus": 30,
     "win1_payout": 2458569713,
     "win1_count": 10
   },
@@ -11396,6 +12345,7 @@
     "ball4": 22,
     "ball5": 28,
     "ball6": 40,
+    "ball_bonus": 10,
     "win1_payout": 3281920500,
     "win1_count": 8
   },
@@ -11408,6 +12358,7 @@
     "ball4": 31,
     "ball5": 39,
     "ball6": 43,
+    "ball_bonus": 38,
     "win1_payout": 1747552661,
     "win1_count": 14
   },
@@ -11420,6 +12371,7 @@
     "ball4": 24,
     "ball5": 33,
     "ball6": 41,
+    "ball_bonus": 38,
     "win1_payout": 2713699834,
     "win1_count": 9
   },
@@ -11432,6 +12384,7 @@
     "ball4": 27,
     "ball5": 37,
     "ball6": 42,
+    "ball_bonus": 34,
     "win1_payout": 1640636009,
     "win1_count": 14
   },
@@ -11444,6 +12397,7 @@
     "ball4": 28,
     "ball5": 30,
     "ball6": 41,
+    "ball_bonus": 32,
     "win1_payout": 2478795900,
     "win1_count": 10
   },
@@ -11456,6 +12410,7 @@
     "ball4": 26,
     "ball5": 29,
     "ball6": 33,
+    "ball_bonus": 8,
     "win1_payout": 2023170188,
     "win1_count": 12
   },
@@ -11468,6 +12423,7 @@
     "ball4": 21,
     "ball5": 25,
     "ball6": 41,
+    "ball_bonus": 40,
     "win1_payout": 2022982671,
     "win1_count": 11
   },
@@ -11480,6 +12436,7 @@
     "ball4": 35,
     "ball5": 36,
     "ball6": 40,
+    "ball_bonus": 1,
     "win1_payout": 2126634137,
     "win1_count": 11
   },
@@ -11492,6 +12449,7 @@
     "ball4": 16,
     "ball5": 35,
     "ball6": 37,
+    "ball_bonus": 1,
     "win1_payout": 1596119675,
     "win1_count": 15
   },
@@ -11504,6 +12462,7 @@
     "ball4": 24,
     "ball5": 40,
     "ball6": 41,
+    "ball_bonus": 35,
     "win1_payout": 3015312891,
     "win1_count": 8
   },
@@ -11516,6 +12475,7 @@
     "ball4": 30,
     "ball5": 32,
     "ball6": 45,
+    "ball_bonus": 14,
     "win1_payout": 2401133213,
     "win1_count": 10
   },
@@ -11528,6 +12488,7 @@
     "ball4": 31,
     "ball5": 33,
     "ball6": 42,
+    "ball_bonus": 43,
     "win1_payout": 2575231209,
     "win1_count": 9
   },
@@ -11540,6 +12501,7 @@
     "ball4": 31,
     "ball5": 34,
     "ball6": 43,
+    "ball_bonus": 40,
     "win1_payout": 1940906094,
     "win1_count": 12
   },
@@ -11552,6 +12514,7 @@
     "ball4": 23,
     "ball5": 34,
     "ball6": 42,
+    "ball_bonus": 35,
     "win1_payout": 1476478125,
     "win1_count": 15
   },
@@ -11564,6 +12527,7 @@
     "ball4": 38,
     "ball5": 39,
     "ball6": 43,
+    "ball_bonus": 30,
     "win1_payout": 2345861063,
     "win1_count": 10
   },
@@ -11576,6 +12540,7 @@
     "ball4": 28,
     "ball5": 29,
     "ball6": 36,
+    "ball_bonus": 34,
     "win1_payout": 3403348929,
     "win1_count": 7
   },
@@ -11588,6 +12553,7 @@
     "ball4": 29,
     "ball5": 34,
     "ball6": 37,
+    "ball_bonus": 36,
     "win1_payout": 2411303513,
     "win1_count": 10
   },
@@ -11600,6 +12566,7 @@
     "ball4": 37,
     "ball5": 38,
     "ball6": 40,
+    "ball_bonus": 9,
     "win1_payout": 5809776094,
     "win1_count": 4
   },
@@ -11612,6 +12579,7 @@
     "ball4": 14,
     "ball5": 24,
     "ball6": 39,
+    "ball_bonus": 33,
     "win1_payout": 1667729683,
     "win1_count": 13
   },
@@ -11624,6 +12592,7 @@
     "ball4": 29,
     "ball5": 40,
     "ball6": 45,
+    "ball_bonus": 7,
     "win1_payout": 1149427894,
     "win1_count": 20
   },
@@ -11636,6 +12605,7 @@
     "ball4": 21,
     "ball5": 28,
     "ball6": 36,
+    "ball_bonus": 5,
     "win1_payout": 1611544045,
     "win1_count": 14
   },
@@ -11648,6 +12618,7 @@
     "ball4": 18,
     "ball5": 21,
     "ball6": 26,
+    "ball_bonus": 7,
     "win1_payout": 3725880250,
     "win1_count": 6
   },
@@ -11660,6 +12631,7 @@
     "ball4": 23,
     "ball5": 37,
     "ball6": 39,
+    "ball_bonus": 26,
     "win1_payout": 1124886244,
     "win1_count": 20
   },
@@ -11672,6 +12644,7 @@
     "ball4": 37,
     "ball5": 41,
     "ball6": 42,
+    "ball_bonus": 24,
     "win1_payout": 2912742750,
     "win1_count": 8
   },
@@ -11684,6 +12657,7 @@
     "ball4": 16,
     "ball5": 39,
     "ball6": 44,
+    "ball_bonus": 32,
     "win1_payout": 1317034523,
     "win1_count": 17
   },
@@ -11696,6 +12670,7 @@
     "ball4": 17,
     "ball5": 22,
     "ball6": 24,
+    "ball_bonus": 5,
     "win1_payout": 2440410375,
     "win1_count": 9
   },
@@ -11708,6 +12683,7 @@
     "ball4": 25,
     "ball5": 35,
     "ball6": 37,
+    "ball_bonus": 2,
     "win1_payout": 3243867215,
     "win1_count": 7
   },
@@ -11720,6 +12696,7 @@
     "ball4": 14,
     "ball5": 22,
     "ball6": 44,
+    "ball_bonus": 16,
     "win1_payout": 1669905911,
     "win1_count": 14
   },
@@ -11732,6 +12709,7 @@
     "ball4": 32,
     "ball5": 34,
     "ball6": 42,
+    "ball_bonus": 8,
     "win1_payout": 2373391388,
     "win1_count": 10
   },
@@ -11744,6 +12722,7 @@
     "ball4": 21,
     "ball5": 27,
     "ball6": 33,
+    "ball_bonus": 24,
     "win1_payout": 1606400518,
     "win1_count": 14
   },
@@ -11756,6 +12735,7 @@
     "ball4": 23,
     "ball5": 24,
     "ball6": 35,
+    "ball_bonus": 14,
     "win1_payout": 3409443215,
     "win1_count": 7
   },
@@ -11768,6 +12748,7 @@
     "ball4": 41,
     "ball5": 43,
     "ball6": 45,
+    "ball_bonus": 32,
     "win1_payout": 1992863193,
     "win1_count": 13
   },
@@ -11780,6 +12761,7 @@
     "ball4": 20,
     "ball5": 21,
     "ball6": 44,
+    "ball_bonus": 33,
     "win1_payout": 3023630672,
     "win1_count": 8
   },
@@ -11792,6 +12774,7 @@
     "ball4": 31,
     "ball5": 35,
     "ball6": 43,
+    "ball_bonus": 15,
     "win1_payout": 2503422225,
     "win1_count": 10
   },
@@ -11804,6 +12787,7 @@
     "ball4": 35,
     "ball5": 36,
     "ball6": 37,
+    "ball_bonus": 18,
     "win1_payout": 3453006268,
     "win1_count": 7
   },
@@ -11816,6 +12800,7 @@
     "ball4": 30,
     "ball5": 34,
     "ball6": 44,
+    "ball_bonus": 19,
     "win1_payout": 2434752975,
     "win1_count": 10
   },
@@ -11828,6 +12813,7 @@
     "ball4": 28,
     "ball5": 41,
     "ball6": 42,
+    "ball_bonus": 40,
     "win1_payout": 2375275125,
     "win1_count": 10
   },
@@ -11840,6 +12826,7 @@
     "ball4": 23,
     "ball5": 29,
     "ball6": 38,
+    "ball_bonus": 7,
     "win1_payout": 2378711625,
     "win1_count": 10
   },
@@ -11852,6 +12839,7 @@
     "ball4": 30,
     "ball5": 31,
     "ball6": 41,
+    "ball_bonus": 27,
     "win1_payout": 2678489375,
     "win1_count": 9
   },
@@ -11864,6 +12852,7 @@
     "ball4": 27,
     "ball5": 29,
     "ball6": 33,
+    "ball_bonus": 26,
     "win1_payout": 5826768563,
     "win1_count": 4
   },
@@ -11876,6 +12865,7 @@
     "ball4": 26,
     "ball5": 36,
     "ball6": 37,
+    "ball_bonus": 28,
     "win1_payout": 1740095277,
     "win1_count": 14
   },
@@ -11888,6 +12878,7 @@
     "ball4": 31,
     "ball5": 33,
     "ball6": 44,
+    "ball_bonus": 38,
     "win1_payout": 2904166032,
     "win1_count": 8
   },
@@ -11900,6 +12891,7 @@
     "ball4": 33,
     "ball5": 44,
     "ball6": 45,
+    "ball_bonus": 24,
     "win1_payout": 1986955563,
     "win1_count": 12
   },
@@ -11912,6 +12904,7 @@
     "ball4": 18,
     "ball5": 24,
     "ball6": 42,
+    "ball_bonus": 44,
     "win1_payout": 3991197063,
     "win1_count": 6
   },
@@ -11924,6 +12917,7 @@
     "ball4": 24,
     "ball5": 27,
     "ball6": 35,
+    "ball_bonus": 28,
     "win1_payout": 1861582063,
     "win1_count": 12
   },
@@ -11936,6 +12930,7 @@
     "ball4": 29,
     "ball5": 38,
     "ball6": 39,
+    "ball_bonus": 7,
     "win1_payout": 3447271875,
     "win1_count": 7
   },
@@ -11948,6 +12943,7 @@
     "ball4": 24,
     "ball5": 32,
     "ball6": 39,
+    "ball_bonus": 28,
     "win1_payout": 1491185771,
     "win1_count": 18
   },
@@ -11960,6 +12956,7 @@
     "ball4": 16,
     "ball5": 24,
     "ball6": 44,
+    "ball_bonus": 20,
     "win1_payout": 1253749560,
     "win1_count": 19
   },
@@ -11972,6 +12969,7 @@
     "ball4": 20,
     "ball5": 42,
     "ball6": 45,
+    "ball_bonus": 41,
     "win1_payout": 2076499657,
     "win1_count": 12
   },
@@ -11984,6 +12982,7 @@
     "ball4": 14,
     "ball5": 18,
     "ball6": 28,
+    "ball_bonus": 34,
     "win1_payout": 1513274790,
     "win1_count": 16
   },
@@ -11996,6 +12995,7 @@
     "ball4": 22,
     "ball5": 32,
     "ball6": 42,
+    "ball_bonus": 39,
     "win1_payout": 1246819620,
     "win1_count": 22
   },
@@ -12008,6 +13008,7 @@
     "ball4": 14,
     "ball5": 20,
     "ball6": 42,
+    "ball_bonus": 15,
     "win1_payout": 2077279594,
     "win1_count": 12
   },
@@ -12020,6 +13021,7 @@
     "ball4": 35,
     "ball5": 38,
     "ball6": 45,
+    "ball_bonus": 15,
     "win1_payout": 3088449563,
     "win1_count": 8
   },
@@ -12032,6 +13034,7 @@
     "ball4": 39,
     "ball5": 43,
     "ball6": 45,
+    "ball_bonus": 31,
     "win1_payout": 1811116822,
     "win1_count": 14
   },
@@ -12044,6 +13047,7 @@
     "ball4": 37,
     "ball5": 39,
     "ball6": 44,
+    "ball_bonus": 18,
     "win1_payout": 2576251913,
     "win1_count": 10
   },
@@ -12056,6 +13060,7 @@
     "ball4": 24,
     "ball5": 27,
     "ball6": 29,
+    "ball_bonus": 17,
     "win1_payout": 2061199344,
     "win1_count": 12
   },
@@ -12068,6 +13073,7 @@
     "ball4": 16,
     "ball5": 17,
     "ball6": 37,
+    "ball_bonus": 36,
     "win1_payout": 2855602125,
     "win1_count": 9
   },
@@ -12080,6 +13086,7 @@
     "ball4": 19,
     "ball5": 21,
     "ball6": 25,
+    "ball_bonus": 40,
     "win1_payout": 2718786375,
     "win1_count": 9
   },
@@ -12092,6 +13099,7 @@
     "ball4": 31,
     "ball5": 41,
     "ball6": 44,
+    "ball_bonus": 33,
     "win1_payout": 2267377910,
     "win1_count": 11
   },
@@ -12104,6 +13112,7 @@
     "ball4": 34,
     "ball5": 40,
     "ball6": 44,
+    "ball_bonus": 20,
     "win1_payout": 1702462825,
     "win1_count": 15
   },
@@ -12116,6 +13125,7 @@
     "ball4": 25,
     "ball5": 34,
     "ball6": 36,
+    "ball_bonus": 3,
     "win1_payout": 3119380079,
     "win1_count": 8
   },
@@ -12128,6 +13138,7 @@
     "ball4": 26,
     "ball5": 35,
     "ball6": 38,
+    "ball_bonus": 42,
     "win1_payout": 2220348512,
     "win1_count": 11
   },
@@ -12140,6 +13151,7 @@
     "ball4": 20,
     "ball5": 35,
     "ball6": 45,
+    "ball_bonus": 3,
     "win1_payout": 1861944318,
     "win1_count": 13
   },
@@ -12152,6 +13164,7 @@
     "ball4": 34,
     "ball5": 36,
     "ball6": 41,
+    "ball_bonus": 32,
     "win1_payout": 5047570725,
     "win1_count": 5
   },
@@ -12164,6 +13177,7 @@
     "ball4": 18,
     "ball5": 26,
     "ball6": 27,
+    "ball_bonus": 21,
     "win1_payout": 2410449338,
     "win1_count": 10
   },
@@ -12176,6 +13190,7 @@
     "ball4": 33,
     "ball5": 37,
     "ball6": 40,
+    "ball_bonus": 44,
     "win1_payout": 3051105610,
     "win1_count": 8
   },
@@ -12188,6 +13203,7 @@
     "ball4": 34,
     "ball5": 41,
     "ball6": 42,
+    "ball_bonus": 44,
     "win1_payout": 2260660671,
     "win1_count": 11
   },
@@ -12200,6 +13216,7 @@
     "ball4": 23,
     "ball5": 30,
     "ball6": 34,
+    "ball_bonus": 32,
     "win1_payout": 3517684822,
     "win1_count": 7
   },
@@ -12212,6 +13229,7 @@
     "ball4": 25,
     "ball5": 37,
     "ball6": 45,
+    "ball_bonus": 35,
     "win1_payout": 12361744688,
     "win1_count": 2
   },
@@ -12224,6 +13242,7 @@
     "ball4": 17,
     "ball5": 34,
     "ball6": 39,
+    "ball_bonus": 6,
     "win1_payout": 438565140,
     "win1_count": 50
   },
@@ -12236,6 +13255,7 @@
     "ball4": 38,
     "ball5": 41,
     "ball6": 45,
+    "ball_bonus": 6,
     "win1_payout": 1966431520,
     "win1_count": 13
   },
@@ -12248,6 +13268,7 @@
     "ball4": 24,
     "ball5": 29,
     "ball6": 45,
+    "ball_bonus": 16,
     "win1_payout": 2108962250,
     "win1_count": 12
   },
@@ -12260,6 +13281,7 @@
     "ball4": 29,
     "ball5": 42,
     "ball6": 45,
+    "ball_bonus": 28,
     "win1_payout": 4866468075,
     "win1_count": 5
   },
@@ -12272,6 +13294,7 @@
     "ball4": 18,
     "ball5": 29,
     "ball6": 35,
+    "ball_bonus": 25,
     "win1_payout": 2745677875,
     "win1_count": 9
   },
@@ -12284,6 +13307,7 @@
     "ball4": 22,
     "ball5": 38,
     "ball6": 44,
+    "ball_bonus": 10,
     "win1_payout": 3020323500,
     "win1_count": 8
   },
@@ -12296,6 +13320,7 @@
     "ball4": 25,
     "ball5": 29,
     "ball6": 33,
+    "ball_bonus": 7,
     "win1_payout": 6118853344,
     "win1_count": 4
   },
@@ -12308,6 +13333,7 @@
     "ball4": 31,
     "ball5": 32,
     "ball6": 41,
+    "ball_bonus": 34,
     "win1_payout": 1619118475,
     "win1_count": 15
   },
@@ -12320,6 +13346,7 @@
     "ball4": 35,
     "ball5": 39,
     "ball6": 45,
+    "ball_bonus": 5,
     "win1_payout": 2460504338,
     "win1_count": 10
   },
@@ -12332,6 +13359,7 @@
     "ball4": 13,
     "ball5": 18,
     "ball6": 35,
+    "ball_bonus": 23,
     "win1_payout": 1181235132,
     "win1_count": 20
   },
@@ -12344,6 +13372,7 @@
     "ball4": 37,
     "ball5": 39,
     "ball6": 41,
+    "ball_bonus": 24,
     "win1_payout": 2527848450,
     "win1_count": 10
   },
@@ -12356,6 +13385,7 @@
     "ball4": 17,
     "ball5": 24,
     "ball6": 29,
+    "ball_bonus": 9,
     "win1_payout": 1276406507,
     "win1_count": 19
   },
@@ -12368,6 +13398,7 @@
     "ball4": 32,
     "ball5": 35,
     "ball6": 36,
+    "ball_bonus": 19,
     "win1_payout": 3213957563,
     "win1_count": 8
   },
@@ -12380,6 +13411,7 @@
     "ball4": 19,
     "ball5": 36,
     "ball6": 42,
+    "ball_bonus": 28,
     "win1_payout": 2675257538,
     "win1_count": 10
   },
@@ -12392,6 +13424,7 @@
     "ball4": 20,
     "ball5": 35,
     "ball6": 44,
+    "ball_bonus": 10,
     "win1_payout": 1913414943,
     "win1_count": 13
   },
@@ -12404,6 +13437,7 @@
     "ball4": 33,
     "ball5": 38,
     "ball6": 40,
+    "ball_bonus": 11,
     "win1_payout": 2868856209,
     "win1_count": 9
   },
@@ -12416,6 +13450,7 @@
     "ball4": 35,
     "ball5": 41,
     "ball6": 42,
+    "ball_bonus": 2,
     "win1_payout": 3231193735,
     "win1_count": 8
   },
@@ -12428,6 +13463,7 @@
     "ball4": 32,
     "ball5": 34,
     "ball6": 45,
+    "ball_bonus": 39,
     "win1_payout": 2837323167,
     "win1_count": 9
   },
@@ -12440,6 +13476,7 @@
     "ball4": 22,
     "ball5": 27,
     "ball6": 33,
+    "ball_bonus": 31,
     "win1_payout": 1708576825,
     "win1_count": 15
   },
@@ -12452,6 +13489,7 @@
     "ball4": 27,
     "ball5": 37,
     "ball6": 44,
+    "ball_bonus": 2,
     "win1_payout": 1627457225,
     "win1_count": 15
   },
@@ -12464,6 +13502,7 @@
     "ball4": 19,
     "ball5": 36,
     "ball6": 39,
+    "ball_bonus": 26,
     "win1_payout": 1585019672,
     "win1_count": 16
   },
@@ -12476,6 +13515,7 @@
     "ball4": 29,
     "ball5": 31,
     "ball6": 36,
+    "ball_bonus": 11,
     "win1_payout": 3660482625,
     "win1_count": 7
   },
@@ -12488,6 +13528,7 @@
     "ball4": 11,
     "ball5": 17,
     "ball6": 18,
+    "ball_bonus": 45,
     "win1_payout": 935091165,
     "win1_count": 25
   },
@@ -12500,6 +13541,7 @@
     "ball4": 23,
     "ball5": 34,
     "ball6": 43,
+    "ball_bonus": 4,
     "win1_payout": 1240663669,
     "win1_count": 20
   },
@@ -12512,6 +13554,7 @@
     "ball4": 22,
     "ball5": 26,
     "ball6": 31,
+    "ball_bonus": 19,
     "win1_payout": 1468646956,
     "win1_count": 17
   },
@@ -12524,6 +13567,7 @@
     "ball4": 26,
     "ball5": 28,
     "ball6": 36,
+    "ball_bonus": 4,
     "win1_payout": 3136941235,
     "win1_count": 8
   },
@@ -12536,6 +13580,7 @@
     "ball4": 19,
     "ball5": 21,
     "ball6": 41,
+    "ball_bonus": 37,
     "win1_payout": 1990060443,
     "win1_count": 13
   },
@@ -12548,6 +13593,7 @@
     "ball4": 29,
     "ball5": 35,
     "ball6": 36,
+    "ball_bonus": 28,
     "win1_payout": 2011415719,
     "win1_count": 12
   },
@@ -12560,6 +13606,7 @@
     "ball4": 40,
     "ball5": 42,
     "ball6": 44,
+    "ball_bonus": 32,
     "win1_payout": 2748797875,
     "win1_count": 9
   },
@@ -12572,6 +13619,7 @@
     "ball4": 21,
     "ball5": 32,
     "ball6": 39,
+    "ball_bonus": 30,
     "win1_payout": 1612494508,
     "win1_count": 17
   },
@@ -12584,6 +13632,7 @@
     "ball4": 20,
     "ball5": 21,
     "ball6": 37,
+    "ball_bonus": 17,
     "win1_payout": 1727810100,
     "win1_count": 15
   },
@@ -12596,6 +13645,7 @@
     "ball4": 35,
     "ball5": 38,
     "ball6": 43,
+    "ball_bonus": 17,
     "win1_payout": 1535083280,
     "win1_count": 17
   },
@@ -12608,6 +13658,7 @@
     "ball4": 32,
     "ball5": 33,
     "ball6": 35,
+    "ball_bonus": 44,
     "win1_payout": 1669558480,
     "win1_count": 18
   },
@@ -12620,6 +13671,7 @@
     "ball4": 27,
     "ball5": 35,
     "ball6": 38,
+    "ball_bonus": 1,
     "win1_payout": 2341682762,
     "win1_count": 11
   },
@@ -12632,6 +13684,7 @@
     "ball4": 30,
     "ball5": 34,
     "ball6": 45,
+    "ball_bonus": 15,
     "win1_payout": 4090367411,
     "win1_count": 7
   },
@@ -12644,6 +13697,7 @@
     "ball4": 28,
     "ball5": 30,
     "ball6": 45,
+    "ball_bonus": 33,
     "win1_payout": 3147925709,
     "win1_count": 9
   },
@@ -12656,6 +13710,7 @@
     "ball4": 14,
     "ball5": 22,
     "ball6": 33,
+    "ball_bonus": 31,
     "win1_payout": 2362815205,
     "win1_count": 11
   },
@@ -12668,6 +13723,7 @@
     "ball4": 32,
     "ball5": 36,
     "ball6": 45,
+    "ball_bonus": 29,
     "win1_payout": 1969662456,
     "win1_count": 14
   },
@@ -12680,6 +13736,7 @@
     "ball4": 27,
     "ball5": 40,
     "ball6": 45,
+    "ball_bonus": 12,
     "win1_payout": 1616069714,
     "win1_count": 17
   },
@@ -12692,6 +13749,7 @@
     "ball4": 30,
     "ball5": 32,
     "ball6": 40,
+    "ball_bonus": 42,
     "win1_payout": 2058020250,
     "win1_count": 13
   },
@@ -12704,6 +13762,7 @@
     "ball4": 25,
     "ball5": 34,
     "ball6": 40,
+    "ball_bonus": 27,
     "win1_payout": 2033168481,
     "win1_count": 13
   },
@@ -12716,6 +13775,7 @@
     "ball4": 33,
     "ball5": 38,
     "ball6": 45,
+    "ball_bonus": 36,
     "win1_payout": 898238907,
     "win1_count": 28
   },
@@ -12728,6 +13788,7 @@
     "ball4": 35,
     "ball5": 37,
     "ball6": 45,
+    "ball_bonus": 15,
     "win1_payout": 2422768773,
     "win1_count": 11
   },
@@ -12740,6 +13801,7 @@
     "ball4": 40,
     "ball5": 41,
     "ball6": 45,
+    "ball_bonus": 12,
     "win1_payout": 3801933804,
     "win1_count": 7
   },
@@ -12752,6 +13814,7 @@
     "ball4": 23,
     "ball5": 24,
     "ball6": 38,
+    "ball_bonus": 30,
     "win1_payout": 3770311875,
     "win1_count": 7
   },
@@ -12764,6 +13827,7 @@
     "ball4": 18,
     "ball5": 22,
     "ball6": 35,
+    "ball_bonus": 14,
     "win1_payout": 1348168106,
     "win1_count": 19
   },
@@ -12776,6 +13840,7 @@
     "ball4": 23,
     "ball5": 32,
     "ball6": 45,
+    "ball_bonus": 24,
     "win1_payout": 1852593938,
     "win1_count": 14
   },
@@ -12788,6 +13853,7 @@
     "ball4": 19,
     "ball5": 21,
     "ball6": 32,
+    "ball_bonus": 45,
     "win1_payout": 1670947250,
     "win1_count": 15
   },
@@ -12800,6 +13866,7 @@
     "ball4": 23,
     "ball5": 28,
     "ball6": 33,
+    "ball_bonus": 18,
     "win1_payout": 1981114010,
     "win1_count": 13
   },
@@ -12812,6 +13879,7 @@
     "ball4": 26,
     "ball5": 33,
     "ball6": 35,
+    "ball_bonus": 3,
     "win1_payout": 1363929514,
     "win1_count": 19
   },
@@ -12824,6 +13892,7 @@
     "ball4": 22,
     "ball5": 28,
     "ball6": 31,
+    "ball_bonus": 44,
     "win1_payout": 1863217554,
     "win1_count": 14
   },
@@ -12836,6 +13905,7 @@
     "ball4": 22,
     "ball5": 30,
     "ball6": 41,
+    "ball_bonus": 36,
     "win1_payout": 1859116929,
     "win1_count": 14
   },
@@ -12848,6 +13918,7 @@
     "ball4": 21,
     "ball5": 30,
     "ball6": 35,
+    "ball_bonus": 39,
     "win1_payout": 5183979750,
     "win1_count": 5
   },
@@ -12860,6 +13931,7 @@
     "ball4": 23,
     "ball5": 32,
     "ball6": 43,
+    "ball_bonus": 27,
     "win1_payout": 2175006375,
     "win1_count": 12
   },
@@ -12872,6 +13944,7 @@
     "ball4": 30,
     "ball5": 32,
     "ball6": 38,
+    "ball_bonus": 15,
     "win1_payout": 2345227603,
     "win1_count": 11
   },
@@ -12884,6 +13957,7 @@
     "ball4": 27,
     "ball5": 28,
     "ball6": 41,
+    "ball_bonus": 15,
     "win1_payout": 2134763657,
     "win1_count": 12
   },
@@ -12896,6 +13970,7 @@
     "ball4": 35,
     "ball5": 44,
     "ball6": 45,
+    "ball_bonus": 10,
     "win1_payout": 2896337167,
     "win1_count": 9
   },
@@ -12908,6 +13983,7 @@
     "ball4": 33,
     "ball5": 36,
     "ball6": 37,
+    "ball_bonus": 10,
     "win1_payout": 2672689750,
     "win1_count": 9
   },
@@ -12920,6 +13996,7 @@
     "ball4": 30,
     "ball5": 40,
     "ball6": 43,
+    "ball_bonus": 34,
     "win1_payout": 3570901018,
     "win1_count": 7
   },
@@ -12932,6 +14009,7 @@
     "ball4": 14,
     "ball5": 36,
     "ball6": 38,
+    "ball_bonus": 43,
     "win1_payout": 2141604938,
     "win1_count": 12
   },
@@ -12944,6 +14022,7 @@
     "ball4": 24,
     "ball5": 37,
     "ball6": 45,
+    "ball_bonus": 6,
     "win1_payout": 2712329417,
     "win1_count": 9
   },
@@ -12956,6 +14035,7 @@
     "ball4": 31,
     "ball5": 36,
     "ball6": 44,
+    "ball_bonus": 38,
     "win1_payout": 3639444429,
     "win1_count": 7
   },
@@ -12968,6 +14048,7 @@
     "ball4": 23,
     "ball5": 24,
     "ball6": 38,
+    "ball_bonus": 17,
     "win1_payout": 2343892944,
     "win1_count": 11
   },
@@ -12980,6 +14061,7 @@
     "ball4": 32,
     "ball5": 34,
     "ball6": 42,
+    "ball_bonus": 31,
     "win1_payout": 3720489643,
     "win1_count": 7
   },
@@ -12992,6 +14074,7 @@
     "ball4": 15,
     "ball5": 22,
     "ball6": 38,
+    "ball_bonus": 17,
     "win1_payout": 1713084525,
     "win1_count": 15
   },
@@ -13004,6 +14087,7 @@
     "ball4": 29,
     "ball5": 33,
     "ball6": 42,
+    "ball_bonus": 5,
     "win1_payout": 1738764600,
     "win1_count": 15
   },
@@ -13016,6 +14100,7 @@
     "ball4": 18,
     "ball5": 38,
     "ball6": 44,
+    "ball_bonus": 36,
     "win1_payout": 1073277473,
     "win1_count": 23
   },
@@ -13028,6 +14113,7 @@
     "ball4": 27,
     "ball5": 35,
     "ball6": 36,
+    "ball_bonus": 37,
     "win1_payout": 1515913809,
     "win1_count": 17
   },
@@ -13040,6 +14126,7 @@
     "ball4": 21,
     "ball5": 34,
     "ball6": 44,
+    "ball_bonus": 16,
     "win1_payout": 1732253602,
     "win1_count": 16
   },
@@ -13052,6 +14139,7 @@
     "ball4": 30,
     "ball5": 39,
     "ball6": 44,
+    "ball_bonus": 31,
     "win1_payout": 2434697898,
     "win1_count": 11
   },
@@ -13064,6 +14152,7 @@
     "ball4": 37,
     "ball5": 42,
     "ball6": 43,
+    "ball_bonus": 40,
     "win1_payout": 2978522167,
     "win1_count": 9
   },
@@ -13076,6 +14165,7 @@
     "ball4": 29,
     "ball5": 40,
     "ball6": 45,
+    "ball_bonus": 1,
     "win1_payout": 2386494614,
     "win1_count": 11
   },
@@ -13088,6 +14178,7 @@
     "ball4": 24,
     "ball5": 28,
     "ball6": 30,
+    "ball_bonus": 44,
     "win1_payout": 2898470459,
     "win1_count": 9
   },
@@ -13100,6 +14191,7 @@
     "ball4": 26,
     "ball5": 33,
     "ball6": 45,
+    "ball_bonus": 37,
     "win1_payout": 1583289844,
     "win1_count": 16
   },
@@ -13112,6 +14204,7 @@
     "ball4": 30,
     "ball5": 35,
     "ball6": 43,
+    "ball_bonus": 44,
     "win1_payout": 1967040750,
     "win1_count": 13
   },
@@ -13124,6 +14217,7 @@
     "ball4": 22,
     "ball5": 26,
     "ball6": 40,
+    "ball_bonus": 41,
     "win1_payout": 2112854469,
     "win1_count": 12
   },
@@ -13136,6 +14230,7 @@
     "ball4": 29,
     "ball5": 34,
     "ball6": 40,
+    "ball_bonus": 12,
     "win1_payout": 2617825575,
     "win1_count": 10
   },
@@ -13148,6 +14243,7 @@
     "ball4": 19,
     "ball5": 23,
     "ball6": 43,
+    "ball_bonus": 34,
     "win1_payout": 2539391175,
     "win1_count": 10
   },
@@ -13160,6 +14256,7 @@
     "ball4": 35,
     "ball5": 37,
     "ball6": 40,
+    "ball_bonus": 4,
     "win1_payout": 3864293090,
     "win1_count": 7
   },
@@ -13172,6 +14269,7 @@
     "ball4": 24,
     "ball5": 41,
     "ball6": 43,
+    "ball_bonus": 15,
     "win1_payout": 1930461895,
     "win1_count": 13
   },
@@ -13184,6 +14282,7 @@
     "ball4": 38,
     "ball5": 40,
     "ball6": 43,
+    "ball_bonus": 4,
     "win1_payout": 2959934125,
     "win1_count": 9
   },
@@ -13196,6 +14295,7 @@
     "ball4": 30,
     "ball5": 31,
     "ball6": 43,
+    "ball_bonus": 12,
     "win1_payout": 2207575472,
     "win1_count": 13
   },
@@ -13208,6 +14308,7 @@
     "ball4": 28,
     "ball5": 36,
     "ball6": 42,
+    "ball_bonus": 41,
     "win1_payout": 2100529500,
     "win1_count": 13
   },
@@ -13220,6 +14321,7 @@
     "ball4": 26,
     "ball5": 37,
     "ball6": 38,
+    "ball_bonus": 20,
     "win1_payout": 1383591413,
     "win1_count": 20
   },
@@ -13232,6 +14334,7 @@
     "ball4": 31,
     "ball5": 40,
     "ball6": 44,
+    "ball_bonus": 2,
     "win1_payout": 1574419633,
     "win1_count": 17
   },
@@ -13244,6 +14347,7 @@
     "ball4": 30,
     "ball5": 35,
     "ball6": 38,
+    "ball_bonus": 2,
     "win1_payout": 1817193100,
     "win1_count": 15
   },
@@ -13256,6 +14360,7 @@
     "ball4": 37,
     "ball5": 39,
     "ball6": 40,
+    "ball_bonus": 11,
     "win1_payout": 1834853800,
     "win1_count": 15
   },
@@ -13268,6 +14373,7 @@
     "ball4": 29,
     "ball5": 42,
     "ball6": 45,
+    "ball_bonus": 36,
     "win1_payout": 2790462819,
     "win1_count": 11
   },
@@ -13280,6 +14386,7 @@
     "ball4": 31,
     "ball5": 40,
     "ball6": 41,
+    "ball_bonus": 29,
     "win1_payout": 2025625233,
     "win1_count": 14
   },
@@ -13292,6 +14399,7 @@
     "ball4": 37,
     "ball5": 39,
     "ball6": 44,
+    "ball_bonus": 27,
     "win1_payout": 1957990849,
     "win1_count": 14
   },
@@ -13304,6 +14412,7 @@
     "ball4": 19,
     "ball5": 33,
     "ball6": 40,
+    "ball_bonus": 2,
     "win1_payout": 1584352875,
     "win1_count": 17
   },
@@ -13316,6 +14425,7 @@
     "ball4": 20,
     "ball5": 22,
     "ball6": 41,
+    "ball_bonus": 24,
     "win1_payout": 1647392719,
     "win1_count": 16
   },
@@ -13328,6 +14438,7 @@
     "ball4": 33,
     "ball5": 43,
     "ball6": 45,
+    "ball_bonus": 4,
     "win1_payout": 1714662540,
     "win1_count": 16
   },
@@ -13340,6 +14451,7 @@
     "ball4": 36,
     "ball5": 42,
     "ball6": 44,
+    "ball_bonus": 24,
     "win1_payout": 2804455650,
     "win1_count": 10
   },
@@ -13352,6 +14464,7 @@
     "ball4": 21,
     "ball5": 32,
     "ball6": 44,
+    "ball_bonus": 8,
     "win1_payout": 1987426822,
     "win1_count": 14
   },
@@ -13364,6 +14477,7 @@
     "ball4": 32,
     "ball5": 33,
     "ball6": 38,
+    "ball_bonus": 3,
     "win1_payout": 1583813824,
     "win1_count": 17
   },
@@ -13376,6 +14490,7 @@
     "ball4": 32,
     "ball5": 34,
     "ball6": 36,
+    "ball_bonus": 8,
     "win1_payout": 2257278282,
     "win1_count": 12
   },
@@ -13388,6 +14503,7 @@
     "ball4": 25,
     "ball5": 30,
     "ball6": 31,
+    "ball_bonus": 32,
     "win1_payout": 2695000238,
     "win1_count": 10
   },
@@ -13400,6 +14516,7 @@
     "ball4": 30,
     "ball5": 33,
     "ball6": 36,
+    "ball_bonus": 7,
     "win1_payout": 3028385542,
     "win1_count": 9
   },
@@ -13412,6 +14529,7 @@
     "ball4": 15,
     "ball5": 16,
     "ball6": 45,
+    "ball_bonus": 3,
     "win1_payout": 1477445132,
     "win1_count": 19
   },
@@ -13424,6 +14542,7 @@
     "ball4": 13,
     "ball5": 20,
     "ball6": 45,
+    "ball_bonus": 3,
     "win1_payout": 1396028764,
     "win1_count": 19
   },
@@ -13436,6 +14555,7 @@
     "ball4": 31,
     "ball5": 38,
     "ball6": 41,
+    "ball_bonus": 34,
     "win1_payout": 2522163375,
     "win1_count": 11
   },
@@ -13448,6 +14568,7 @@
     "ball4": 32,
     "ball5": 38,
     "ball6": 44,
+    "ball_bonus": 8,
     "win1_payout": 2524513262,
     "win1_count": 11
   },
@@ -13460,6 +14581,7 @@
     "ball4": 30,
     "ball5": 34,
     "ball6": 35,
+    "ball_bonus": 22,
     "win1_payout": 2556266046,
     "win1_count": 11
   },
@@ -13472,6 +14594,7 @@
     "ball4": 24,
     "ball5": 34,
     "ball6": 35,
+    "ball_bonus": 26,
     "win1_payout": 1731310711,
     "win1_count": 16
   },
@@ -13484,6 +14607,7 @@
     "ball4": 30,
     "ball5": 33,
     "ball6": 34,
+    "ball_bonus": 28,
     "win1_payout": 2623327913,
     "win1_count": 10
   },
@@ -13496,6 +14620,7 @@
     "ball4": 33,
     "ball5": 40,
     "ball6": 44,
+    "ball_bonus": 30,
     "win1_payout": 2195289188,
     "win1_count": 12
   },
@@ -13508,6 +14633,7 @@
     "ball4": 11,
     "ball5": 37,
     "ball6": 40,
+    "ball_bonus": 7,
     "win1_payout": 2386382421,
     "win1_count": 11
   },
@@ -13520,6 +14646,7 @@
     "ball4": 30,
     "ball5": 31,
     "ball6": 37,
+    "ball_bonus": 32,
     "win1_payout": 2267891969,
     "win1_count": 12
   },
@@ -13532,6 +14659,7 @@
     "ball4": 16,
     "ball5": 28,
     "ball6": 33,
+    "ball_bonus": 45,
     "win1_payout": 419925560,
     "win1_count": 63
   },
@@ -13544,6 +14672,7 @@
     "ball4": 17,
     "ball5": 28,
     "ball6": 34,
+    "ball_bonus": 22,
     "win1_payout": 2369567660,
     "win1_count": 11
   },
@@ -13556,6 +14685,7 @@
     "ball4": 25,
     "ball5": 27,
     "ball6": 28,
+    "ball_bonus": 40,
     "win1_payout": 2263301219,
     "win1_count": 12
   },
@@ -13568,6 +14698,7 @@
     "ball4": 14,
     "ball5": 27,
     "ball6": 38,
+    "ball_bonus": 33,
     "win1_payout": 1542367898,
     "win1_count": 17
   },
@@ -13580,6 +14711,7 @@
     "ball4": 28,
     "ball5": 34,
     "ball6": 41,
+    "ball_bonus": 5,
     "win1_payout": 2404951807,
     "win1_count": 11
   },
@@ -13592,6 +14724,7 @@
     "ball4": 28,
     "ball5": 29,
     "ball6": 34,
+    "ball_bonus": 23,
     "win1_payout": 2105079491,
     "win1_count": 13
   },
@@ -13604,6 +14737,7 @@
     "ball4": 13,
     "ball5": 19,
     "ball6": 24,
+    "ball_bonus": 23,
     "win1_payout": 1755689384,
     "win1_count": 14
   },
@@ -13616,6 +14750,7 @@
     "ball4": 19,
     "ball5": 21,
     "ball6": 33,
+    "ball_bonus": 4,
     "win1_payout": 2953726125,
     "win1_count": 9
   },
@@ -13628,6 +14763,7 @@
     "ball4": 38,
     "ball5": 42,
     "ball6": 44,
+    "ball_bonus": 1,
     "win1_payout": 2314468157,
     "win1_count": 12
   },
@@ -13640,6 +14776,7 @@
     "ball4": 15,
     "ball5": 33,
     "ball6": 45,
+    "ball_bonus": 26,
     "win1_payout": 2023447688,
     "win1_count": 14
   },
@@ -13652,6 +14789,7 @@
     "ball4": 20,
     "ball5": 29,
     "ball6": 34,
+    "ball_bonus": 35,
     "win1_payout": 1902656786,
     "win1_count": 14
   },
@@ -13664,6 +14802,7 @@
     "ball4": 30,
     "ball5": 37,
     "ball6": 40,
+    "ball_bonus": 18,
     "win1_payout": 2167490972,
     "win1_count": 13
   },
@@ -13676,6 +14815,7 @@
     "ball4": 29,
     "ball5": 31,
     "ball6": 38,
+    "ball_bonus": 15,
     "win1_payout": 2279823938,
     "win1_count": 12
   },
@@ -13688,6 +14828,7 @@
     "ball4": 21,
     "ball5": 26,
     "ball6": 35,
+    "ball_bonus": 20,
     "win1_payout": 2457758285,
     "win1_count": 11
   },
@@ -13700,6 +14841,7 @@
     "ball4": 30,
     "ball5": 37,
     "ball6": 41,
+    "ball_bonus": 22,
     "win1_payout": 3117517709,
     "win1_count": 9
   },
@@ -13712,6 +14854,7 @@
     "ball4": 27,
     "ball5": 28,
     "ball6": 36,
+    "ball_bonus": 6,
     "win1_payout": 2545657023,
     "win1_count": 11
   },
@@ -13724,6 +14867,7 @@
     "ball4": 15,
     "ball5": 26,
     "ball6": 34,
+    "ball_bonus": 6,
     "win1_payout": 1489347375,
     "win1_count": 18
   },
@@ -13736,6 +14880,7 @@
     "ball4": 33,
     "ball5": 37,
     "ball6": 44,
+    "ball_bonus": 32,
     "win1_payout": 3051630084,
     "win1_count": 9
   },
@@ -13748,6 +14893,7 @@
     "ball4": 19,
     "ball5": 40,
     "ball6": 43,
+    "ball_bonus": 28,
     "win1_payout": 2526476353,
     "win1_count": 11
   },
@@ -13760,6 +14906,7 @@
     "ball4": 26,
     "ball5": 27,
     "ball6": 37,
+    "ball_bonus": 32,
     "win1_payout": 3323422079,
     "win1_count": 8
   },
@@ -13772,6 +14919,7 @@
     "ball4": 15,
     "ball5": 16,
     "ball6": 22,
+    "ball_bonus": 32,
     "win1_payout": 2073332308,
     "win1_count": 13
   },
@@ -13784,6 +14932,7 @@
     "ball4": 21,
     "ball5": 32,
     "ball6": 36,
+    "ball_bonus": 38,
     "win1_payout": 1613380765,
     "win1_count": 17
   },
@@ -13796,6 +14945,7 @@
     "ball4": 35,
     "ball5": 39,
     "ball6": 45,
+    "ball_bonus": 25,
     "win1_payout": 1570620309,
     "win1_count": 17
   },
@@ -13808,6 +14958,7 @@
     "ball4": 15,
     "ball5": 27,
     "ball6": 29,
+    "ball_bonus": 8,
     "win1_payout": 1620503030,
     "win1_count": 17
   },
@@ -13820,6 +14971,7 @@
     "ball4": 35,
     "ball5": 36,
     "ball6": 37,
+    "ball_bonus": 5,
     "win1_payout": 874349668,
     "win1_count": 35
   },
@@ -13832,6 +14984,7 @@
     "ball4": 13,
     "ball5": 35,
     "ball6": 44,
+    "ball_bonus": 5,
     "win1_payout": 2027312925,
     "win1_count": 15
   },
@@ -13844,6 +14997,7 @@
     "ball4": 26,
     "ball5": 32,
     "ball6": 38,
+    "ball_bonus": 27,
     "win1_payout": 1854965425,
     "win1_count": 15
   },
@@ -13856,6 +15010,7 @@
     "ball4": 27,
     "ball5": 37,
     "ball6": 38,
+    "ball_bonus": 13,
     "win1_payout": 4066375179,
     "win1_count": 7
   },
@@ -13868,6 +15023,7 @@
     "ball4": 39,
     "ball5": 41,
     "ball6": 45,
+    "ball_bonus": 7,
     "win1_payout": 1505207090,
     "win1_count": 21
   },
@@ -13880,6 +15036,7 @@
     "ball4": 20,
     "ball5": 25,
     "ball6": 26,
+    "ball_bonus": 28,
     "win1_payout": 2257842157,
     "win1_count": 12
   },
@@ -13892,6 +15049,7 @@
     "ball4": 32,
     "ball5": 37,
     "ball6": 38,
+    "ball_bonus": 20,
     "win1_payout": 1394358197,
     "win1_count": 21
   },
@@ -13904,6 +15062,7 @@
     "ball4": 28,
     "ball5": 38,
     "ball6": 39,
+    "ball_bonus": 7,
     "win1_payout": 1284854250,
     "win1_count": 23
   },
@@ -13916,6 +15075,7 @@
     "ball4": 36,
     "ball5": 39,
     "ball6": 45,
+    "ball_bonus": 19,
     "win1_payout": 2509359875,
     "win1_count": 12
   },
@@ -13928,6 +15088,7 @@
     "ball4": 24,
     "ball5": 34,
     "ball6": 42,
+    "ball_bonus": 37,
     "win1_payout": 1792657969,
     "win1_count": 16
   },
@@ -13940,6 +15101,7 @@
     "ball4": 25,
     "ball5": 28,
     "ball6": 29,
+    "ball_bonus": 6,
     "win1_payout": 823931021,
     "win1_count": 36
   },
@@ -13952,6 +15114,7 @@
     "ball4": 16,
     "ball5": 33,
     "ball6": 43,
+    "ball_bonus": 4,
     "win1_payout": 1936891150,
     "win1_count": 15
   },
@@ -13964,6 +15127,7 @@
     "ball4": 25,
     "ball5": 38,
     "ball6": 39,
+    "ball_bonus": 22,
     "win1_payout": 2193092164,
     "win1_count": 13
   },
@@ -13976,6 +15140,7 @@
     "ball4": 29,
     "ball5": 38,
     "ball6": 45,
+    "ball_bonus": 17,
     "win1_payout": 2192485270,
     "win1_count": 13
   },
@@ -13988,6 +15153,7 @@
     "ball4": 27,
     "ball5": 29,
     "ball6": 42,
+    "ball_bonus": 16,
     "win1_payout": 2072319938,
     "win1_count": 14
   },
@@ -14000,6 +15166,7 @@
     "ball4": 35,
     "ball5": 39,
     "ball6": 40,
+    "ball_bonus": 24,
     "win1_payout": 2884087913,
     "win1_count": 10
   },
@@ -14012,6 +15179,7 @@
     "ball4": 30,
     "ball5": 33,
     "ball6": 37,
+    "ball_bonus": 29,
     "win1_payout": 2136635914,
     "win1_count": 13
   },
@@ -14024,6 +15192,7 @@
     "ball4": 26,
     "ball5": 39,
     "ball6": 42,
+    "ball_bonus": 20,
     "win1_payout": 2852735813,
     "win1_count": 10
   },
@@ -14036,6 +15205,7 @@
     "ball4": 34,
     "ball5": 38,
     "ball6": 42,
+    "ball_bonus": 25,
     "win1_payout": 1386550969,
     "win1_count": 20
   },
@@ -14048,6 +15218,7 @@
     "ball4": 11,
     "ball5": 12,
     "ball6": 17,
+    "ball_bonus": 19,
     "win1_payout": 1128345286,
     "win1_count": 21
   },
@@ -14060,6 +15231,7 @@
     "ball4": 40,
     "ball5": 42,
     "ball6": 44,
+    "ball_bonus": 45,
     "win1_payout": 2203004452,
     "win1_count": 13
   },
@@ -14072,6 +15244,7 @@
     "ball4": 20,
     "ball5": 30,
     "ball6": 35,
+    "ball_bonus": 3,
     "win1_payout": 1179946063,
     "win1_count": 24
   },
@@ -14084,6 +15257,7 @@
     "ball4": 17,
     "ball5": 36,
     "ball6": 39,
+    "ball_bonus": 22,
     "win1_payout": 1910619425,
     "win1_count": 15
   },
@@ -14096,6 +15270,7 @@
     "ball4": 8,
     "ball5": 32,
     "ball6": 42,
+    "ball_bonus": 31,
     "win1_payout": 1384026094,
     "win1_count": 20
   },
@@ -14108,6 +15283,7 @@
     "ball4": 21,
     "ball5": 30,
     "ball6": 35,
+    "ball_bonus": 29,
     "win1_payout": 2052166154,
     "win1_count": 13
   },
@@ -14120,6 +15296,7 @@
     "ball4": 16,
     "ball5": 19,
     "ball6": 43,
+    "ball_bonus": 21,
     "win1_payout": 4576672000,
     "win1_count": 6
   },
@@ -14132,6 +15309,7 @@
     "ball4": 27,
     "ball5": 43,
     "ball6": 44,
+    "ball_bonus": 17,
     "win1_payout": 2391608407,
     "win1_count": 12
   },
@@ -14144,6 +15322,7 @@
     "ball4": 24,
     "ball5": 40,
     "ball6": 44,
+    "ball_bonus": 21,
     "win1_payout": 2162821097,
     "win1_count": 13
   },
@@ -14156,6 +15335,7 @@
     "ball4": 37,
     "ball5": 40,
     "ball6": 41,
+    "ball_bonus": 3,
     "win1_payout": 2535566421,
     "win1_count": 11
   },
@@ -14168,6 +15348,7 @@
     "ball4": 20,
     "ball5": 33,
     "ball6": 41,
+    "ball_bonus": 28,
     "win1_payout": 1593643500,
     "win1_count": 17
   },
@@ -14180,6 +15361,7 @@
     "ball4": 25,
     "ball5": 28,
     "ball6": 31,
+    "ball_bonus": 22,
     "win1_payout": 2124785424,
     "win1_count": 13
   },
@@ -14192,6 +15374,7 @@
     "ball4": 23,
     "ball5": 27,
     "ball6": 36,
+    "ball_bonus": 31,
     "win1_payout": 2073966000,
     "win1_count": 13
   },
@@ -14204,6 +15387,7 @@
     "ball4": 25,
     "ball5": 31,
     "ball6": 37,
+    "ball_bonus": 42,
     "win1_payout": 1910655600,
     "win1_count": 15
   },
@@ -14216,6 +15400,7 @@
     "ball4": 28,
     "ball5": 29,
     "ball6": 32,
+    "ball_bonus": 38,
     "win1_payout": 2388695125,
     "win1_count": 12
   },
@@ -14228,6 +15413,7 @@
     "ball4": 16,
     "ball5": 23,
     "ball6": 28,
+    "ball_bonus": 35,
     "win1_payout": 1985676911,
     "win1_count": 14
   },
@@ -14240,6 +15426,7 @@
     "ball4": 29,
     "ball5": 37,
     "ball6": 40,
+    "ball_bonus": 42,
     "win1_payout": 2619380012,
     "win1_count": 11
   },
@@ -14252,6 +15439,7 @@
     "ball4": 19,
     "ball5": 22,
     "ball6": 27,
+    "ball_bonus": 9,
     "win1_payout": 1074625172,
     "win1_count": 24
   },
@@ -14264,6 +15452,7 @@
     "ball4": 35,
     "ball5": 37,
     "ball6": 38,
+    "ball_bonus": 31,
     "win1_payout": 2263651299,
     "win1_count": 13
   },
@@ -14276,6 +15465,7 @@
     "ball4": 23,
     "ball5": 26,
     "ball6": 45,
+    "ball_bonus": 33,
     "win1_payout": 4622793813,
     "win1_count": 6
   },
@@ -14288,6 +15478,7 @@
     "ball4": 12,
     "ball5": 20,
     "ball6": 41,
+    "ball_bonus": 2,
     "win1_payout": 1536334355,
     "win1_count": 18
   },
@@ -14300,6 +15491,7 @@
     "ball4": 36,
     "ball5": 39,
     "ball6": 40,
+    "ball_bonus": 11,
     "win1_payout": 1079546587,
     "win1_count": 29
   },
@@ -14312,6 +15504,7 @@
     "ball4": 19,
     "ball5": 24,
     "ball6": 28,
+    "ball_bonus": 17,
     "win1_payout": 1717013508,
     "win1_count": 16
   },
@@ -14324,6 +15517,7 @@
     "ball4": 24,
     "ball5": 33,
     "ball6": 37,
+    "ball_bonus": 2,
     "win1_payout": 985155349,
     "win1_count": 28
   },
@@ -14336,6 +15530,7 @@
     "ball4": 33,
     "ball5": 34,
     "ball6": 36,
+    "ball_bonus": 37,
     "win1_payout": 2939186738,
     "win1_count": 10
   },
@@ -14348,6 +15543,7 @@
     "ball4": 29,
     "ball5": 40,
     "ball6": 45,
+    "ball_bonus": 14,
     "win1_payout": 2001627550,
     "win1_count": 15
   },
@@ -14360,6 +15556,7 @@
     "ball4": 26,
     "ball5": 28,
     "ball6": 43,
+    "ball_bonus": 30,
     "win1_payout": 2205089827,
     "win1_count": 13
   },
@@ -14372,6 +15569,7 @@
     "ball4": 38,
     "ball5": 39,
     "ball6": 41,
+    "ball_bonus": 21,
     "win1_payout": 2953686638,
     "win1_count": 10
   },
@@ -14384,6 +15582,7 @@
     "ball4": 30,
     "ball5": 31,
     "ball6": 32,
+    "ball_bonus": 7,
     "win1_payout": 1695609839,
     "win1_count": 17
   },
@@ -14396,6 +15595,7 @@
     "ball4": 16,
     "ball5": 20,
     "ball6": 32,
+    "ball_bonus": 45,
     "win1_payout": 2357299875,
     "win1_count": 12
   },
@@ -14408,6 +15608,7 @@
     "ball4": 27,
     "ball5": 35,
     "ball6": 36,
+    "ball_bonus": 37,
     "win1_payout": 1414555718,
     "win1_count": 19
   },
@@ -14420,6 +15621,7 @@
     "ball4": 33,
     "ball5": 37,
     "ball6": 40,
+    "ball_bonus": 7,
     "win1_payout": 1920410813,
     "win1_count": 14
   },
@@ -14432,6 +15634,7 @@
     "ball4": 29,
     "ball5": 35,
     "ball6": 39,
+    "ball_bonus": 24,
     "win1_payout": 1368060733,
     "win1_count": 21
   },
@@ -14444,6 +15647,7 @@
     "ball4": 30,
     "ball5": 31,
     "ball6": 44,
+    "ball_bonus": 27,
     "win1_payout": 1661007688,
     "win1_count": 18
   },
@@ -14456,6 +15660,7 @@
     "ball4": 23,
     "ball5": 31,
     "ball6": 41,
+    "ball_bonus": 2,
     "win1_payout": 3226386263,
     "win1_count": 10
   },
@@ -14468,6 +15673,7 @@
     "ball4": 26,
     "ball5": 27,
     "ball6": 42,
+    "ball_bonus": 23,
     "win1_payout": 1868807000,
     "win1_count": 15
   },
@@ -14480,6 +15686,7 @@
     "ball4": 27,
     "ball5": 38,
     "ball6": 45,
+    "ball_bonus": 11,
     "win1_payout": 1733202949,
     "win1_count": 17
   },
@@ -14492,6 +15699,7 @@
     "ball4": 36,
     "ball5": 38,
     "ball6": 42,
+    "ball_bonus": 25,
     "win1_payout": 5001713625,
     "win1_count": 6
   },
@@ -14504,6 +15712,7 @@
     "ball4": 35,
     "ball5": 37,
     "ball6": 39,
+    "ball_bonus": 24,
     "win1_payout": 1371910466,
     "win1_count": 22
   },
@@ -14516,6 +15725,7 @@
     "ball4": 17,
     "ball5": 27,
     "ball6": 38,
+    "ball_bonus": 31,
     "win1_payout": 1102298407,
     "win1_count": 24
   },
@@ -14528,6 +15738,7 @@
     "ball4": 35,
     "ball5": 38,
     "ball6": 40,
+    "ball_bonus": 10,
     "win1_payout": 2370956036,
     "win1_count": 14
   },
@@ -14540,6 +15751,7 @@
     "ball4": 31,
     "ball5": 41,
     "ball6": 44,
+    "ball_bonus": 45,
     "win1_payout": 2654089032,
     "win1_count": 12
   }

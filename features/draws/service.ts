@@ -7,6 +7,8 @@ function toDrawRecord(row: DrawRow): DrawRecord {
     date: row.date,
     numbers: [row.num1, row.num2, row.num3, row.num4, row.num5, row.num6],
     bonus: row.bonus,
+    win1Payout: row.win1_payout,
+    win1Count: row.win1_count,
   };
 }
 

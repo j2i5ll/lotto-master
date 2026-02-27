@@ -11,7 +11,9 @@ export async function createTables(db: SQLiteDatabase): Promise<void> {
       num4 INTEGER NOT NULL,
       num5 INTEGER NOT NULL,
       num6 INTEGER NOT NULL,
-      bonus INTEGER NOT NULL
+      bonus INTEGER NOT NULL,
+      win1_payout INTEGER NOT NULL DEFAULT 0,
+      win1_count INTEGER NOT NULL DEFAULT 0
     );
   `);
 }

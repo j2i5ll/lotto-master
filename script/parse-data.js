@@ -11,6 +11,7 @@ const result = raw.list.map((item) => ({
   ball4: item.ball[3],
   ball5: item.ball[4],
   ball6: item.ball[5],
+  ball_bonus: item.bonusBall,
   win1_payout: item.win.win1.payout,
   win1_count: item.win.win1.count,
 }));
