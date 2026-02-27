@@ -1,7 +1,6 @@
 import { memo } from 'react';
 import { View, Text, TouchableOpacity, StyleSheet } from 'react-native';
 import { NumberBall } from '@components/index';
-import { getBallColor } from '@shared/lib/lotto';
 import type { NumberStat } from '../types';
 
 interface NumberListItemProps {
@@ -11,41 +10,55 @@ interface NumberListItemProps {
   onPress: () => void;
 }
 
+function getGaugeColor(score: number): string {
+  if (score >= 1.0) return '#EF4444';
+  if (score >= 0.8) return '#FBBF24';
+  if (score >= 0.5) return '#4A90D9';
+  return '#93C5FD';
+}
+
 export const NumberListItem = memo(function NumberListItem({
   stat,
   isFixed,
   isExcluded,
   onPress,
 }: NumberListItemProps) {
-  const ballColor = getBallColor(stat.id);
-
   return (
     <TouchableOpacity style={styles.container} onPress={onPress} activeOpacity={0.7}>
       <NumberBall num={stat.id} size="lg" />
       <View style={styles.info}>
-        <View style={styles.infoRow}>
-          <Text style={styles.label}>출현</Text>
-          <Text style={styles.value}>{stat.frequency}회</Text>
-        </View>
-        <View style={styles.infoRow}>
-          <Text style={styles.label}>마지막 출현 후 미출현</Text>
-          <Text style={styles.value}>{stat.currentGap}회</Text>
-        </View>
+        <Text style={styles.infoText}>
+          출현 <Text style={styles.infoValue}>{stat.frequency}회</Text>
+        </Text>
+        <Text style={styles.infoText}>
+          미출현 <Text style={styles.infoValue}>{stat.currentGap}회</Text>
+        </Text>
       </View>
-      {/* 미니차트 */}
-      <View style={styles.miniChart}>
-        {stat.recentHistory.slice(-10).map((appeared, i) => (
+      {/* 임박 게이지 */}
+      <View style={styles.gauge}>
+        <Text style={[styles.gaugeScore, stat.imminenceScore >= 1.0 && styles.gaugeScoreHot]}>
+          {stat.imminenceScore.toFixed(2)}
+        </Text>
+        <View style={styles.gaugeTrack}>
           <View
-            key={i}
             style={[
-              styles.miniBar,
+              styles.gaugeFill,
               {
-                height: appeared ? 16 : 4,
-                backgroundColor: appeared ? ballColor.bg : '#E0E0E0',
+                width: `${Math.min(stat.currentGap / (stat.avgGap * 1.5), 1) * 100}%`,
+                backgroundColor: getGaugeColor(stat.imminenceScore),
               },
             ]}
           />
-        ))}
+          {stat.avgGap > 0 && (
+            <View
+              style={[
+                styles.gaugeMarker,
+                { left: `${Math.min(1 / 1.5, 1) * 100}%` },
+              ]}
+            />
+          )}
+        </View>
+        <Text style={styles.gaugeLabel}>임박도</Text>
       </View>
       {/* 배지 */}
       {(isFixed || isExcluded) && (
@@ -72,29 +85,49 @@ const styles = StyleSheet.create({
     flex: 1,
     gap: 2,
   },
-  infoRow: {
-    flexDirection: 'row',
-    gap: 6,
-  },
-  label: {
+  infoText: {
     fontSize: 12,
     color: '#687076',
-    flexShrink: 0,
   },
-  value: {
-    fontSize: 12,
+  infoValue: {
     fontWeight: '600',
     color: '#11181C',
   },
-  miniChart: {
-    flexDirection: 'row',
-    alignItems: 'flex-end',
-    gap: 2,
-    height: 20,
+  gauge: {
+    alignItems: 'center',
+    width: 64,
   },
-  miniBar: {
-    width: 4,
+  gaugeScore: {
+    fontSize: 14,
+    fontWeight: '700',
+    color: '#11181C',
+    marginBottom: 4,
+  },
+  gaugeScoreHot: {
+    color: '#EF4444',
+  },
+  gaugeTrack: {
+    width: 56,
+    height: 4,
+    backgroundColor: '#F1F3F5',
     borderRadius: 2,
+    overflow: 'hidden',
+  },
+  gaugeFill: {
+    height: 4,
+    borderRadius: 2,
+  },
+  gaugeMarker: {
+    position: 'absolute',
+    top: 0,
+    width: 1,
+    height: 4,
+    backgroundColor: 'rgba(17, 24, 28, 0.3)',
+  },
+  gaugeLabel: {
+    fontSize: 9,
+    color: '#889096',
+    marginTop: 2,
   },
   badge: {
     paddingHorizontal: 6,
