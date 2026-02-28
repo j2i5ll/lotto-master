@@ -20,7 +20,7 @@ interface SortFilterBarProps {
 const SORT_LABELS: Record<SortOption, string> = {
   [SortOption.FREQUENCY]: '출현순',
   [SortOption.GAP]: '미출현순',
-  [SortOption.IMMINENCE]: '임박점수순',
+  [SortOption.IMMINENCE]: '임박도순',
 };
 
 const FILTER_LABELS: Record<FilterOption, string> = {
