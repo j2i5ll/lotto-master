@@ -20,6 +20,10 @@ export interface CompanionStat {
   numberId: number;
   companionId: number;
   coAppearanceCount: number;
+  coAppearanceRate: number;
+  expectedCount: number;
+  liftRatio: number;
+  companionImminenceScore: number;
 }
 
 export enum SortOption {

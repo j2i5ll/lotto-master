@@ -109,24 +109,44 @@ export async function calculateCompanions(
 ): Promise<CompanionStat[]> {
   const allDraws = await fetchAllDraws();
   const draws = sliceDraws(allDraws, rangeCount);
+  const totalDraws = draws.length;
+
   const companionMap = new Map<number, number>();
+  const freqMap = new Map<number, number>();
+  let targetFrequency = 0;
 
   for (const draw of draws) {
     const nums = [draw.num1, draw.num2, draw.num3, draw.num4, draw.num5, draw.num6];
+    for (const n of nums) {
+      freqMap.set(n, (freqMap.get(n) || 0) + 1);
+    }
     if (!nums.includes(id)) continue;
-
+    targetFrequency++;
     for (const n of nums) {
       if (n === id) continue;
       companionMap.set(n, (companionMap.get(n) || 0) + 1);
     }
   }
 
+  if (targetFrequency === 0) return [];
+
+  const allStats = await calculateAllStats(rangeCount);
+  const imminenceMap = new Map(allStats.map((s) => [s.id, s.imminenceScore]));
+
   return Array.from(companionMap.entries())
-    .map(([companionId, coAppearanceCount]) => ({
-      numberId: id,
-      companionId,
-      coAppearanceCount,
-    }))
+    .map(([companionId, coAppearanceCount]) => {
+      const companionFreq = freqMap.get(companionId) || 0;
+      const expectedCount = (targetFrequency * companionFreq) / totalDraws;
+      return {
+        numberId: id,
+        companionId,
+        coAppearanceCount,
+        coAppearanceRate: coAppearanceCount / targetFrequency,
+        expectedCount,
+        liftRatio: expectedCount > 0 ? coAppearanceCount / expectedCount : 0,
+        companionImminenceScore: imminenceMap.get(companionId) ?? 0,
+      };
+    })
     .sort((a, b) => b.coAppearanceCount - a.coAppearanceCount)
     .slice(0, limit);
 }
