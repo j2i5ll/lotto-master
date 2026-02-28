@@ -1,6 +1,6 @@
 import { ScrollView, View, Text, ActivityIndicator, StyleSheet } from 'react-native';
 import { useLocalSearchParams } from 'expo-router';
-import { useNumberDetail, useCompanions, useAnalysisStore } from '@features/analysis';
+import { useNumberDetail, useCompanions, useAnalysisStore, getRangeLabel } from '@features/analysis';
 import { NumberBall } from '@components/index';
 import { AppearanceTimeline } from '@features/analysis/ui/AppearanceTimeline';
 import { PositionChart } from '@features/analysis/ui/PositionChart';
@@ -13,7 +13,7 @@ export default function NumberDetailScreen() {
   const numberId = Number(id);
   const { data: stat, isLoading } = useNumberDetail(numberId);
   const { data: companions = [] } = useCompanions(numberId);
-  const { fixedNumbers, excludedNumbers, toggleFixed, toggleExcluded } = useAnalysisStore();
+  const { fixedNumbers, excludedNumbers, toggleFixed, toggleExcluded, rangeOption, customRangeCount } = useAnalysisStore();
 
   const isFixed = fixedNumbers.includes(numberId);
   const isExcluded = excludedNumbers.includes(numberId);
@@ -32,6 +32,9 @@ export default function NumberDetailScreen() {
         {/* 히어로 영역 */}
         <View style={styles.hero}>
           <NumberBall num={stat.id} size="xl" />
+          <Text style={styles.rangeBadge}>
+            {getRangeLabel({ rangeOption, customRangeCount })} 기준
+          </Text>
           <View style={styles.heroStats}>
             <View style={styles.heroStatItem}>
               <Text style={styles.heroStatValue}>{stat.frequency}</Text>
@@ -128,5 +131,14 @@ const styles = StyleSheet.create({
   },
   section: {
     marginBottom: 16,
+  },
+  rangeBadge: {
+    fontSize: 12,
+    color: '#687076',
+    backgroundColor: '#F0F2F4',
+    paddingHorizontal: 10,
+    paddingVertical: 4,
+    borderRadius: 10,
+    overflow: 'hidden',
   },
 });

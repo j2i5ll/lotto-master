@@ -81,3 +81,20 @@ export function getRangeCount(state: { rangeOption: DrawsRangeOption; customRang
       return state.customRangeCount;
   }
 }
+
+export function getRangeLabel(state: { rangeOption: DrawsRangeOption; customRangeCount: number }): string {
+  switch (state.rangeOption) {
+    case DrawsRangeOption.ALL:
+      return '전체 회차';
+    case DrawsRangeOption.RECENT_10:
+      return '최근 10회';
+    case DrawsRangeOption.RECENT_50:
+      return '최근 50회';
+    case DrawsRangeOption.RECENT_100:
+      return '최근 100회';
+    case DrawsRangeOption.RECENT_200:
+      return '최근 200회';
+    case DrawsRangeOption.CUSTOM:
+      return `최근 ${state.customRangeCount}회`;
+  }
+}

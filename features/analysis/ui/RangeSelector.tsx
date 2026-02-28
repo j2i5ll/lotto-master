@@ -10,7 +10,7 @@ import {
   Platform,
   StyleSheet,
 } from 'react-native';
-import { useAnalysisStore } from '../store';
+import { useAnalysisStore, getRangeLabel } from '../store';
 import { DrawsRangeOption } from '../types';
 
 const RANGE_OPTIONS: { label: string; value: DrawsRangeOption }[] = [
@@ -20,23 +20,6 @@ const RANGE_OPTIONS: { label: string; value: DrawsRangeOption }[] = [
   { label: '최근 100회', value: DrawsRangeOption.RECENT_100 },
   { label: '최근 200회', value: DrawsRangeOption.RECENT_200 },
 ];
-
-function getRangeLabel(option: DrawsRangeOption, customCount: number): string {
-  switch (option) {
-    case DrawsRangeOption.ALL:
-      return '전체';
-    case DrawsRangeOption.RECENT_10:
-      return '최근 10회';
-    case DrawsRangeOption.RECENT_50:
-      return '최근 50회';
-    case DrawsRangeOption.RECENT_100:
-      return '최근 100회';
-    case DrawsRangeOption.RECENT_200:
-      return '최근 200회';
-    case DrawsRangeOption.CUSTOM:
-      return `최근 ${customCount}회`;
-  }
-}
 
 export function RangeSelector() {
   const { rangeOption, customRangeCount, setRangeOption } = useAnalysisStore();
@@ -66,7 +49,7 @@ export function RangeSelector() {
       <View style={styles.badgeContainer}>
         <TouchableOpacity style={styles.badge} onPress={handleOpen} activeOpacity={0.7}>
           <Text style={styles.badgeText}>
-            {getRangeLabel(rangeOption, customRangeCount)}
+            {getRangeLabel({ rangeOption, customRangeCount })}
           </Text>
           <Text style={styles.badgeArrow}>▾</Text>
         </TouchableOpacity>

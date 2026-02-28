@@ -8,4 +8,4 @@ export {
   getColdNumbers,
 } from './service';
 export { useNumberStats, useNumberDetail, useCompanions, useHotCold } from './hooks';
-export { useAnalysisStore, getRangeCount } from './store';
+export { useAnalysisStore, getRangeCount, getRangeLabel } from './store';
