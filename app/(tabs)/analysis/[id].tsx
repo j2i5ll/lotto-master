@@ -55,7 +55,7 @@ export default function NumberDetailScreen() {
 
         {/* 출현 타임라인 */}
         <View style={styles.section}>
-          <AppearanceTimeline numberId={stat.id} recentHistory={stat.recentHistory} />
+          <AppearanceTimeline numberId={stat.id} timelineData={stat.timelineData} />
         </View>
 
         {/* 임박 점수 */}

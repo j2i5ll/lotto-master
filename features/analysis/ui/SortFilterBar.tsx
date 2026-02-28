@@ -30,7 +30,10 @@ const FILTER_LABELS: Record<FilterOption, string> = {
 };
 
 const FADE_STEPS = 20;
-const FADE_OPACITIES = Array.from({ length: FADE_STEPS }, (_, i) => i / (FADE_STEPS - 1));
+const FADE_OPACITIES = Array.from(
+  { length: FADE_STEPS },
+  (_, i) => i / (FADE_STEPS - 1),
+);
 
 export function SortFilterBar({
   sortOption,

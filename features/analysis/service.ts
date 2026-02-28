@@ -42,11 +42,13 @@ export async function calculateAllStats(rangeCount?: number): Promise<NumberStat
     let prevAppearance = 0;
     const positions = [0, 0, 0, 0, 0, 0];
     const recentHistory: boolean[] = [];
+    const fullHistory: boolean[] = [];
 
     // 전체 draws 순회
     for (const draw of draws) {
       const nums = [draw.num1, draw.num2, draw.num3, draw.num4, draw.num5, draw.num6];
       const posIndex = nums.indexOf(num);
+      fullHistory.push(posIndex !== -1);
 
       if (posIndex !== -1) {
         frequency++;
@@ -88,6 +90,11 @@ export async function calculateAllStats(rangeCount?: number): Promise<NumberStat
       lastAppearance,
       positions,
       recentHistory,
+      timelineData: {
+        history: fullHistory,
+        totalDraws: draws.length,
+        totalAppearances: frequency,
+      },
     });
   }
 

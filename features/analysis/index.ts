@@ -1,4 +1,4 @@
-export type { NumberStat, CompanionStat } from './types';
+export type { NumberStat, CompanionStat, AppearanceTimelineData } from './types';
 export { SortOption, FilterOption, DrawsRangeOption } from './types';
 export {
   calculateAllStats,

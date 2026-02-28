@@ -1,3 +1,9 @@
+export interface AppearanceTimelineData {
+  history: boolean[];       // 선택 범위 전체 출현 여부
+  totalDraws: number;       // 범위 내 전체 회차 수
+  totalAppearances: number; // 범위 내 출현 횟수
+}
+
 export interface NumberStat {
   id: number;
   frequency: number;
@@ -8,6 +14,7 @@ export interface NumberStat {
   lastAppearance: number;
   positions: number[];
   recentHistory: boolean[];
+  timelineData: AppearanceTimelineData;
 }
 
 export interface CompanionStat {
