@@ -5,9 +5,10 @@ import {
   calculateCompanions,
   getHotNumbers,
   getColdNumbers,
+  calculateSectorBias,
 } from './service';
 import { useAnalysisStore, getRangeCount } from './store';
-import type { NumberStat, CompanionStat } from './types';
+import type { NumberStat, CompanionStat, SectorBiasData } from './types';
 
 function useRangeCount() {
   return useAnalysisStore((s) => getRangeCount(s));
@@ -50,5 +51,14 @@ export function useHotCold() {
       ]);
       return { hot, cold };
     },
+  });
+}
+
+export function useSectorBias(id: number) {
+  const rangeCount = useRangeCount();
+  return useQuery<SectorBiasData | null>({
+    queryKey: ['analysis', 'sectorBias', id, rangeCount],
+    queryFn: () => calculateSectorBias(id, rangeCount),
+    enabled: id > 0 && id <= 45,
   });
 }

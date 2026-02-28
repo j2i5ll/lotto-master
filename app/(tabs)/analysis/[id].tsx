@@ -1,19 +1,21 @@
 import { useState, useRef } from 'react';
 import { Animated, View, Text, ActivityIndicator, StyleSheet } from 'react-native';
 import { useLocalSearchParams } from 'expo-router';
-import { useNumberDetail, useCompanions, useAnalysisStore, getRangeLabel } from '@features/analysis';
+import { useNumberDetail, useCompanions, useAnalysisStore, getRangeLabel, useSectorBias } from '@features/analysis';
 import { NumberBall } from '@components/index';
 import { AppearanceTimeline } from '@features/analysis/ui/AppearanceTimeline';
 import { CompanionCard } from '@features/analysis/ui/CompanionCard';
 import { FixedExcludedBar } from '@features/analysis/ui/FixedExcludedBar';
 import { ImminenceCard } from '@features/analysis/ui/ImminenceCard';
 import { GapDistributionCard } from '@features/analysis/ui/GapDistributionCard';
+import { SectorBiasCard } from '@features/analysis/ui/SectorBiasCard';
 
 export default function NumberDetailScreen() {
   const { id } = useLocalSearchParams<{ id: string }>();
   const numberId = Number(id);
   const { data: stat, isLoading } = useNumberDetail(numberId);
   const { data: companions = [] } = useCompanions(numberId);
+  const { data: sectorBias } = useSectorBias(numberId);
   const { fixedNumbers, excludedNumbers, toggleFixed, toggleExcluded, rangeOption, customRangeCount } = useAnalysisStore();
 
   const isFixed = fixedNumbers.includes(numberId);
@@ -113,6 +115,13 @@ export default function NumberDetailScreen() {
             avgGap={stat.avgGap}
           />
         </View>
+
+        {/* 번호대 편중도 */}
+        {sectorBias && (
+          <View style={styles.section}>
+            <SectorBiasCard data={sectorBias} numberId={numberId} />
+          </View>
+        )}
 
         {/* 궁합수 */}
         <View style={styles.section}>

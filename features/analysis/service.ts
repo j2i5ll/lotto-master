@@ -1,5 +1,6 @@
 import { getDatabase } from '@shared/db';
-import type { NumberStat, CompanionStat } from './types';
+import { getNumberRange } from '@shared/lib';
+import type { NumberStat, CompanionStat, SectorBiasData } from './types';
 
 interface DrawRow {
   round: number;
@@ -178,4 +179,102 @@ export async function getColdNumbers(count: number = 5, rangeCount?: number): Pr
     .filter((s) => s.currentGap >= 15)
     .sort((a, b) => b.currentGap - a.currentGap)
     .slice(0, count);
+}
+
+export async function calculateSectorBias(
+  id: number,
+  rangeCount?: number
+): Promise<SectorBiasData | null> {
+  const allDraws = await fetchAllDraws();
+  const draws = sliceDraws(allDraws, rangeCount);
+
+  // 번호대 정의
+  const SECTORS = [
+    { range: '1~10', min: 1, max: 10, count: 10 },
+    { range: '11~20', min: 11, max: 20, count: 10 },
+    { range: '21~30', min: 21, max: 30, count: 10 },
+    { range: '31~40', min: 31, max: 40, count: 10 },
+    { range: '41~45', min: 41, max: 45, count: 5 },
+  ];
+
+  // id가 포함된 회차 필터링
+  const matchingDraws = draws.filter((draw) => {
+    const nums = [draw.num1, draw.num2, draw.num3, draw.num4, draw.num5, draw.num6];
+    return nums.includes(id);
+  });
+
+  if (matchingDraws.length === 0) return null;
+
+  // 각 회차에서 id 제외 5개 번호의 번호대 집계
+  const observedMap = new Map<string, number>();
+  for (const sector of SECTORS) {
+    observedMap.set(sector.range, 0);
+  }
+
+  let totalCompanions = 0;
+  for (const draw of matchingDraws) {
+    const nums = [draw.num1, draw.num2, draw.num3, draw.num4, draw.num5, draw.num6];
+    for (const n of nums) {
+      if (n === id) continue;
+      totalCompanions++;
+      const range = getNumberRange(n);
+      observedMap.set(range, (observedMap.get(range) || 0) + 1);
+    }
+  }
+
+  // 기대값 계산: id가 속한 범위는 가용 번호가 1개 적음
+  const idRange = getNumberRange(id);
+  const totalAvailable = 44; // 45 - 1 (id 자신 제외)
+
+  const distributions = SECTORS.map((sector) => {
+    const available = sector.range === idRange ? sector.count - 1 : sector.count;
+    const expected = totalCompanions * (available / totalAvailable);
+    const observed = observedMap.get(sector.range) || 0;
+    const percentage = totalCompanions > 0 ? (observed / totalCompanions) * 100 : 0;
+    const expectedPercentage = totalCompanions > 0 ? (expected / totalCompanions) * 100 : 0;
+
+    return {
+      range: sector.range,
+      observed,
+      expected,
+      percentage,
+      expectedPercentage,
+    };
+  });
+
+  // χ² 통계량 계산
+  let chiSquare = 0;
+  for (const dist of distributions) {
+    if (dist.expected > 0) {
+      chiSquare += Math.pow(dist.observed - dist.expected, 2) / dist.expected;
+    }
+  }
+  chiSquare = Math.round(chiSquare * 100) / 100;
+
+  // 자유도 4 기준 p < 0.05 임계값 = 9.488
+  const isSignificant = chiSquare >= 9.488;
+
+  // 가장 편중된 번호대 찾기
+  let mostBiased: SectorBiasData['mostBiased'] = null;
+  let maxRatio = 0;
+  for (const dist of distributions) {
+    if (dist.expected > 0) {
+      const ratio = dist.observed / dist.expected;
+      if (ratio > maxRatio) {
+        maxRatio = ratio;
+        mostBiased = {
+          range: dist.range,
+          ratio: Math.round(ratio * 10) / 10,
+        };
+      }
+    }
+  }
+
+  return {
+    distributions,
+    totalCompanions,
+    chiSquare,
+    isSignificant,
+    mostBiased,
+  };
 }

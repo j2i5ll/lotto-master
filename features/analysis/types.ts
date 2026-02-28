@@ -47,3 +47,22 @@ export enum DrawsRangeOption {
   RECENT_200 = 'RECENT_200',
   CUSTOM = 'CUSTOM',
 }
+
+export interface SectorDistribution {
+  range: string;           // '1~10', '11~20', ...
+  observed: number;        // 관측 횟수
+  expected: number;        // 기대 횟수
+  percentage: number;      // 관측 비율 (%)
+  expectedPercentage: number; // 기대 비율 (%)
+}
+
+export interface SectorBiasData {
+  distributions: SectorDistribution[];
+  totalCompanions: number; // 동반 번호 총 수 (출현횟수 × 5)
+  chiSquare: number;       // χ² 통계량
+  isSignificant: boolean;  // p < 0.05 여부
+  mostBiased: {            // 가장 편중된 번호대
+    range: string;
+    ratio: number;         // observed/expected 비율
+  } | null;
+}
