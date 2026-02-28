@@ -1,4 +1,5 @@
-import { ScrollView, View, Text, ActivityIndicator, StyleSheet } from 'react-native';
+import { useState, useRef } from 'react';
+import { Animated, View, Text, ActivityIndicator, StyleSheet } from 'react-native';
 import { useLocalSearchParams } from 'expo-router';
 import { useNumberDetail, useCompanions, useAnalysisStore, getRangeLabel } from '@features/analysis';
 import { NumberBall } from '@components/index';
@@ -18,6 +19,23 @@ export default function NumberDetailScreen() {
   const isFixed = fixedNumbers.includes(numberId);
   const isExcluded = excludedNumbers.includes(numberId);
 
+  const scrollY = useRef(new Animated.Value(0)).current;
+  const [heroHeight, setHeroHeight] = useState(0);
+
+  const triggerPoint = heroHeight > 0 ? heroHeight - 20 : 9999;
+
+  const stickyOpacity = scrollY.interpolate({
+    inputRange: [triggerPoint, triggerPoint + 20],
+    outputRange: [0, 1],
+    extrapolate: 'clamp',
+  });
+
+  const stickyTranslateY = scrollY.interpolate({
+    inputRange: [triggerPoint, triggerPoint + 20],
+    outputRange: [-8, 0],
+    extrapolate: 'clamp',
+  });
+
   if (isLoading || !stat) {
     return (
       <View style={styles.loading}>
@@ -28,9 +46,29 @@ export default function NumberDetailScreen() {
 
   return (
     <View style={styles.container}>
-      <ScrollView contentContainerStyle={styles.content}>
+      <Animated.View
+        style={[styles.stickyHeader, { opacity: stickyOpacity, transform: [{ translateY: stickyTranslateY }] }]}
+        pointerEvents="none"
+      >
+        <NumberBall num={stat.id} size="sm" />
+        <Text style={styles.stickyRangeBadge}>
+          {getRangeLabel({ rangeOption, customRangeCount })} 기준
+        </Text>
+      </Animated.View>
+
+      <Animated.ScrollView
+        contentContainerStyle={styles.content}
+        onScroll={Animated.event(
+          [{ nativeEvent: { contentOffset: { y: scrollY } } }],
+          { useNativeDriver: true }
+        )}
+        scrollEventThrottle={16}
+      >
         {/* 히어로 영역 */}
-        <View style={styles.hero}>
+        <View
+          style={styles.hero}
+          onLayout={(e) => setHeroHeight(e.nativeEvent.layout.height)}
+        >
           <NumberBall num={stat.id} size="xl" />
           <Text style={styles.rangeBadge}>
             {getRangeLabel({ rangeOption, customRangeCount })} 기준
@@ -76,7 +114,7 @@ export default function NumberDetailScreen() {
         <View style={styles.section}>
           <CompanionCard companions={companions} />
         </View>
-      </ScrollView>
+      </Animated.ScrollView>
 
       {/* 하단 고정 액션바 */}
       <FixedExcludedBar
@@ -133,6 +171,30 @@ const styles = StyleSheet.create({
     marginBottom: 16,
   },
   rangeBadge: {
+    fontSize: 12,
+    color: '#687076',
+    backgroundColor: '#F0F2F4',
+    paddingHorizontal: 10,
+    paddingVertical: 4,
+    borderRadius: 10,
+    overflow: 'hidden',
+  },
+  stickyHeader: {
+    position: 'absolute',
+    top: 0,
+    left: 0,
+    right: 0,
+    zIndex: 10,
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    gap: 8,
+    paddingVertical: 10,
+    backgroundColor: '#FFFFFF',
+    borderBottomWidth: 1,
+    borderBottomColor: '#E6E8EB',
+  },
+  stickyRangeBadge: {
     fontSize: 12,
     color: '#687076',
     backgroundColor: '#F0F2F4',
