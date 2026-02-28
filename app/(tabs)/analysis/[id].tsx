@@ -80,7 +80,7 @@ export default function NumberDetailScreen() {
             </View>
             <View style={styles.heroStatItem}>
               <Text style={styles.heroStatValue}>{stat.avgGap.toFixed(1)}</Text>
-              <Text style={styles.heroStatLabel}>평균 주기</Text>
+              <Text style={styles.heroStatLabel}>평균 출현 주기</Text>
             </View>
             <View style={styles.heroStatItem}>
               <Text style={[styles.heroStatValue, stat.imminenceScore >= 1 && styles.imminentValue]}>

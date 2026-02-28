@@ -26,7 +26,7 @@ export function ImminenceCard({ imminenceScore, currentGap, avgGap }: ImminenceC
   return (
     <Card>
       <Text style={styles.title}>임박 점수</Text>
-      <Text style={styles.subtitle}>평균 출현 주기 대비 현재 미출현 정도</Text>
+      <Text style={styles.subtitle}>평균 회귀 기반으로 평균 출현 주기 대비 현재 미출현 정도</Text>
 
       {/* 점수 + 상태 */}
       <View style={styles.scoreRow}>
