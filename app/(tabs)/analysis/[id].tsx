@@ -4,7 +4,6 @@ import { useLocalSearchParams } from 'expo-router';
 import { useNumberDetail, useCompanions, useAnalysisStore, getRangeLabel } from '@features/analysis';
 import { NumberBall } from '@components/index';
 import { AppearanceTimeline } from '@features/analysis/ui/AppearanceTimeline';
-import { PositionChart } from '@features/analysis/ui/PositionChart';
 import { CompanionCard } from '@features/analysis/ui/CompanionCard';
 import { FixedExcludedBar } from '@features/analysis/ui/FixedExcludedBar';
 import { ImminenceCard } from '@features/analysis/ui/ImminenceCard';
@@ -103,11 +102,6 @@ export default function NumberDetailScreen() {
             currentGap={stat.currentGap}
             avgGap={stat.avgGap}
           />
-        </View>
-
-        {/* 위치 분포 */}
-        <View style={styles.section}>
-          <PositionChart numberId={stat.id} positions={stat.positions} />
         </View>
 
         {/* 궁합수 */}

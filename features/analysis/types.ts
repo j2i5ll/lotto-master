@@ -12,7 +12,6 @@ export interface NumberStat {
   avgGap: number;
   imminenceScore: number;
   lastAppearance: number;
-  positions: number[];
   recentHistory: boolean[];
   timelineData: AppearanceTimelineData;
 }

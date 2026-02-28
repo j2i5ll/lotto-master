@@ -40,20 +40,17 @@ export async function calculateAllStats(rangeCount?: number): Promise<NumberStat
     let lastAppearance = 0;
     let maxGap = 0;
     let prevAppearance = 0;
-    const positions = [0, 0, 0, 0, 0, 0];
     const recentHistory: boolean[] = [];
     const fullHistory: boolean[] = [];
 
     // 전체 draws 순회
     for (const draw of draws) {
       const nums = [draw.num1, draw.num2, draw.num3, draw.num4, draw.num5, draw.num6];
-      const posIndex = nums.indexOf(num);
-      fullHistory.push(posIndex !== -1);
+      const appeared = nums.includes(num);
+      fullHistory.push(appeared);
 
-      if (posIndex !== -1) {
+      if (appeared) {
         frequency++;
-        // 위치 분포
-        positions[posIndex]++;
         // gap 계산
         if (prevAppearance > 0) {
           const gap = draw.round - prevAppearance;
@@ -88,7 +85,6 @@ export async function calculateAllStats(rangeCount?: number): Promise<NumberStat
       avgGap,
       imminenceScore,
       lastAppearance,
-      positions,
       recentHistory,
       timelineData: {
         history: fullHistory,
