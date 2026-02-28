@@ -7,6 +7,7 @@ import { AppearanceTimeline } from '@features/analysis/ui/AppearanceTimeline';
 import { CompanionCard } from '@features/analysis/ui/CompanionCard';
 import { FixedExcludedBar } from '@features/analysis/ui/FixedExcludedBar';
 import { ImminenceCard } from '@features/analysis/ui/ImminenceCard';
+import { GapDistributionCard } from '@features/analysis/ui/GapDistributionCard';
 
 export default function NumberDetailScreen() {
   const { id } = useLocalSearchParams<{ id: string }>();
@@ -99,6 +100,15 @@ export default function NumberDetailScreen() {
         <View style={styles.section}>
           <ImminenceCard
             imminenceScore={stat.imminenceScore}
+            currentGap={stat.currentGap}
+            avgGap={stat.avgGap}
+          />
+        </View>
+
+        {/* 출현 주기 분포 */}
+        <View style={styles.section}>
+          <GapDistributionCard
+            gaps={stat.gaps}
             currentGap={stat.currentGap}
             avgGap={stat.avgGap}
           />

@@ -10,6 +10,7 @@ export interface NumberStat {
   currentGap: number;
   maxGap: number;
   avgGap: number;
+  gaps: number[]; // 완료된 출현 간격 배열 (시간순)
   imminenceScore: number;
   lastAppearance: number;
   recentHistory: boolean[];

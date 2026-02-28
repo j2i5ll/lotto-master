@@ -40,6 +40,7 @@ export async function calculateAllStats(rangeCount?: number): Promise<NumberStat
     let lastAppearance = 0;
     let maxGap = 0;
     let prevAppearance = 0;
+    const gaps: number[] = [];
     const recentHistory: boolean[] = [];
     const fullHistory: boolean[] = [];
 
@@ -54,6 +55,7 @@ export async function calculateAllStats(rangeCount?: number): Promise<NumberStat
         // gap 계산
         if (prevAppearance > 0) {
           const gap = draw.round - prevAppearance;
+          gaps.push(gap);
           if (gap > maxGap) maxGap = gap;
         }
         prevAppearance = draw.round;
@@ -83,6 +85,7 @@ export async function calculateAllStats(rangeCount?: number): Promise<NumberStat
       currentGap,
       maxGap,
       avgGap,
+      gaps,
       imminenceScore,
       lastAppearance,
       recentHistory,
