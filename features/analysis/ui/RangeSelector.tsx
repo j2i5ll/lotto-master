@@ -126,7 +126,7 @@ export function RangeSelector() {
 
 const styles = StyleSheet.create({
   badgeContainer: {
-    backgroundColor: '#FFFFFF',
+    backgroundColor: 'transparent',
     paddingHorizontal: 16,
     paddingVertical: 10,
   },

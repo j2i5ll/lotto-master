@@ -8,6 +8,7 @@ import { CountdownCard } from "./_components/CountdownCard";
 import { LatestDrawCard } from "./_components/LatestDrawCard";
 import { HotColdPreview } from "./_components/HotColdPreview";
 import { ImminentNumbers } from "./_components/ImminentNumbers";
+import { RangeSelector } from "@features/analysis/ui/RangeSelector";
 
 export default function HomeScreen() {
   const { data: latestDraw } = useLatestDraw();
@@ -81,6 +82,10 @@ export default function HomeScreen() {
           </Card>
         </View>
 
+        <View style={styles.divider} />
+
+        <RangeSelector />
+
         <HotColdPreview hot={hotNumbers} cold={coldNumbers} />
 
         <ImminentNumbers numbers={imminentNumbers} />
@@ -139,5 +144,11 @@ const styles = StyleSheet.create({
     fontSize: 12,
     color: "#687076",
     alignSelf: "center",
+  },
+  divider: {
+    marginTop: 24,
+    height: 1,
+    backgroundColor: "#E6E8EB",
+    marginBottom: 8,
   },
 });
