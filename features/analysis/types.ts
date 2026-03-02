@@ -66,3 +66,28 @@ export interface SectorBiasData {
     ratio: number;         // observed/expected 비율
   } | null;
 }
+
+/** 전역 동반 출현 쌍 (특정 번호 기준이 아닌 전체) */
+export interface CompanionPairStat {
+  numberA: number;
+  numberB: number;
+  coAppearanceCount: number;
+  liftRatio: number;
+}
+
+/** z-score 이상치 번호 정보 */
+export interface ZScoreAnomaly {
+  id: number;
+  currentGap: number;
+  avgGap: number;       // gaps[]의 경험적 평균 (NumberStat.avgGap 아님)
+  stdDev: number;
+  zScore: number;
+}
+
+/** 꾸준한 번호 정보 (gap 변동계수) */
+export interface ConsistencyEntry {
+  id: number;
+  avgGap: number;       // gaps[]의 경험적 평균 (NumberStat.avgGap 아님)
+  stdDev: number;
+  coefficientOfVariation: number;  // stdDev / avgGap, 낮을수록 꾸준
+}

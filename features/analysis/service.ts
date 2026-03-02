@@ -1,6 +1,6 @@
 import { getDatabase } from '@shared/db';
 import { getNumberRange } from '@shared/lib';
-import type { NumberStat, CompanionStat, SectorBiasData } from './types';
+import type { NumberStat, CompanionStat, SectorBiasData, CompanionPairStat, ZScoreAnomaly, ConsistencyEntry } from './types';
 
 interface DrawRow {
   round: number;
@@ -277,4 +277,108 @@ export async function calculateSectorBias(
     isSignificant,
     mostBiased,
   };
+}
+
+export async function getTopCompanionPairs(
+  count: number = 5,
+  rangeCount?: number
+): Promise<CompanionPairStat[]> {
+  const allDraws = await fetchAllDraws();
+  const draws = sliceDraws(allDraws, rangeCount);
+  const totalDraws = draws.length;
+  if (totalDraws === 0) return [];
+
+  const freqMap = new Map<number, number>();
+  const pairMap = new Map<string, number>();
+
+  for (const draw of draws) {
+    const nums = [draw.num1, draw.num2, draw.num3, draw.num4, draw.num5, draw.num6];
+    for (const n of nums) {
+      freqMap.set(n, (freqMap.get(n) || 0) + 1);
+    }
+    for (let i = 0; i < nums.length; i++) {
+      for (let j = i + 1; j < nums.length; j++) {
+        const a = Math.min(nums[i], nums[j]);
+        const b = Math.max(nums[i], nums[j]);
+        const key = `${a}-${b}`;
+        pairMap.set(key, (pairMap.get(key) || 0) + 1);
+      }
+    }
+  }
+
+  return Array.from(pairMap.entries())
+    .map(([key, coAppearanceCount]) => {
+      const [a, b] = key.split('-').map(Number);
+      const freqA = freqMap.get(a) || 0;
+      const freqB = freqMap.get(b) || 0;
+      const expected = (freqA * freqB) / totalDraws;
+      return {
+        numberA: a,
+        numberB: b,
+        coAppearanceCount,
+        liftRatio: expected > 0 ? Math.round((coAppearanceCount / expected) * 100) / 100 : 0,
+      };
+    })
+    .filter((p) => p.coAppearanceCount >= 3)
+    .sort((a, b) => b.liftRatio - a.liftRatio)
+    .slice(0, count);
+}
+
+export async function getZScoreAnomalies(
+  count: number = 5,
+  rangeCount?: number
+): Promise<ZScoreAnomaly[]> {
+  const allStats = await calculateAllStats(rangeCount);
+  const results: ZScoreAnomaly[] = [];
+
+  for (const stat of allStats) {
+    if (stat.gaps.length < 3) continue;
+
+    const empiricalAvg = stat.gaps.reduce((a, b) => a + b, 0) / stat.gaps.length;
+    const variance = stat.gaps.reduce((sum, g) => sum + Math.pow(g - empiricalAvg, 2), 0) / stat.gaps.length;
+    const stdDev = Math.sqrt(variance);
+
+    if (stdDev === 0) continue;
+
+    const zScore = (stat.currentGap - empiricalAvg) / stdDev;
+    if (zScore <= 0) continue;
+
+    results.push({
+      id: stat.id,
+      currentGap: stat.currentGap,
+      avgGap: Math.round(empiricalAvg * 10) / 10,
+      stdDev: Math.round(stdDev * 10) / 10,
+      zScore: Math.round(zScore * 100) / 100,
+    });
+  }
+
+  return results.sort((a, b) => b.zScore - a.zScore).slice(0, count);
+}
+
+export async function getConsistentNumbers(
+  count: number = 5,
+  rangeCount?: number
+): Promise<ConsistencyEntry[]> {
+  const allStats = await calculateAllStats(rangeCount);
+  const results: ConsistencyEntry[] = [];
+
+  for (const stat of allStats) {
+    if (stat.gaps.length < 5) continue;
+
+    const empiricalAvg = stat.gaps.reduce((a, b) => a + b, 0) / stat.gaps.length;
+    if (empiricalAvg === 0) continue;
+
+    const variance = stat.gaps.reduce((sum, g) => sum + Math.pow(g - empiricalAvg, 2), 0) / stat.gaps.length;
+    const stdDev = Math.sqrt(variance);
+    const cv = stdDev / empiricalAvg;
+
+    results.push({
+      id: stat.id,
+      avgGap: Math.round(empiricalAvg * 10) / 10,
+      stdDev: Math.round(stdDev * 10) / 10,
+      coefficientOfVariation: Math.round(cv * 100) / 100,
+    });
+  }
+
+  return results.sort((a, b) => a.coefficientOfVariation - b.coefficientOfVariation).slice(0, count);
 }

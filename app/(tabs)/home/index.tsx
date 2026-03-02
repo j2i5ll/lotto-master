@@ -6,8 +6,10 @@ import { useAnalysisStore, useNumberStats } from "@features/analysis";
 import { NumberBall, Card, SectionHeader } from "@components/index";
 import { CountdownCard } from "./_components/CountdownCard";
 import { LatestDrawCard } from "./_components/LatestDrawCard";
-import { HotColdPreview } from "./_components/HotColdPreview";
-import { ImminentNumbers } from "./_components/ImminentNumbers";
+import { useTopCompanionPairs, useZScoreAnomalies, useConsistentNumbers } from '@features/analysis';
+import { QuestionCard } from './_components/QuestionCard';
+import type { QuestionCardItem } from './_components/QuestionCard';
+import { CompanionPairsCard } from './_components/CompanionPairsCard';
 import { RangeSelector } from "@features/analysis/ui/RangeSelector";
 
 export default function HomeScreen() {
@@ -17,25 +19,48 @@ export default function HomeScreen() {
   const excludedNumbers = useAnalysisStore((s) => s.excludedNumbers);
   const { data: numberStats } = useNumberStats();
 
-  const { hotNumbers, coldNumbers, imminentNumbers } = useMemo(() => {
-    if (!numberStats) return { hotNumbers: [], coldNumbers: [], imminentNumbers: [] };
-    const hot = numberStats
+  const { imminentItems, hotItems, coldItems } = useMemo(() => {
+    if (!numberStats) return { imminentItems: [] as QuestionCardItem[], hotItems: [] as QuestionCardItem[], coldItems: [] as QuestionCardItem[] };
+    const imminentItems: QuestionCardItem[] = [...numberStats]
+      .sort((a, b) => b.imminenceScore - a.imminenceScore)
+      .slice(0, 5)
+      .map((s) => ({ id: s.id, subtitle: `${s.imminenceScore.toFixed(1)}배` }));
+    const hotItems: QuestionCardItem[] = numberStats
       .filter((s) => s.recentHistory.slice(-10).filter(Boolean).length >= 3)
       .sort((a, b) => {
-        const aRecent = a.recentHistory.slice(-10).filter(Boolean).length;
-        const bRecent = b.recentHistory.slice(-10).filter(Boolean).length;
-        return bRecent - aRecent;
+        const aR = a.recentHistory.slice(-10).filter(Boolean).length;
+        const bR = b.recentHistory.slice(-10).filter(Boolean).length;
+        return bR - aR;
       })
-      .slice(0, 5);
-    const cold = [...numberStats]
+      .slice(0, 5)
+      .map((s) => ({
+        id: s.id,
+        subtitle: `최근 ${s.recentHistory.slice(-10).filter(Boolean).length}회 출현`,
+      }));
+    const coldItems: QuestionCardItem[] = [...numberStats]
       .filter((s) => s.currentGap >= 15)
       .sort((a, b) => b.currentGap - a.currentGap)
-      .slice(0, 5);
-    const imminent = [...numberStats]
-      .sort((a, b) => b.imminenceScore - a.imminenceScore)
-      .slice(0, 5);
-    return { hotNumbers: hot, coldNumbers: cold, imminentNumbers: imminent };
+      .slice(0, 5)
+      .map((s) => ({ id: s.id, subtitle: `${s.currentGap}회 미출현` }));
+    return { imminentItems, hotItems, coldItems };
   }, [numberStats]);
+
+  const companionPairs = useTopCompanionPairs();
+  const zScoreAnomalies = useZScoreAnomalies();
+  const consistentNumbers = useConsistentNumbers();
+
+  const zScoreItems: QuestionCardItem[] = useMemo(
+    () => (zScoreAnomalies.data ?? []).map((z) => ({ id: z.id, subtitle: `z = ${z.zScore.toFixed(1)}` })),
+    [zScoreAnomalies.data]
+  );
+  const consistentItems: QuestionCardItem[] = useMemo(
+    () =>
+      (consistentNumbers.data ?? []).map((c) => ({
+        id: c.id,
+        subtitle: `CV ${(c.coefficientOfVariation * 100).toFixed(0)}%`,
+      })),
+    [consistentNumbers.data]
+  );
 
   return (
     <SafeAreaView style={styles.safeArea} edges={["top"]}>
@@ -86,9 +111,38 @@ export default function HomeScreen() {
 
         <RangeSelector />
 
-        <HotColdPreview hot={hotNumbers} cold={coldNumbers} />
-
-        <ImminentNumbers numbers={imminentNumbers} />
+        <SectionHeader title="번호 통계" />
+        <View style={styles.cardList}>
+          <QuestionCard
+            question="곧 나올 확률이 높은 번호는?"
+            items={imminentItems}
+            isLoading={!numberStats}
+          />
+          <QuestionCard
+            question="요즘 가장 잘 나오는 번호는?"
+            items={hotItems}
+            isLoading={!numberStats}
+          />
+          <QuestionCard
+            question="가장 오래 쉬고 있는 번호는?"
+            items={coldItems}
+            isLoading={!numberStats}
+          />
+          <CompanionPairsCard
+            pairs={companionPairs.data ?? []}
+            isLoading={companionPairs.isLoading}
+          />
+          <QuestionCard
+            question="평소보다 유독 안 나오고 있는 번호는?"
+            items={zScoreItems}
+            isLoading={zScoreAnomalies.isLoading}
+          />
+          <QuestionCard
+            question="가장 꾸준히 나오는 번호는?"
+            items={consistentItems}
+            isLoading={consistentNumbers.isLoading}
+          />
+        </View>
       </ScrollView>
     </SafeAreaView>
   );
@@ -150,5 +204,8 @@ const styles = StyleSheet.create({
     height: 1,
     backgroundColor: "#E6E8EB",
     marginBottom: 8,
+  },
+  cardList: {
+    gap: 12,
   },
 });

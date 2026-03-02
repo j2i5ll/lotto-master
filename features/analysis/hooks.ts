@@ -6,9 +6,12 @@ import {
   getHotNumbers,
   getColdNumbers,
   calculateSectorBias,
+  getTopCompanionPairs,
+  getZScoreAnomalies,
+  getConsistentNumbers,
 } from './service';
 import { useAnalysisStore, getRangeCount } from './store';
-import type { NumberStat, CompanionStat, SectorBiasData } from './types';
+import type { NumberStat, CompanionStat, SectorBiasData, CompanionPairStat, ZScoreAnomaly, ConsistencyEntry } from './types';
 
 function useRangeCount() {
   return useAnalysisStore((s) => getRangeCount(s));
@@ -60,5 +63,29 @@ export function useSectorBias(id: number) {
     queryKey: ['analysis', 'sectorBias', id, rangeCount],
     queryFn: () => calculateSectorBias(id, rangeCount),
     enabled: id > 0 && id <= 45,
+  });
+}
+
+export function useTopCompanionPairs(count: number = 5) {
+  const rangeCount = useRangeCount();
+  return useQuery<CompanionPairStat[]>({
+    queryKey: ['analysis', 'companionPairs', count, rangeCount],
+    queryFn: () => getTopCompanionPairs(count, rangeCount),
+  });
+}
+
+export function useZScoreAnomalies(count: number = 5) {
+  const rangeCount = useRangeCount();
+  return useQuery<ZScoreAnomaly[]>({
+    queryKey: ['analysis', 'zScoreAnomalies', count, rangeCount],
+    queryFn: () => getZScoreAnomalies(count, rangeCount),
+  });
+}
+
+export function useConsistentNumbers(count: number = 5) {
+  const rangeCount = useRangeCount();
+  return useQuery<ConsistencyEntry[]>({
+    queryKey: ['analysis', 'consistentNumbers', count, rangeCount],
+    queryFn: () => getConsistentNumbers(count, rangeCount),
   });
 }
