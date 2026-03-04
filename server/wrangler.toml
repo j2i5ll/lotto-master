@@ -1,0 +1,11 @@
+name = "lotto-api"
+main = "src/index.ts"
+compatibility_date = "2024-12-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "lotto-db"
+database_id = "1d6c628a-3c02-4c21-8d92-3b175062b29d" # wrangler d1 create lotto-db 실행 후 채울 것
+
+[triggers]
+crons = ["*/30 11-15 * * 6"] # UTC 토 11:00~15:00 = KST 토 20:00~일 00:00
