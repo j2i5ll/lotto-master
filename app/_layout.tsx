@@ -1,9 +1,10 @@
-import { useState, useEffect } from "react";
+import { useState, useCallback, useEffect } from "react";
 import { Stack } from "expo-router";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { SafeAreaProvider } from "react-native-safe-area-context";
 import * as SplashScreen from "expo-splash-screen";
-import { initDatabase, seedDatabase } from "@shared/db";
+import { initDatabase, seedDatabase, syncDrawsFromApi } from "@shared/db";
+import { InitErrorScreen } from "@components/InitErrorScreen";
 
 SplashScreen.preventAutoHideAsync();
 
@@ -17,25 +18,39 @@ const queryClient = new QueryClient({
   },
 });
 
-export default function RootLayout() {
-  const [isReady, setIsReady] = useState(false);
+type InitStatus = 'loading' | 'ready' | 'error';
 
-  useEffect(() => {
-    async function init() {
-      try {
-        await initDatabase();
-        await seedDatabase();
-      } catch (e) {
-        console.error("DB init failed:", e);
-      } finally {
-        setIsReady(true);
-        SplashScreen.hideAsync();
-      }
+export default function RootLayout() {
+  const [status, setStatus] = useState<InitStatus>('loading');
+
+  const init = useCallback(async () => {
+    setStatus('loading');
+    try {
+      await initDatabase();
+      await seedDatabase();
+      await syncDrawsFromApi();
+      setStatus('ready');
+    } catch (e) {
+      console.error("App init failed:", e);
+      setStatus('error');
+    } finally {
+      SplashScreen.hideAsync();
     }
-    init();
   }, []);
 
-  if (!isReady) return null;
+  useEffect(() => {
+    init();
+  }, [init]);
+
+  if (status === 'loading') return null;
+
+  if (status === 'error') {
+    return (
+      <SafeAreaProvider>
+        <InitErrorScreen onRetry={init} />
+      </SafeAreaProvider>
+    );
+  }
 
   return (
     <QueryClientProvider client={queryClient}>
