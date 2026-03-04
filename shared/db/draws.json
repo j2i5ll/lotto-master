@@ -15754,5 +15754,18 @@
     "ball_bonus": 45,
     "win1_payout": 2654089032,
     "win1_count": 12
+  },
+  {
+    "num": 1213,
+    "date": "2026-02-28",
+    "ball1": 5,
+    "ball2": 11,
+    "ball3": 25,
+    "ball4": 27,
+    "ball5": 36,
+    "ball6": 38,
+    "ball_bonus": 2,
+    "win1_payout": 1740011646,
+    "win1_count": 18
   }
 ]
