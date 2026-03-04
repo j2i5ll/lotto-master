@@ -9,6 +9,7 @@ export interface QuestionCardItem {
 
 interface QuestionCardProps {
   question: string;
+  description?: string;
   items: QuestionCardItem[];
   isLoading?: boolean;
   emptyMessage?: string;
@@ -16,6 +17,7 @@ interface QuestionCardProps {
 
 export function QuestionCard({
   question,
+  description,
   items,
   isLoading = false,
   emptyMessage = '데이터가 부족합니다',
@@ -25,6 +27,7 @@ export function QuestionCard({
   return (
     <Card>
       <Text style={styles.question}>{question}</Text>
+      {description && <Text style={styles.description}>{description}</Text>}
       {isLoading ? (
         <ActivityIndicator style={styles.loading} />
       ) : items.length === 0 ? (
@@ -54,6 +57,11 @@ const styles = StyleSheet.create({
     fontSize: 16,
     fontWeight: '700',
     color: '#11181C',
+    marginBottom: 4,
+  },
+  description: {
+    fontSize: 12,
+    color: '#889096',
     marginBottom: 12,
   },
   row: {

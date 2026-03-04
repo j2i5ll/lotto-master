@@ -24,7 +24,7 @@ export default function HomeScreen() {
     const imminentItems: QuestionCardItem[] = [...numberStats]
       .sort((a, b) => b.imminenceScore - a.imminenceScore)
       .slice(0, 5)
-      .map((s) => ({ id: s.id, subtitle: `${s.imminenceScore.toFixed(1)}배` }));
+      .map((s) => ({ id: s.id, subtitle: `평균의 ${s.imminenceScore.toFixed(1)}배 경과` }));
     const hotItems: QuestionCardItem[] = numberStats
       .filter((s) => s.recentHistory.slice(-10).filter(Boolean).length >= 3)
       .sort((a, b) => {
@@ -50,14 +50,14 @@ export default function HomeScreen() {
   const consistentNumbers = useConsistentNumbers();
 
   const zScoreItems: QuestionCardItem[] = useMemo(
-    () => (zScoreAnomalies.data ?? []).map((z) => ({ id: z.id, subtitle: `z = ${z.zScore.toFixed(1)}` })),
+    () => (zScoreAnomalies.data ?? []).map((z) => ({ id: z.id, subtitle: `${z.currentGap}회째 (평균 ${Math.round(z.avgGap)}회)` })),
     [zScoreAnomalies.data]
   );
   const consistentItems: QuestionCardItem[] = useMemo(
     () =>
       (consistentNumbers.data ?? []).map((c) => ({
         id: c.id,
-        subtitle: `CV ${(c.coefficientOfVariation * 100).toFixed(0)}%`,
+        subtitle: `약 ${Math.round(c.avgGap)}회 간격`,
       })),
     [consistentNumbers.data]
   );
@@ -115,16 +115,19 @@ export default function HomeScreen() {
         <View style={styles.cardList}>
           <QuestionCard
             question="곧 나올 확률이 높은 번호는?"
+            description="평균 출현 주기 대비 얼마나 오래 안 나왔는지 보여줘요"
             items={imminentItems}
             isLoading={!numberStats}
           />
           <QuestionCard
             question="요즘 가장 잘 나오는 번호는?"
+            description="최근 10회차에서 자주 당첨된 번호예요"
             items={hotItems}
             isLoading={!numberStats}
           />
           <QuestionCard
             question="가장 오래 쉬고 있는 번호는?"
+            description="오랫동안 당첨되지 않고 있는 번호예요"
             items={coldItems}
             isLoading={!numberStats}
           />
@@ -134,11 +137,13 @@ export default function HomeScreen() {
           />
           <QuestionCard
             question="평소보다 유독 안 나오고 있는 번호는?"
+            description="평균 미출현 기간을 크게 넘긴 번호예요"
             items={zScoreItems}
             isLoading={zScoreAnomalies.isLoading}
           />
           <QuestionCard
             question="가장 꾸준히 나오는 번호는?"
+            description="출현 간격이 일정하고 규칙적인 번호예요"
             items={consistentItems}
             isLoading={consistentNumbers.isLoading}
           />

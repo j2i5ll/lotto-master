@@ -14,6 +14,7 @@ export function CompanionPairsCard({ pairs, isLoading = false }: CompanionPairsC
   return (
     <Card>
       <Text style={styles.question}>같이 잘 나오는 번호 조합은?</Text>
+      <Text style={styles.description}>우연보다 높은 빈도로 함께 당첨된 조합이에요</Text>
       {isLoading ? (
         <ActivityIndicator style={styles.loading} />
       ) : pairs.length === 0 ? (
@@ -31,7 +32,7 @@ export function CompanionPairsCard({ pairs, isLoading = false }: CompanionPairsC
                   <NumberBall num={pair.numberB} size="md" />
                 </TouchableOpacity>
               </View>
-              <Text style={styles.liftRatio}>{pair.liftRatio.toFixed(1)}배</Text>
+              <Text style={styles.liftRatio}>기대보다 {pair.liftRatio.toFixed(1)}배</Text>
             </View>
           ))}
         </View>
@@ -45,6 +46,11 @@ const styles = StyleSheet.create({
     fontSize: 16,
     fontWeight: '700',
     color: '#11181C',
+    marginBottom: 4,
+  },
+  description: {
+    fontSize: 12,
+    color: '#889096',
     marginBottom: 12,
   },
   list: {
