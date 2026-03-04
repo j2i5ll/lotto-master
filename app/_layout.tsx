@@ -3,7 +3,7 @@ import { Stack } from "expo-router";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { SafeAreaProvider } from "react-native-safe-area-context";
 import * as SplashScreen from "expo-splash-screen";
-import { initDatabase, seedDatabase, syncDrawsFromApi } from "@shared/db";
+import { getDatabase, initDatabase, seedDatabase, syncDrawsFromApi, needsSync } from "@shared/db";
 import { InitErrorScreen } from "@components/InitErrorScreen";
 
 SplashScreen.preventAutoHideAsync();
@@ -27,8 +27,20 @@ export default function RootLayout() {
     setStatus('loading');
     try {
       await initDatabase();
-      await seedDatabase();
-      await syncDrawsFromApi();
+
+      const db = await getDatabase();
+      const row = await db.getFirstAsync<{ count: number }>(
+        'SELECT COUNT(*) as count FROM draws',
+      );
+      const isFirstRun = (row?.count ?? 0) === 0;
+
+      if (isFirstRun) {
+        await seedDatabase();
+        await syncDrawsFromApi();
+      } else if (await needsSync()) {
+        await syncDrawsFromApi();
+      }
+
       setStatus('ready');
     } catch (e) {
       console.error("App init failed:", e);
