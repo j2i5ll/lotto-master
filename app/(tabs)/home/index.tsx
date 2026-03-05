@@ -2,7 +2,7 @@ import { useMemo } from "react";
 import { ScrollView, View, Text, StyleSheet } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { useLatestDraw, useNextDraw } from "@features/draws";
-import { useAnalysisStore, useNumberStats } from "@features/analysis";
+import { useAnalysisStore, useNumberStats, getRangeCount } from "@features/analysis";
 import { NumberBall, Card, SectionHeader } from "@components/index";
 import { CountdownCard } from "./_components/CountdownCard";
 import { LatestDrawCard } from "./_components/LatestDrawCard";
@@ -18,6 +18,7 @@ export default function HomeScreen() {
   const fixedNumbers = useAnalysisStore((s) => s.fixedNumbers);
   const excludedNumbers = useAnalysisStore((s) => s.excludedNumbers);
   const { data: numberStats } = useNumberStats();
+  const rangeCount = useAnalysisStore((s) => getRangeCount(s));
 
   const { imminentItems, hotItems, coldItems } = useMemo(() => {
     if (!numberStats) return { imminentItems: [] as QuestionCardItem[], hotItems: [] as QuestionCardItem[], coldItems: [] as QuestionCardItem[] };
@@ -25,17 +26,19 @@ export default function HomeScreen() {
       .sort((a, b) => b.imminenceScore - a.imminenceScore)
       .slice(0, 5)
       .map((s) => ({ id: s.id, subtitle: `${s.currentGap}회째 · 평균의 ${s.imminenceScore.toFixed(1)}배` }));
+    const getRecent = (history: boolean[]) =>
+      rangeCount != null ? history.slice(-rangeCount) : history;
     const hotItems: QuestionCardItem[] = numberStats
-      .filter((s) => s.recentHistory.slice(-10).filter(Boolean).length >= 3)
+      .filter((s) => getRecent(s.recentHistory).filter(Boolean).length >= 3)
       .sort((a, b) => {
-        const aR = a.recentHistory.slice(-10).filter(Boolean).length;
-        const bR = b.recentHistory.slice(-10).filter(Boolean).length;
+        const aR = getRecent(a.recentHistory).filter(Boolean).length;
+        const bR = getRecent(b.recentHistory).filter(Boolean).length;
         return bR - aR;
       })
       .slice(0, 5)
       .map((s) => ({
         id: s.id,
-        subtitle: `최근 ${s.recentHistory.slice(-10).filter(Boolean).length}회 출현`,
+        subtitle: `${getRecent(s.recentHistory).filter(Boolean).length}회 출현`,
       }));
     const coldItems: QuestionCardItem[] = [...numberStats]
       .filter((s) => s.currentGap >= 15)
@@ -43,7 +46,7 @@ export default function HomeScreen() {
       .slice(0, 5)
       .map((s) => ({ id: s.id, subtitle: `${s.currentGap}회 미출현` }));
     return { imminentItems, hotItems, coldItems };
-  }, [numberStats]);
+  }, [numberStats, rangeCount]);
 
   const companionPairs = useTopCompanionPairs();
 
@@ -117,7 +120,7 @@ const consistentItems: QuestionCardItem[] = useMemo(
           />
           <QuestionCard
             question="요즘 가장 잘 나오는 번호는?"
-            description="최근 10회차에서 자주 당첨된 번호예요"
+            description={rangeCount != null ? `최근 ${rangeCount}회차에서 자주 당첨된 번호예요` : '전체 회차에서 자주 당첨된 번호예요'}
             items={hotItems}
             isLoading={!numberStats}
           />

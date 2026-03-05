@@ -31,9 +31,6 @@ export async function calculateAllStats(rangeCount?: number): Promise<NumberStat
 
   const latestRound = draws[draws.length - 1].round;
   const totalDraws = draws.length;
-  const recentCount = Math.min(50, draws.length);
-  const recentDraws = draws.slice(-recentCount);
-
   const stats: NumberStat[] = [];
 
   for (let num = 1; num <= 45; num++) {
@@ -42,7 +39,6 @@ export async function calculateAllStats(rangeCount?: number): Promise<NumberStat
     let maxGap = 0;
     let prevAppearance = 0;
     const gaps: number[] = [];
-    const recentHistory: boolean[] = [];
     const fullHistory: boolean[] = [];
 
     // 전체 draws 순회
@@ -64,12 +60,6 @@ export async function calculateAllStats(rangeCount?: number): Promise<NumberStat
       }
     }
 
-    // 최근 50회 출현 여부
-    for (const draw of recentDraws) {
-      const nums = [draw.num1, draw.num2, draw.num3, draw.num4, draw.num5, draw.num6];
-      recentHistory.push(nums.includes(num));
-    }
-
     // 마지막 출현 이후 현재까지의 gap도 maxGap에 반영
     if (lastAppearance > 0) {
       const endGap = latestRound - lastAppearance;
@@ -89,7 +79,7 @@ export async function calculateAllStats(rangeCount?: number): Promise<NumberStat
       gaps,
       imminenceScore,
       lastAppearance,
-      recentHistory,
+      recentHistory: fullHistory,
       timelineData: {
         history: fullHistory,
         totalDraws: draws.length,
