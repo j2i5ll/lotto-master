@@ -49,7 +49,13 @@ export function QuestionCard({
               <NumberBall num={item.id} size="md" />
               {item.subtitle && (
                 <View style={styles.subtitleChip}>
-                  <Text style={styles.subtitle}>{item.subtitle}</Text>
+                  <Text
+                    style={styles.subtitle}
+                    lineBreakStrategyIOS="hangul-word"
+                    textBreakStrategy="balanced"
+                  >
+                    {item.subtitle}
+                  </Text>
                 </View>
               )}
             </TouchableOpacity>
@@ -75,21 +81,26 @@ const styles = StyleSheet.create({
   row: {
     flexDirection: 'row',
     justifyContent: 'space-between',
-    gap: 4,
+    gap: 8,
   },
   item: {
     flex: 1,
     alignItems: 'center',
-    gap: 6,
+    gap: 8,
+    paddingHorizontal: 2,
   },
   subtitleChip: {
     backgroundColor: '#F1F3F5',
-    borderRadius: 8,
-    paddingHorizontal: 6,
-    paddingVertical: 3,
+    borderRadius: 10,
+    paddingHorizontal: 8,
+    paddingVertical: 5,
+    minHeight: 38,
+    justifyContent: 'center',
+    alignSelf: 'stretch',
   },
   subtitle: {
-    fontSize: 10,
+    fontSize: 11,
+    lineHeight: 15,
     color: '#555B60',
     textAlign: 'center',
   },

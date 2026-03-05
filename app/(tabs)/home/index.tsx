@@ -25,7 +25,7 @@ export default function HomeScreen() {
     const imminentItems: QuestionCardItem[] = [...numberStats]
       .sort((a, b) => b.imminenceScore - a.imminenceScore)
       .slice(0, 5)
-      .map((s) => ({ id: s.id, subtitle: `${s.currentGap}회째 · 평균의 ${s.imminenceScore.toFixed(1)}배` }));
+      .map((s) => ({ id: s.id, subtitle: `${s.currentGap}회째\n(평균의 ${s.imminenceScore.toFixed(1)}배)` }));
     const getRecent = (history: boolean[]) =>
       rangeCount != null ? history.slice(-rangeCount) : history;
     const hotItems: QuestionCardItem[] = numberStats
