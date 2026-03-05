@@ -20,10 +20,6 @@ export function LatestDrawCard({ draw }: LatestDrawCardProps) {
           {draw.numbers.map((num) => (
             <NumberBall key={num} num={num} size="lg" />
           ))}
-          <View style={styles.bonusSeparator}>
-            <Text style={styles.bonusPlus}>+</Text>
-          </View>
-          <NumberBall num={draw.bonus} size="lg" isBonus />
         </View>
       </Card>
     </>
@@ -51,13 +47,5 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     gap: 8,
     justifyContent: 'center',
-  },
-  bonusSeparator: {
-    marginHorizontal: 4,
-  },
-  bonusPlus: {
-    fontSize: 18,
-    color: '#687076',
-    fontWeight: '600',
   },
 });
