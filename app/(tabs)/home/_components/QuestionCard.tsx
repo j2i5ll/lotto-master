@@ -1,4 +1,10 @@
-import { View, Text, TouchableOpacity, ActivityIndicator, StyleSheet } from 'react-native';
+import {
+  View,
+  Text,
+  TouchableOpacity,
+  ActivityIndicator,
+  StyleSheet,
+} from 'react-native';
 import { useRouter } from 'expo-router';
 import { Card, NumberBall } from '@components/index';
 
@@ -42,7 +48,9 @@ export function QuestionCard({
             >
               <NumberBall num={item.id} size="md" />
               {item.subtitle && (
-                <Text style={styles.subtitle}>{item.subtitle}</Text>
+                <View style={styles.subtitleChip}>
+                  <Text style={styles.subtitle}>{item.subtitle}</Text>
+                </View>
               )}
             </TouchableOpacity>
           ))}
@@ -66,15 +74,24 @@ const styles = StyleSheet.create({
   },
   row: {
     flexDirection: 'row',
-    justifyContent: 'space-around',
-  },
-  item: {
-    alignItems: 'center',
+    justifyContent: 'space-between',
     gap: 4,
   },
+  item: {
+    flex: 1,
+    alignItems: 'center',
+    gap: 6,
+  },
+  subtitleChip: {
+    backgroundColor: '#F1F3F5',
+    borderRadius: 8,
+    paddingHorizontal: 6,
+    paddingVertical: 3,
+  },
   subtitle: {
-    fontSize: 11,
-    color: '#687076',
+    fontSize: 10,
+    color: '#555B60',
+    textAlign: 'center',
   },
   loading: {
     paddingVertical: 16,

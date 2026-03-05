@@ -6,7 +6,7 @@ import { useAnalysisStore, useNumberStats } from "@features/analysis";
 import { NumberBall, Card, SectionHeader } from "@components/index";
 import { CountdownCard } from "./_components/CountdownCard";
 import { LatestDrawCard } from "./_components/LatestDrawCard";
-import { useTopCompanionPairs, useZScoreAnomalies, useConsistentNumbers } from '@features/analysis';
+import { useTopCompanionPairs, useConsistentNumbers } from '@features/analysis';
 import { QuestionCard } from './_components/QuestionCard';
 import type { QuestionCardItem } from './_components/QuestionCard';
 import { CompanionPairsCard } from './_components/CompanionPairsCard';
@@ -24,7 +24,7 @@ export default function HomeScreen() {
     const imminentItems: QuestionCardItem[] = [...numberStats]
       .sort((a, b) => b.imminenceScore - a.imminenceScore)
       .slice(0, 5)
-      .map((s) => ({ id: s.id, subtitle: `평균의 ${s.imminenceScore.toFixed(1)}배 경과` }));
+      .map((s) => ({ id: s.id, subtitle: `${s.currentGap}회째 · 평균의 ${s.imminenceScore.toFixed(1)}배` }));
     const hotItems: QuestionCardItem[] = numberStats
       .filter((s) => s.recentHistory.slice(-10).filter(Boolean).length >= 3)
       .sort((a, b) => {
@@ -46,14 +46,10 @@ export default function HomeScreen() {
   }, [numberStats]);
 
   const companionPairs = useTopCompanionPairs();
-  const zScoreAnomalies = useZScoreAnomalies();
+
   const consistentNumbers = useConsistentNumbers();
 
-  const zScoreItems: QuestionCardItem[] = useMemo(
-    () => (zScoreAnomalies.data ?? []).map((z) => ({ id: z.id, subtitle: `${z.currentGap}회째 (평균 ${Math.round(z.avgGap)}회)` })),
-    [zScoreAnomalies.data]
-  );
-  const consistentItems: QuestionCardItem[] = useMemo(
+const consistentItems: QuestionCardItem[] = useMemo(
     () =>
       (consistentNumbers.data ?? []).map((c) => ({
         id: c.id,
@@ -135,13 +131,7 @@ export default function HomeScreen() {
             pairs={companionPairs.data ?? []}
             isLoading={companionPairs.isLoading}
           />
-          <QuestionCard
-            question="평소보다 유독 안 나오고 있는 번호는?"
-            description="평균 미출현 기간을 크게 넘긴 번호예요"
-            items={zScoreItems}
-            isLoading={zScoreAnomalies.isLoading}
-          />
-          <QuestionCard
+<QuestionCard
             question="가장 꾸준히 나오는 번호는?"
             description="출현 간격이 일정하고 규칙적인 번호예요"
             items={consistentItems}
